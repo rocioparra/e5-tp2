@@ -1,0 +1,219 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/Shared drives/Electro V - TPs/TP 2 - EV20/Prueba quartus/sim posta
+Ealu
+Z0 w1589920636
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim
+Z7 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/ALU.vhd
+Z8 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/ALU.vhd
+l0
+L6
+VHIK6kQI]mWbAEE7_lfIIM2
+!s100 1MkLFlUdKmNG_1[zi[z>10
+Z9 OV;C;10.5b;63
+32
+Z10 !s110 1589920641
+!i10b 1
+Z11 !s108 1589920640.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/ALU.vhd|
+Z13 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/ALU.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 HIK6kQI]mWbAEE7_lfIIM2
+l21
+L19
+V@8;TF<c2dT]b3ed[fCNo^0
+!s100 IUFP4;XX86c1igCJml65h0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ealu_tb
+Z16 w1589917018
+R1
+R4
+R5
+R6
+Z17 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/ALU_tb.vhd
+Z18 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/ALU_tb.vhd
+l0
+L5
+V<T2<I@Czd@bX2f[kGho:Q1
+!s100 XGjn7i0n=AQ1HVeB7h1<61
+R9
+32
+Z19 !s110 1589920654
+!i10b 1
+Z20 !s108 1589920651.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/ALU_tb.vhd|
+Z22 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/ALU_tb.vhd|
+!i113 1
+R14
+R15
+Atestbench
+R1
+R4
+R5
+Z23 DEx4 work 6 alu_tb 0 22 <T2<I@Czd@bX2f[kGho:Q1
+l30
+L9
+Z24 V13Bl1bk?VRgF@LY400HiQ2
+Z25 !s100 <DSI^?N>Z@e<<[8ADf`lT1
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Elatch16
+Z26 w1589852917
+R1
+R4
+R5
+R6
+Z27 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
+Z28 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
+l0
+L5
+VkO=i3bM1GcA=YCal85fZj0
+!s100 1Vh3OcT=[<860MbiD53O:3
+R9
+32
+Z29 !s110 1589919124
+!i10b 1
+Z30 !s108 1589919124.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
+Z32 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R1
+R4
+R5
+DEx4 work 7 latch16 0 22 kO=i3bM1GcA=YCal85fZj0
+l15
+L14
+Vm;`Y@n]AlF>eOf3<CH@;Q3
+!s100 g1:5J@e<VW0oANVbFgB;j2
+R9
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R14
+R15
+Eshifter
+Z33 w1589850935
+R1
+R4
+R5
+R6
+Z34 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
+Z35 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
+l0
+L5
+VY6aVMzTJDkk=N5Tf6X=dC2
+!s100 :PLK5^kcNkj33nfhXD86j3
+R9
+32
+Z36 !s110 1589919121
+!i10b 1
+Z37 !s108 1589919120.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
+Z39 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R1
+R4
+R5
+DEx4 work 7 shifter 0 22 Y6aVMzTJDkk=N5Tf6X=dC2
+l16
+L15
+VG]m<aLWhDC`]PkSJaR8FV1
+!s100 iT8cRncOLESn2PV:kL<141
+R9
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R14
+R15
+Eshifter_tb
+Z40 w1589851729
+R1
+R4
+R5
+R6
+Z41 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
+Z42 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
+l0
+L5
+Vn]>mk1A9ZR8T1hMV1WcIl1
+!s100 J8E[HNXZjka>W`_00T3Kf1
+R9
+32
+Z43 !s110 1589919123
+!i10b 1
+Z44 !s108 1589919121.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
+Z46 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
+!i113 1
+R14
+R15
+Atestbench
+R1
+R4
+R5
+DEx4 work 10 shifter_tb 0 22 n]>mk1A9ZR8T1hMV1WcIl1
+l25
+L9
+VKmjY9kWlQ4V@j[azWFP<J0
+!s100 h^dMjEWMIBE;32ER?W6h@0
+R9
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R14
+R15

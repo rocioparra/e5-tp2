@@ -1,0 +1,12 @@
+|main
+out <= TEST:inst.output
+in => TEST:inst.input
+clk => TEST:inst.sys_clk
+
+
+|main|TEST:inst
+input => output~reg0.DATAIN
+sys_clk => output~reg0.CLK
+output <= output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
