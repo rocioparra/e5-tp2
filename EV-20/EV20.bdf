@@ -103,7 +103,7 @@ agreement for further details.
 )
 (symbol
 	(rect 736 192 848 368)
-	(text "XYMux" (rect 100 5 112 39)(font "Arial" )(vertical))
+	(text "KMux" (rect 100 5 112 32)(font "Arial" )(vertical))
 	(text "inst1" (rect -1 8 16 30)(font "Intel Clear" )(vertical))
 	(port
 		(pt 80 0)
