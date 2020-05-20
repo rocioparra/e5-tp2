@@ -136,7 +136,7 @@ R29
 R14
 R15
 Eregisterbank
-Z30 w1589985775
+Z30 w1589988730
 R1
 R2
 R3
@@ -147,13 +147,13 @@ Z32 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/RegisterBank.vhd
 Z33 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/RegisterBank.vhd
 l0
 L6
-VQQVGV>Lf6In@^B>]d6^353
-!s100 WQ`361oNS;?k?oW[;G38I1
+V5V2OnH=lSmc_MhSh]Fah62
+!s100 l[RmP:JeLeTD>dMS<ec9E0
 R9
 32
-Z34 !s110 1589985843
+Z34 !s110 1589988770
 !i10b 1
-Z35 !s108 1589985843.000000
+Z35 !s108 1589988770.000000
 Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/RegisterBank.vhd|
 Z37 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/RegisterBank.vhd|
 !i113 1
@@ -165,11 +165,11 @@ R2
 R3
 R4
 R5
-DEx4 work 12 registerbank 0 22 QQVGV>Lf6In@^B>]d6^353
-l24
-L21
-VFR:GG28FB;?FUHJ2?6Y633
-!s100 g?F:h2B8T`8]D36]BJY7l0
+DEx4 work 12 registerbank 0 22 5V2OnH=lSmc_MhSh]Fah62
+l26
+L23
+VQ<2AJKc07FA;Rm1?M_H2[0
+!s100 @g[_>aT8>I^IaXk2kmiJB0
 R9
 32
 R34
