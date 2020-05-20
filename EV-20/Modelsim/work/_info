@@ -79,11 +79,11 @@ Atestbench
 R1
 R4
 R5
-Z23 DEx4 work 6 alu_tb 0 22 <T2<I@Czd@bX2f[kGho:Q1
+DEx4 work 6 alu_tb 0 22 <T2<I@Czd@bX2f[kGho:Q1
 l30
 L9
-Z24 V13Bl1bk?VRgF@LY400HiQ2
-Z25 !s100 <DSI^?N>Z@e<<[8ADf`lT1
+V13Bl1bk?VRgF@LY400HiQ2
+!s100 <DSI^?N>Z@e<<[8ADf`lT1
 R9
 32
 R19
@@ -95,24 +95,24 @@ R22
 R14
 R15
 Elatch16
-Z26 w1589852917
+Z23 w1589852917
 R1
 R4
 R5
 R6
-Z27 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
-Z28 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
+Z24 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
+Z25 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd
 l0
 L5
 VkO=i3bM1GcA=YCal85fZj0
 !s100 1Vh3OcT=[<860MbiD53O:3
 R9
 32
-Z29 !s110 1589919124
+Z26 !s110 1589919124
 !i10b 1
-Z30 !s108 1589919124.000000
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
-Z32 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
+Z27 !s108 1589919124.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
+Z29 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/latch16.vhd|
 !i113 1
 R14
 R15
@@ -127,33 +127,33 @@ Vm;`Y@n]AlF>eOf3<CH@;Q3
 !s100 g1:5J@e<VW0oANVbFgB;j2
 R9
 32
-R29
+R26
 !i10b 1
-R30
-R31
-R32
+R27
+R28
+R29
 !i113 1
 R14
 R15
 Eshifter
-Z33 w1589850935
+Z30 w1589850935
 R1
 R4
 R5
 R6
-Z34 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
-Z35 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
+Z31 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
+Z32 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd
 l0
 L5
 VY6aVMzTJDkk=N5Tf6X=dC2
 !s100 :PLK5^kcNkj33nfhXD86j3
 R9
 32
-Z36 !s110 1589919121
+Z33 !s110 1589919121
 !i10b 1
-Z37 !s108 1589919120.000000
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
-Z39 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
+Z34 !s108 1589919120.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
+Z36 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Shifter.vhd|
 !i113 1
 R14
 R15
@@ -168,33 +168,33 @@ VG]m<aLWhDC`]PkSJaR8FV1
 !s100 iT8cRncOLESn2PV:kL<141
 R9
 32
-R36
+R33
 !i10b 1
-R37
-R38
-R39
+R34
+R35
+R36
 !i113 1
 R14
 R15
 Eshifter_tb
-Z40 w1589851729
+Z37 w1589851729
 R1
 R4
 R5
 R6
-Z41 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
-Z42 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
+Z38 8G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
+Z39 FG:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd
 l0
 L5
 Vn]>mk1A9ZR8T1hMV1WcIl1
 !s100 J8E[HNXZjka>W`_00T3Kf1
 R9
 32
-Z43 !s110 1589919123
+Z40 !s110 1589919123
 !i10b 1
-Z44 !s108 1589919121.000000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
-Z46 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
+Z41 !s108 1589919121.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
+Z43 !s107 G:/Shared drives/Electro V - TPs/TP 2 - EV20/00 EV-20/Modelsim/Shifter_tb.vhd|
 !i113 1
 R14
 R15
@@ -209,11 +209,56 @@ VKmjY9kWlQ4V@j[azWFP<J0
 !s100 h^dMjEWMIBE;32ER?W6h@0
 R9
 32
-R43
+R40
 !i10b 1
-R44
-R45
-R46
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Exymux
+Z44 w1589941868
+R1
+R2
+R3
+R4
+R5
+Z45 dC:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/Modelsim
+Z46 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/XYMux.vhd
+Z47 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/XYMux.vhd
+l0
+L6
+V1cb6Y?5T2O0?a?P<em:zW2
+!s100 JEZFmZhb<Z;fFBgMZ3e?50
+R9
+32
+Z48 !s110 1589941947
+!i10b 1
+Z49 !s108 1589941946.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/XYMux.vhd|
+Z51 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV-20/XYMux.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 xymux 0 22 1cb6Y?5T2O0?a?P<em:zW2
+l19
+L17
+VI2zGhaoQ1;[II`4I3FIZD2
+!s100 >jBJ;nOl@E;JIEk6<5EXR2
+R9
+32
+R48
+!i10b 1
+R49
+R50
+R51
 !i113 1
 R14
 R15

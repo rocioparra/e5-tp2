@@ -37,7 +37,7 @@ agreement for further details.
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 )
 (symbol
-	(rect 480 264 640 480)
+	(rect 688 400 848 616)
 	(text "LatchALUShifter" (rect 141 5 160 101)(font "Intel Clear" (font_size 8))(vertical))
 	(text "inst" (rect 4 8 21 24)(font "Intel Clear" )(vertical))
 	(port
@@ -100,4 +100,46 @@ agreement for further details.
 		(rectangle (rect 16 16 144 200))
 	)
 	(rotate270)
+)
+(symbol
+	(rect 736 192 848 368)
+	(text "XYMux" (rect 100 5 112 39)(font "Arial" )(vertical))
+	(text "inst1" (rect -1 8 16 30)(font "Intel Clear" )(vertical))
+	(port
+		(pt 80 0)
+		(input)
+		(text "X[15..0]" (rect 0 0 37 12)(font "Arial" ))
+		(text "X[15..0]" (rect 73 21 85 58)(font "Arial" )(vertical))
+		(line (pt 80 0)(pt 80 16)(line_width 3))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "Y[7..0]" (rect 0 0 34 12)(font "Arial" ))
+		(text "Y[7..0]" (rect 57 21 69 55)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16)(line_width 3))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "sel" (rect 0 0 14 12)(font "Arial" ))
+		(text "sel" (rect 41 21 53 35)(font "Arial" )(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 80 176)
+		(output)
+		(text "output[15..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "output[15..0]" (rect 73 103 85 165)(font "Arial" )(vertical))
+		(line (pt 80 176)(pt 80 160)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 160))
+	)
+	(rotate270)
+)
+(connector
+	(pt 816 368)
+	(pt 816 400)
+	(bus)
 )
