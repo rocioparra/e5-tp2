@@ -1,0 +1,13 @@
+% test %
+
+DEPTH = 2048;                  
+WIDTH = 14;                   
+ADDRESS_RADIX = HEX;          
+DATA_RADIX = BIN;             
+CONTENT                       
+BEGIN
+
+
+[000..7FF] :	00000000000000; 
+
+END;

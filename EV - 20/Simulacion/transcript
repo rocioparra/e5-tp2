@@ -279,3 +279,91 @@ run -all
 quit -sim
 # End time: 11:59:01 on May 21,2020, Elapsed time: 0:02:42
 # Errors: 0, Warnings: 0
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd(20): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd(24): near ":": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd(31): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd(25): near "if": syntax error
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd(28): near "if": (vcom-1576) expecting PROCESS.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PCReg
+# -- Compiling architecture behaviour of PCReg
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/InstrReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity InstrReg
+# -- Compiling architecture behaviour of InstrReg
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI1
+# -- Compiling architecture behaviour of uI1
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd(39): (vcom-1136) Unknown identifier "u".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd(39): near "I_mem": (vcom-1576) expecting ';'.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd(46): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI1
+# -- Compiling architecture behaviour of uI1
+# 
+# 
