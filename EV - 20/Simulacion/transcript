@@ -1,0 +1,281 @@
+# Compile of Shifter_tb.vhd was successful.
+# Compile of ALU_tb.vhd was successful.
+# Compile of RegisterBank_tb.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of KMux.vhd was successful.
+# Compile of latch16.vhd was successful.
+# Compile of preLoadPC.vhd was successful.
+# Compile of RegisterBank.vhd was successful.
+# Compile of Shifter.vhd was successful.
+# Compile of uIROM.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of uIROM_tb.vhd failed with 6 errors.
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1484) Unknown formal identifier "sys_clk".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(30): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(41): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): Illegal target for signal assignment.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(45): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1136) Unknown identifier "clock".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1484) Unknown formal identifier "sys_clk".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(30): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(41): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): Illegal target for signal assignment.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(45): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1136) Unknown identifier "clock".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1484) Unknown formal identifier "sys_clk".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(30): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(41): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): Illegal target for signal assignment.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(45): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shifter_tb
+# -- Compiling architecture testbench of shifter_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_tb
+# -- Compiling architecture testbench of ALU_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegisterBank_tb
+# -- Compiling architecture testbench of RegisterBank_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture behaviour of ALU
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/KMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity KMux
+# -- Compiling architecture behaviour of KMux
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/latch16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/preLoadPC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity preLoadPC
+# -- Compiling architecture behaviour of preLoadPC
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/RegisterBank.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegisterBank
+# -- Compiling architecture behaviour of RegisterBank
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Shifter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shifter
+# -- Compiling architecture behaviour of shifter
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity uIROM
+# -- Compiling architecture SYN of uirom
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1136) Unknown identifier "clock".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(22): (vcom-1484) Unknown formal identifier "sys_clk".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(30): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(41): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): Illegal target for signal assignment.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(45): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# 11 compiles, 1 failed with 7 errors.
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(30): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(41): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): Illegal target for signal assignment.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(43): (vcom-1136) Unknown identifier "simulationEnded".
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(45): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(42): near "if": (vcom-1576) expecting LOOP.
+# ** Error: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd(46): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIROM_tb
+# -- Compiling architecture testbench of uIROM_tb
+# 
+# 
+vsim -gui work.uirom_tb
+# vsim -gui work.uirom_tb 
+# Start time: 11:54:42 on May 21,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uirom_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+add wave -position insertpoint sim:/uirom_tb/*
+run -all
+# ** Warning: (vsim-7) Failed to open VHDL file "uIROM.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Instance: /uirom_tb/dut/altsyncram_component
+# ** Fatal: (vsim-7) Failed to open VHDL file "uIROM.mif" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ps  Iteration: 0  Process: /uirom_tb/dut/altsyncram_component/MEMORY File: C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd
+# Fatal error in Process MEMORY at C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd line 40292
+# 
+# HDL call sequence:
+# Stopped at C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 40292 Subprogram read_my_memory
+# called from  C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../altera/vhdl/src/altera_mf/altera_mf.vhd 41911 Process MEMORY
+# 
+quit -sim
+# End time: 11:56:10 on May 21,2020, Elapsed time: 0:01:28
+# Errors: 2, Warnings: 1
+vsim -gui work.uirom_tb
+# vsim -gui work.uirom_tb 
+# Start time: 11:56:19 on May 21,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uirom_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+run -all
+add wave -position insertpoint sim:/uirom_tb/*
+run -all
+run
+restart -f
+run -all
+quit -sim
+# End time: 11:59:01 on May 21,2020, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 0
