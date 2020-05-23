@@ -475,25 +475,66 @@ R66
 !i113 1
 R14
 R15
-Eui1
-Z67 w1590083363
+Euc1
+Z67 w1590201648
 R1
 R4
 R5
 R6
-Z68 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd
-Z69 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd
+Z68 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd
+Z69 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd
+l0
+L5
+VL_Ack_BZDnE=?RAScG;Uo1
+!s100 BNDjn9d:;kh;0gzIHZ_>e2
+R9
+32
+Z70 !s110 1590201943
+!i10b 1
+Z71 !s108 1590201943.000000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd|
+Z73 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd|
+!i113 1
+R14
+R15
+Abehaviour
+R1
+R4
+R5
+DEx4 work 3 uc1 0 22 L_Ack_BZDnE=?RAScG;Uo1
+l22
+L21
+Z74 VlM<F3Y^Li;cYcnI6]_C_82
+Z75 !s100 =C:@H]alBddOghUJY=XmM3
+R9
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 1
+R14
+R15
+Eui1
+Z76 w1590083363
+R1
+R4
+R5
+R6
+Z77 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd
+Z78 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd
 l0
 L5
 V8kbg5@JOOJla[<K]Y^9P42
 !s100 YQkEKndz<4?n9m0lWzV852
 R9
 32
-Z70 !s110 1590083366
+Z79 !s110 1590083366
 !i10b 1
-Z71 !s108 1590083366.000000
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd|
-Z73 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd|
+Z80 !s108 1590083366.000000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd|
+Z82 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd|
 !i113 1
 R14
 R15
@@ -508,22 +549,22 @@ ViZ>LmigM`m`QEQ66[KXW=1
 !s100 4ai2>J:B9F[<cZ9:KLJzf0
 R9
 32
-R70
+R79
 !i10b 1
-R71
-R72
-R73
+R80
+R81
+R82
 !i113 1
 R14
 R15
 Euirom
-Z74 w1590025147
-Z75 DPx9 altera_mf 20 altera_mf_components 0 22 @6M>I48X_jBQDo@?W=TN93
+Z83 w1590025147
+Z84 DPx9 altera_mf 20 altera_mf_components 0 22 @6M>I48X_jBQDo@?W=TN93
 R4
 R5
 R6
-Z76 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd
-Z77 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd
+Z85 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd
+Z86 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd
 l0
 L43
 V?Xm6cH[]IbX_G85^WZGZR2
@@ -533,13 +574,13 @@ R9
 R10
 !i10b 1
 R11
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd|
-Z79 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd|
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd|
+Z88 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd|
 !i113 1
 R14
 R15
 Asyn
-R75
+R84
 R4
 R5
 DEx4 work 5 uirom 0 22 ?Xm6cH[]IbX_G85^WZGZR2
@@ -552,30 +593,30 @@ R9
 R10
 !i10b 1
 R11
-R78
-R79
+R87
+R88
 !i113 1
 R14
 R15
 Euirom_tb
-Z80 w1590072861
+Z89 w1590072861
 R1
 R4
 R5
 R6
-Z81 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
-Z82 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
+Z90 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
+Z91 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
 l0
 L5
 VYj]^5dk9J1;9nzC9b0LbB3
 !s100 E08HYj<?69BHDcRN@kDK:0
 R9
 32
-Z83 !s110 1590072865
+Z92 !s110 1590072865
 !i10b 1
-Z84 !s108 1590072865.000000
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
-Z86 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
+Z93 !s108 1590072865.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
+Z95 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
 !i113 1
 R14
 R15
@@ -590,11 +631,11 @@ Vme:6=>00I[k0C2eO_bI4L3
 !s100 c@i7coT_f>P[eVlmgWMi10
 R9
 32
-R83
+R92
 !i10b 1
-R84
-R85
-R86
+R93
+R94
+R95
 !i113 1
 R14
 R15
