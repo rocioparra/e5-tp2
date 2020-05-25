@@ -7,44 +7,17 @@ ENTITY preLoadPC IS
     PORT
     (
 		W       	:  IN  STD_LOGIC_VECTOR(15 downto 0);
-		b13,b12,b11 :  IN  STD_LOGIC;
+		Instr 	:  IN  STD_LOGIC_VECTOR(2 downto 0);
 		carry_out 	:  IN  STD_LOGIC;
-		sys_clk  	:  IN  STD_LOGIC;
 		preLoad  	:  OUT  STD_LOGIC
     );
 END preLoadPC;
 
 ARCHITECTURE behaviour OF preLoadPC IS    
 begin
-	process(sys_clk)
-    begin
-        if(rising_edge(sys_clk)) then
-			if( b13 = '1') then --Todas las señales de jump tienen b13 en 1.
-				if( b11 = '0' and b12 = '0') then --En este caso se trata de un salto incondicional
-					preLoad <= '1';
-				elsif ( b11 = '0' and b12 = '1') then --JZE
-					if(W   = "0000000000000000") then
-						preLoad <= '1';
-					else
-						preLoad <= '0';
-					end if;
-				elsif ( b11 = '1' and b12 = '0') then --JNE
-					if(W(15)   = '1') then
-						preLoad <= '1';
-					else
-						preLoad <= '0';
-					end if;
-				elsif ( b11 = '1' and b12 = '1') then --JCY
-					if(carry_out = '1') then
-						preLoad <= '1';
-					else
-						preLoad <= '0';
-					end if;
-				end if;
-			else
-				preLoad <='0';
-			end if;
-        end if;
-    end process;
-
+	preLoad <= '1' when 	((Instr = "100") 									or 	--Jump incondicional
+                        (Instr = "101" and W="0000000000000000") 	or		--JZE
+								(Instr = "110" and W(15) = '1') 				or		--JNE
+								(Instr = "111" and carry_out = '1')) 		else 	--JCY
+				  '0';
 END behaviour;
