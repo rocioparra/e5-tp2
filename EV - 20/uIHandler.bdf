@@ -1048,6 +1048,15 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1472 560)
 	(pt 1520 560)
 )
+(connector
+	(text "sys_clk" (rect 922 552 957 569)(font "Intel Clear" ))
+	(pt 856 568)
+	(pt 944 568)
+)
+(connector
+	(pt 856 520)
+	(pt 856 568)
+)
 (junction (pt 848 368))
 (junction (pt 824 952))
 (junction (pt 840 976))

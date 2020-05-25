@@ -1,3 +1,44 @@
 # Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile {C:/e5-tp2/EV - 20/Simulacion/Simulations.mpf}
 # Loading project Simulations
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uIHandler
+# -- Compiling architecture bdf_type of uIHandler
+# ** Error: C:/e5-tp2/EV - 20/uIHandler.vhd(196): (vcom-1035) Formal port "sys_clk" has OPEN or no actual associated with it.
+# ** Error: C:/e5-tp2/EV - 20/uIHandler.vhd(200): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uc1
+# -- Compiling architecture behaviour of uc1
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uc2
+# -- Compiling architecture behaviour of uc2
+# 
+# 
+# 2 compiles, 0 failed with no errors.
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uIHandler
+# -- Compiling architecture bdf_type of uIHandler
+# 
+# 

@@ -1,5 +1,5 @@
 Analysis & Elaboration report for EV20
-Sat May 23 00:41:21 2020
+Sun May 24 23:07:31 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -45,7 +45,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Sat May 23 00:41:21 2020       ;
+; Analysis & Elaboration Status      ; Successful - Sun May 24 23:07:31 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; EV20                                        ;
 ; Top-level Entity Name              ; EV20                                        ;
@@ -433,80 +433,83 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sat May 23 00:41:09 2020
+    Info: Processing started: Sun May 24 23:07:11 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off EV20 -c EV20 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file uc2.vhd
-    Info (12022): Found design unit 1: uc2-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc2.vhd Line: 22
-    Info (12023): Found entity 1: uc2 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc2.vhd Line: 5
+    Info (12022): Found design unit 1: uc2-behaviour File: C:/e5-tp2/EV - 20/uc2.vhd Line: 21
+    Info (12023): Found entity 1: uc2 File: C:/e5-tp2/EV - 20/uc2.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file uc1.vhd
-    Info (12022): Found design unit 1: uc1-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd Line: 21
-    Info (12023): Found entity 1: uc1 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd Line: 5
+    Info (12022): Found design unit 1: uc1-behaviour File: C:/e5-tp2/EV - 20/uc1.vhd Line: 21
+    Info (12023): Found entity 1: uc1 File: C:/e5-tp2/EV - 20/uc1.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file ui3.vhd
-    Info (12022): Found design unit 1: uI3-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI3.vhd Line: 16
-    Info (12023): Found entity 1: uI3 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI3.vhd Line: 5
+    Info (12022): Found design unit 1: uI3-behaviour File: C:/e5-tp2/EV - 20/uI3.vhd Line: 16
+    Info (12023): Found entity 1: uI3 File: C:/e5-tp2/EV - 20/uI3.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file ui2.vhd
-    Info (12022): Found design unit 1: uI2-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI2.vhd Line: 20
-    Info (12023): Found entity 1: uI2 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI2.vhd Line: 5
+    Info (12022): Found design unit 1: uI2-behaviour File: C:/e5-tp2/EV - 20/uI2.vhd Line: 20
+    Info (12023): Found entity 1: uI2 File: C:/e5-tp2/EV - 20/uI2.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file ui1.vhd
-    Info (12022): Found design unit 1: uI1-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd Line: 24
-    Info (12023): Found entity 1: uI1 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd Line: 5
+    Info (12022): Found design unit 1: uI1-behaviour File: C:/e5-tp2/EV - 20/uI1.vhd Line: 24
+    Info (12023): Found entity 1: uI1 File: C:/e5-tp2/EV - 20/uI1.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file pcreg.vhd
-    Info (12022): Found design unit 1: PCReg-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd Line: 16
-    Info (12023): Found entity 1: PCReg File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/PCReg.vhd Line: 5
+    Info (12022): Found design unit 1: PCReg-behaviour File: C:/e5-tp2/EV - 20/PCReg.vhd Line: 16
+    Info (12023): Found entity 1: PCReg File: C:/e5-tp2/EV - 20/PCReg.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file instrreg.vhd
-    Info (12022): Found design unit 1: InstrReg-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/InstrReg.vhd Line: 15
-    Info (12023): Found entity 1: InstrReg File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/InstrReg.vhd Line: 5
+    Info (12022): Found design unit 1: InstrReg-behaviour File: C:/e5-tp2/EV - 20/InstrReg.vhd Line: 15
+    Info (12023): Found entity 1: InstrReg File: C:/e5-tp2/EV - 20/InstrReg.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file shifter.vhd
-    Info (12022): Found design unit 1: shifter-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Shifter.vhd Line: 15
-    Info (12023): Found entity 1: shifter File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Shifter.vhd Line: 5
+    Info (12022): Found design unit 1: shifter-behaviour File: C:/e5-tp2/EV - 20/Shifter.vhd Line: 15
+    Info (12023): Found entity 1: shifter File: C:/e5-tp2/EV - 20/Shifter.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file registerbank.vhd
-    Info (12022): Found design unit 1: RegisterBank-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/RegisterBank.vhd Line: 23
-    Info (12023): Found entity 1: RegisterBank File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/RegisterBank.vhd Line: 6
+    Info (12022): Found design unit 1: RegisterBank-behaviour File: C:/e5-tp2/EV - 20/RegisterBank.vhd Line: 23
+    Info (12023): Found entity 1: RegisterBank File: C:/e5-tp2/EV - 20/RegisterBank.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file preloadpc.vhd
-    Info (12022): Found design unit 1: preLoadPC-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/preLoadPC.vhd Line: 17
-    Info (12023): Found entity 1: preLoadPC File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/preLoadPC.vhd Line: 6
+    Info (12022): Found design unit 1: preLoadPC-behaviour File: C:/e5-tp2/EV - 20/preLoadPC.vhd Line: 17
+    Info (12023): Found entity 1: preLoadPC File: C:/e5-tp2/EV - 20/preLoadPC.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file latch16.vhd
-    Info (12022): Found design unit 1: Latch16-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/latch16.vhd Line: 14
-    Info (12023): Found entity 1: Latch16 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/latch16.vhd Line: 5
+    Info (12022): Found design unit 1: Latch16-behaviour File: C:/e5-tp2/EV - 20/latch16.vhd Line: 14
+    Info (12023): Found entity 1: Latch16 File: C:/e5-tp2/EV - 20/latch16.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file kmux.vhd
-    Info (12022): Found design unit 1: KMux-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/KMux.vhd Line: 17
-    Info (12023): Found entity 1: KMux File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/KMux.vhd Line: 6
+    Info (12022): Found design unit 1: KMux-behaviour File: C:/e5-tp2/EV - 20/KMux.vhd Line: 17
+    Info (12023): Found entity 1: KMux File: C:/e5-tp2/EV - 20/KMux.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
-    Info (12022): Found design unit 1: ALU-behaviour File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/ALU.vhd Line: 19
-    Info (12023): Found entity 1: ALU File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/ALU.vhd Line: 6
+    Info (12022): Found design unit 1: ALU-behaviour File: C:/e5-tp2/EV - 20/ALU.vhd Line: 19
+    Info (12023): Found entity 1: ALU File: C:/e5-tp2/EV - 20/ALU.vhd Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file ev20.bdf
     Info (12023): Found entity 1: EV20
 Info (12021): Found 1 design units, including 1 entities, in source file latchalushift.bdf
     Info (12023): Found entity 1: LatchAluShift
 Info (12021): Found 2 design units, including 1 entities, in source file uirom.vhd
-    Info (12022): Found design unit 1: uirom-SYN File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd Line: 53
-    Info (12023): Found entity 1: uIROM File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd Line: 43
+    Info (12022): Found design unit 1: uirom-SYN File: C:/e5-tp2/EV - 20/uIROM.vhd Line: 53
+    Info (12023): Found entity 1: uIROM File: C:/e5-tp2/EV - 20/uIROM.vhd Line: 43
 Info (12021): Found 2 design units, including 1 entities, in source file program.vhd
-    Info (12022): Found design unit 1: program-SYN File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Program.vhd Line: 53
-    Info (12023): Found entity 1: Program File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Program.vhd Line: 43
+    Info (12022): Found design unit 1: program-SYN File: C:/e5-tp2/EV - 20/Program.vhd Line: 53
+    Info (12023): Found entity 1: Program File: C:/e5-tp2/EV - 20/Program.vhd Line: 43
 Info (12021): Found 2 design units, including 1 entities, in source file data.vhd
-    Info (12022): Found design unit 1: data-SYN File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Data.vhd Line: 55
-    Info (12023): Found entity 1: Data File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Data.vhd Line: 43
+    Info (12022): Found design unit 1: data-SYN File: C:/e5-tp2/EV - 20/Data.vhd Line: 55
+    Info (12023): Found entity 1: Data File: C:/e5-tp2/EV - 20/Data.vhd Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file uihandler.bdf
     Info (12023): Found entity 1: uIHandler
+Info (12021): Found 2 design units, including 1 entities, in source file latchk.vhd
+    Info (12022): Found design unit 1: LatchK-behaviour File: C:/e5-tp2/EV - 20/LatchK.vhd Line: 15
+    Info (12023): Found entity 1: LatchK File: C:/e5-tp2/EV - 20/LatchK.vhd Line: 5
 Info (12127): Elaborating entity "EV20" for the top level hierarchy
 Info (12128): Elaborating entity "preLoadPC" for hierarchy "preLoadPC:inst"
 Info (12128): Elaborating entity "InstrReg" for hierarchy "InstrReg:inst5"
-Warning (10492): VHDL Process Statement warning at InstrReg.vhd(20): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/InstrReg.vhd Line: 20
+Warning (10492): VHDL Process Statement warning at InstrReg.vhd(20): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/e5-tp2/EV - 20/InstrReg.vhd Line: 20
 Info (12128): Elaborating entity "uIHandler" for hierarchy "uIHandler:inst14"
 Info (12128): Elaborating entity "uI1" for hierarchy "uIHandler:inst14|uI1:inst8"
-Warning (10492): VHDL Process Statement warning at uI1.vhd(29): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uI1.vhd Line: 29
-Info (12128): Elaborating entity "uc2" for hierarchy "uIHandler:inst14|uc2:inst13"
-Info (12128): Elaborating entity "uI3" for hierarchy "uIHandler:inst14|uI3:inst10"
-Info (12128): Elaborating entity "uI2" for hierarchy "uIHandler:inst14|uI2:inst9"
+Warning (10492): VHDL Process Statement warning at uI1.vhd(29): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/e5-tp2/EV - 20/uI1.vhd Line: 29
+Info (12128): Elaborating entity "uc2" for hierarchy "uIHandler:inst14|uc2:inst"
 Info (12128): Elaborating entity "uc1" for hierarchy "uIHandler:inst14|uc1:inst12"
-Warning (10492): VHDL Process Statement warning at uc1.vhd(25): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uc1.vhd Line: 25
+Warning (10492): VHDL Process Statement warning at uc1.vhd(25): signal "hold" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/e5-tp2/EV - 20/uc1.vhd Line: 25
+Info (12128): Elaborating entity "uI2" for hierarchy "uIHandler:inst14|uI2:inst9"
+Info (12128): Elaborating entity "uI3" for hierarchy "uIHandler:inst14|uI3:inst10"
 Info (12128): Elaborating entity "uIROM" for hierarchy "uIROM:inst4"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "uIROM:inst4|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "uIROM:inst4|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd Line: 60
-Info (12133): Instantiated megafunction "uIROM:inst4|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/uIROM.vhd Line: 60
+Info (12128): Elaborating entity "altsyncram" for hierarchy "uIROM:inst4|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/uIROM.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "uIROM:inst4|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/uIROM.vhd Line: 60
+Info (12133): Instantiated megafunction "uIROM:inst4|altsyncram:altsyncram_component" with the following parameter: File: C:/e5-tp2/EV - 20/uIROM.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -558,12 +561,23 @@ Info (12133): Instantiated megafunction "uIROM:inst4|altsyncram:altsyncram_compo
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_3sr3.tdf
-    Info (12023): Found entity 1: altsyncram_3sr3 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/db/altsyncram_3sr3.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_3sr3 File: C:/e5-tp2/EV - 20/db/altsyncram_3sr3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_3sr3" for hierarchy "uIROM:inst4|altsyncram:altsyncram_component|altsyncram_3sr3:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Warning (113031): 128 out of 128 addresses are reinitialized. The latest initialized data will replace the existing data. There are 128 warnings found, and 10 warnings are reported. File: C:/e5-tp2/EV - 20/uIROM.mif Line: 1
+    Warning (113030): Memory Initialization File address 0 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 15
+    Warning (113030): Memory Initialization File address 1 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 17
+    Warning (113030): Memory Initialization File address 2 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 19
+    Warning (113030): Memory Initialization File address 3 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 21
+    Warning (113030): Memory Initialization File address 4 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 23
+    Warning (113030): Memory Initialization File address 5 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 25
+    Warning (113030): Memory Initialization File address 6 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 27
+    Warning (113030): Memory Initialization File address 7 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 29
+    Warning (113030): Memory Initialization File address 8 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 31
+    Warning (113030): Memory Initialization File address 9 is reinitialized File: C:/e5-tp2/EV - 20/ Line: 31
 Info (12128): Elaborating entity "Program" for hierarchy "Program:inst7"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "Program:inst7|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Program.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "Program:inst7|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Program.vhd Line: 60
-Info (12133): Instantiated megafunction "Program:inst7|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Program.vhd Line: 60
+Info (12128): Elaborating entity "altsyncram" for hierarchy "Program:inst7|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/Program.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "Program:inst7|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/Program.vhd Line: 60
+Info (12133): Instantiated megafunction "Program:inst7|altsyncram:altsyncram_component" with the following parameter: File: C:/e5-tp2/EV - 20/Program.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -615,7 +629,7 @@ Info (12133): Instantiated megafunction "Program:inst7|altsyncram:altsyncram_com
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_85s3.tdf
-    Info (12023): Found entity 1: altsyncram_85s3 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/db/altsyncram_85s3.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_85s3 File: C:/e5-tp2/EV - 20/db/altsyncram_85s3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_85s3" for hierarchy "Program:inst7|altsyncram:altsyncram_component|altsyncram_85s3:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (12128): Elaborating entity "PCReg" for hierarchy "PCReg:inst6"
 Info (12128): Elaborating entity "LatchAluShift" for hierarchy "LatchAluShift:inst1"
@@ -625,9 +639,9 @@ Info (12128): Elaborating entity "shifter" for hierarchy "LatchAluShift:inst1|sh
 Info (12128): Elaborating entity "KMux" for hierarchy "KMux:inst3"
 Info (12128): Elaborating entity "RegisterBank" for hierarchy "RegisterBank:inst2"
 Info (12128): Elaborating entity "Data" for hierarchy "Data:inst11"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "Data:inst11|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Data.vhd Line: 62
-Info (12130): Elaborated megafunction instantiation "Data:inst11|altsyncram:altsyncram_component" File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Data.vhd Line: 62
-Info (12133): Instantiated megafunction "Data:inst11|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Data.vhd Line: 62
+Info (12128): Elaborating entity "altsyncram" for hierarchy "Data:inst11|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/Data.vhd Line: 62
+Info (12130): Elaborated megafunction instantiation "Data:inst11|altsyncram:altsyncram_component" File: C:/e5-tp2/EV - 20/Data.vhd Line: 62
+Info (12133): Instantiated megafunction "Data:inst11|altsyncram:altsyncram_component" with the following parameter: File: C:/e5-tp2/EV - 20/Data.vhd Line: 62
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -679,12 +693,13 @@ Info (12133): Instantiated megafunction "Data:inst11|altsyncram:altsyncram_compo
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_23q3.tdf
-    Info (12023): Found entity 1: altsyncram_23q3 File: C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/db/altsyncram_23q3.tdf Line: 28
+    Info (12023): Found entity 1: altsyncram_23q3 File: C:/e5-tp2/EV - 20/db/altsyncram_23q3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_23q3" for hierarchy "Data:inst11|altsyncram:altsyncram_component|altsyncram_23q3:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4819 megabytes
-    Info: Processing ended: Sat May 23 00:41:21 2020
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:26
+Info (12128): Elaborating entity "LatchK" for hierarchy "LatchK:inst8"
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 15 warnings
+    Info: Peak virtual memory: 4814 megabytes
+    Info: Processing ended: Sun May 24 23:07:31 2020
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:30
 
 
