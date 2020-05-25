@@ -7,8 +7,8 @@ DATA_RADIX = BIN;
 CONTENT                       
 BEGIN
 
-
-[00..7F] :	0000000000000000000000000000; --Limpio la memoria
+		ALU.S.KRW..BB..--CC--..type.
+[00..7F] :	0000000000000001000100000000; --Limpio la memoria
 
 -- 4b ALU, 2b Shift, 1b Kmx, 1b MR, 1b MW, 6b B, 7b Type, 6b C  
 --CPL		ALU.S.KRW..BB..--CC--..type.
