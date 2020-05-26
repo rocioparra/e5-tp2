@@ -1,274 +1,481 @@
-# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
-# OpenFile {C:/e5-tp2/EV - 20/Simulacion/Simulations.mpf}
-# Loading project Simulations
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): VHDL Compiler exiting
+# -- Compiling entity uc1
+# -- Compiling architecture behaviour of uc1
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity preLoadPC
-# -- Compiling architecture behaviour of preLoadPC
+# -- Compiling entity uIHandler
+# -- Compiling architecture bdf_type of uIHandler
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): VHDL Compiler exiting
+# -- Compiling entity uIHandlerROM_tb
+# -- Compiling architecture testbench of uIHandlerROM_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+vsim -gui work.uihandlerrom_tb
+# vsim -gui work.uihandlerrom_tb 
+# Start time: 15:43:49 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uihandlerrom_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+quit -sim
+# End time: 15:44:09 on May 26,2020, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
+# -- Compiling entity uIHandlerROM_tb
+# -- Compiling architecture testbench of uIHandlerROM_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(86): near "process": (vcom-1576) expecting ';'.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1136) Unknown identifier "B3".
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1136) Unknown identifier "B3".
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity uIHandlerROM_tb
+# -- Compiling architecture testbench of uIHandlerROM_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(56): (vcom-1192) Array length is 6; aggregate length is 5.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(86): VHDL Compiler exiting
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity uIHandlerROM_tb
+# -- Compiling architecture testbench of uIHandlerROM_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# Load canceled
+# Load canceled
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+vsim -gui work.checkdeps_tb
+# vsim -gui work.checkdeps_tb 
+# Start time: 15:48:34 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.checkdeps_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/memoria/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+vsim -gui work.checkdeps_tb
+# End time: 15:50:40 on May 26,2020, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 0
+# vsim -gui work.checkdeps_tb 
+# Start time: 15:50:40 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.checkdeps_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+add wave -position insertpoint sim:/checkdeps_tb/memoria/*
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:52:40 on May 26,2020, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 0
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Program.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_mf_components
-# -- Compiling entity Program
-# -- Compiling architecture SYN of program
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+vsim -gui work.checkdeps_tb
+# vsim -gui work.checkdeps_tb 
+# Start time: 15:52:55 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.checkdeps_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:57:01 on May 26,2020, Elapsed time: 0:04:06
+# Errors: 0, Warnings: 0
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+vsim -gui work.checkdeps_tb
+# vsim -gui work.checkdeps_tb 
+# Start time: 15:57:30 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.checkdeps_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+run
+# Break key hit
+# Break in ForLoop loop at C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd line 81
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(43): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+restart -f
+# Loading work.checkdeps_tb(testbench)
+# Load canceled
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 70 ps.
+restart -f
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(43): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(81): near "i": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(84): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(87): near "process": (vcom-1576) expecting ';'.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): (vcom-1581) No feasible entries for infix operator 'and'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in left operand of infix expression '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(43): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(81): Target of signal assignment is not a signal.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(88): VHDL Compiler exiting
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(36): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BOOLEAN' to 'ieee.std_logic_1164.STD_LOGIC' (not closely related).
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BOOLEAN' to 'ieee.std_logic_1164.STD_LOGIC' (not closely related).
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BOOLEAN' to 'ieee.std_logic_1164.STD_LOGIC' (not closely related).
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BOOLEAN' to 'ieee.std_logic_1164.STD_LOGIC' (not closely related).
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(40): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BOOLEAN' to 'ieee.std_logic_1164.STD_LOGIC' (not closely related).
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(43): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(63): near "variable": syntax error
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(80): near "wait": (vcom-1576) expecting LOOP.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(82): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): Illegal target for signal assignment.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(85): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(88): near "process": (vcom-1576) expecting ';'.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): (vcom-1581) No feasible entries for infix operator '='.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(38): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'or'.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(32): Type error resolving infix expression "or" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/uc2.vhd(41): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(63): near "variable": syntax error
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(80): near "wait": (vcom-1576) expecting LOOP.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(82): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): Illegal target for signal assignment.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(85): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(88): near "process": (vcom-1576) expecting ';'.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(63): near "variable": syntax error
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(79): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(80): near "wait": (vcom-1576) expecting LOOP.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(82): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): Illegal target for signal assignment.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): (vcom-1136) Unknown identifier "i".
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(85): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(88): near "process": (vcom-1576) expecting ';'.
 # 
 # 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(81): near "wait": (vcom-1576) expecting LOOP.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(84): Target of signal assignment is not a signal.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(86): near "loop": (vcom-1576) expecting PROCESS.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(89): near "process": (vcom-1576) expecting ';'.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(83): Target of signal assignment is not a signal.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(89): VHDL Compiler exiting
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# 
+# 
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 70 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 70 ps.
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(80): near "instr_i": (vcom-1576) expecting GENERATE or THEN or USE.
+# ** Error: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd(82): near "if": (vcom-1576) expecting PROCESS.
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# 
+# 
+restart -f
+# Loading work.checkdeps_tb(testbench)
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# 
+# 
+restart -f
+# Loading work.checkdeps_tb(testbench)
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+# Break key hit
+restart -f
+step -current
+# ** Error: (vsim-12081) The specified scope, sim:/checkdeps_tb, is not a process or thread.
+# 
+run -continue
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# 
+# 
+restart -f
+# Loading work.checkdeps_tb(testbench)
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+quit -sim
+# End time: 16:15:26 on May 26,2020, Elapsed time: 0:17:56
+# Errors: 52, Warnings: 0
+vsim -gui work.checkdeps_tb
+# vsim -gui work.checkdeps_tb 
+# Start time: 16:16:00 on May 26,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.checkdeps_tb(testbench)
+# Loading altera_mf.altera_mf_components
+# Loading work.uirom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+restart -f
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 50 ps.
+step -current
+# ** Error: (vsim-12081) The specified scope, sim:/checkdeps_tb/uicontrol, is not a process or thread.
+# 
+quit -sim
+# End time: 16:18:58 on May 26,2020, Elapsed time: 0:02:58
+# Errors: 3, Warnings: 0

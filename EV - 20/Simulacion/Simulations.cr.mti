@@ -90,14 +90,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity InstrReg
 -- Compiling architecture behaviour of InstrReg
 
-} {} {}} {C:/e5-tp2/EV - 20/PCReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCReg.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity PCReg
--- Compiling architecture behaviour of PCReg
+-- Compiling entity checkDeps_tb
+-- Compiling architecture testbench of checkDeps_tb
 
 } {} {}} {C:/e5-tp2/EV - 20/uc1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -119,25 +119,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity RegisterBank
 -- Compiling architecture behaviour of RegisterBank
 
-} {} {}} {C:/e5-tp2/EV - 20/preLoadPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/PCReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCReg.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity preLoadPC
--- Compiling architecture behaviour of preLoadPC
-
-} {} {}} {C:/e5-tp2/EV - 20/Data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package altera_mf_components
--- Compiling entity Data
--- Compiling architecture SYN of data
+-- Compiling entity PCReg
+-- Compiling architecture behaviour of PCReg
 
 } {} {}} {C:/e5-tp2/EV - 20/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -149,6 +138,35 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity ALU
 -- Compiling architecture behaviour of ALU
+
+} {} {}} {C:/e5-tp2/EV - 20/Data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity Data
+-- Compiling architecture SYN of data
+
+} {} {}} {C:/e5-tp2/EV - 20/preLoadPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity preLoadPC
+-- Compiling architecture behaviour of preLoadPC
+
+} {} {}} {C:/e5-tp2/EV - 20/uc2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uc2
+-- Compiling architecture behaviour of uc2
 
 } {} {}} {C:/e5-tp2/EV - 20/uIHandler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
