@@ -76,9 +76,9 @@ begin
 	stim_proc: process(sys_clk)
 	begin      
 		if(falling_edge(sys_clk)) then
-			--if(hold = '0') then
+			if(hold = '0') then
 				instr_i <=instr_i + 1;
-			--end if;
+			end if;
 		end if;
 	end process;
 end testbench;

@@ -8,123 +8,8 @@
 # -- Loading package std_logic_1164
 # -- Compiling entity uIHandler
 # -- Compiling architecture bdf_type of uIHandler
-# ** Error: C:/e5-tp2/EV - 20/uIHandler.vhd(196): (vcom-1035) Formal port "sys_clk" has OPEN or no actual associated with it.
-# ** Error: C:/e5-tp2/EV - 20/uIHandler.vhd(200): VHDL Compiler exiting
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uc1
-# -- Compiling architecture behaviour of uc1
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uc2
-# -- Compiling architecture behaviour of uc2
-# 
-# 
-# 2 compiles, 0 failed with no errors.
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity uIHandler
-# -- Compiling architecture bdf_type of uIHandler
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(31): near "(": (vcom-1576) expecting END.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(55): Symbol "dut" has already been declared in this region.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(71): near "wait": (vcom-1576) expecting ';'.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(80): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(71): near "wait": (vcom-1576) expecting ';'.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(80): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(70): (vcom-1272) Length of expected is 14; length of actual is 18.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(80): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# 
-# 
-vsim -gui work.uihandlerrom_tb
-# vsim -gui work.uihandlerrom_tb 
-# Start time: 00:02:42 on May 25,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.uihandlerrom_tb(testbench)
-# Loading altera_mf.altera_mf_components
-# Loading work.uirom(syn)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading altera_mf.altera_common_conversion(body)
-# Loading altera_mf.altera_device_families(body)
-# Loading altera_mf.altsyncram(translated)
-# Loading work.uihandler(bdf_type)
-# Loading work.uc2(behaviour)
-# Loading work.ui3(behaviour)
-# Loading work.uc1(behaviour)
-# Loading work.ui1(behaviour)
-# Loading work.ui2(behaviour)
-add wave -position insertpoint sim:/uihandlerrom_tb/*
-add wave -position insertpoint sim:/uihandlerrom_tb/dut1/*
-add wave -position insertpoint sim:/uihandlerrom_tb/dut2/*
-run -all
 # vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
@@ -313,68 +198,24 @@ run -all
 # 
 # 
 # 18 compiles, 0 failed with no errors.
-restart -f
-# Loading work.uihandlerrom_tb(testbench)
-# Loading work.uirom(syn)
-# Loading work.uihandler(bdf_type)
-# Loading work.uc2(behaviour)
-# Loading work.ui3(behaviour)
-# Loading work.uc1(behaviour)
-# Loading work.ui1(behaviour)
-# Loading work.ui2(behaviour)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-quit -sim
-# End time: 00:37:21 on May 25,2020, Elapsed time: 0:34:39
-# Errors: 0, Warnings: 0
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(55): (vcom-1272) Length of expected is 16; length of actual is 14.
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(56): (vcom-1272) Length of expected is 16; length of actual is 14.
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(57): (vcom-1272) Length of expected is 16; length of actual is 14.
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(58): (vcom-1272) Length of expected is 16; length of actual is 14.
-# ** Error (suppressible): C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(59): (vcom-1272) Length of expected is 16; length of actual is 14.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(86): VHDL Compiler exiting
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(83): near "loop": (vcom-1576) expecting PROCESS.
-# ** Error: C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd(85): near "process": (vcom-1576) expecting ';'.
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# 
-# 
-vsim -gui work.uihandlerrom_tb
-# vsim -gui work.uihandlerrom_tb 
-# Start time: 00:41:08 on May 25,2020
+vsim -gui work.checkdeps_tb
+# vsim -gui work.checkdeps_tb 
+# Start time: 19:30:08 on May 26,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.uihandlerrom_tb(testbench)
+# Loading work.checkdeps_tb(testbench)
 # Loading altera_mf.altera_mf_components
 # Loading work.uirom(syn)
 # Loading ieee.std_logic_arith(body)
@@ -388,121 +229,29 @@ vsim -gui work.uihandlerrom_tb
 # Loading work.uc1(behaviour)
 # Loading work.ui1(behaviour)
 # Loading work.ui2(behaviour)
-quit -sim
-# End time: 00:41:22 on May 25,2020, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 0
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
+add wave -position insertpoint sim:/checkdeps_tb/*
+add wave -position insertpoint sim:/checkdeps_tb/uicontrol/*
+# Can't move the Now cursor.
+run
+# ** Fatal: (vsim-3421) Value 5 is out of range 0 to 4.
+#    Time: 100 ps  Iteration: 1  Process: /checkdeps_tb/stim_proc File: C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd
+# Fatal error in Process stim_proc at C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd line 80
+# 
+# HDL call sequence:
+# Stopped at C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd 80 Process stim_proc
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# 
-# 
-vsim -gui work.uihandlerrom_tb
-# vsim -gui work.uihandlerrom_tb 
-# Start time: 00:41:55 on May 25,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.uihandlerrom_tb(testbench)
-# Loading altera_mf.altera_mf_components
-# Loading work.uirom(syn)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading altera_mf.altera_common_conversion(body)
-# Loading altera_mf.altera_device_families(body)
-# Loading altera_mf.altsyncram(translated)
-# Loading work.uihandler(bdf_type)
-# Loading work.uc2(behaviour)
-# Loading work.ui3(behaviour)
-# Loading work.uc1(behaviour)
-# Loading work.ui1(behaviour)
-# Loading work.ui2(behaviour)
-add wave -position insertpoint sim:/uihandlerrom_tb/*
-add wave -position insertpoint sim:/uihandlerrom_tb/uicontrol/*
-add wave -position insertpoint sim:/uihandlerrom_tb/memoria/*
-run -all
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 1 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 3 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 5 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 7 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-#    Time: 9 ns  Iteration: 2  Instance: /uihandlerrom_tb/memoria/altsyncram_component
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
 # 
 # 
 restart -f
-# Loading work.uihandlerrom_tb(testbench)
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-add wave -position insertpoint sim:/uihandlerrom_tb/uicontrol/*
-quit -sim
-# End time: 00:59:56 on May 25,2020, Elapsed time: 0:18:01
-# Errors: 0, Warnings: 30
+# Loading work.checkdeps_tb(testbench)
+run
+# End time: 19:32:37 on May 26,2020, Elapsed time: 0:02:29
+# Errors: 3, Warnings: 0
