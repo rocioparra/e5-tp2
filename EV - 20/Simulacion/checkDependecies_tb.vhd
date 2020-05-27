@@ -35,8 +35,16 @@ architecture testbench of checkDeps_tb is
 		q			: OUT STD_LOGIC_VECTOR (27 DOWNTO 0)
 	);
 	end component;
-	
-	signal instruction_in: STD_LOGIC_VECTOR(13 downto 0);
+	component InstrReg 
+    PORT
+    (
+		from_mem    :  IN  STD_LOGIC_VECTOR(13 downto 0);
+		hold  		:  IN  STD_LOGIC;
+		sys_clk  	:  IN  STD_LOGIC;
+		instrOut	:  OUT STD_LOGIC_VECTOR(13 downto 0)
+    );
+	end component;
+	signal instruction_in,instr2: STD_LOGIC_VECTOR(13 downto 0);
 	signal ui_mem : STD_LOGIC_VECTOR(27 DOWNTO 0);
 	signal sys_clk, hold: STD_LOGIC;
 	--signal hold,KMx,MR,MW: STD_LOGIC;
@@ -60,7 +68,8 @@ begin
 				 ("00011101000100"),  -- ADK W,0x88
 				 ("00011101000100"));  -- ADK W,0x88
 	memoria: uIROM port map (clock => sys_clk, q=>ui_mem, address=>instruction_in(13 downto 7));
-	uicontrol: uIHandler port map (sys_clk => sys_clk, Instruction=>instruction_in, uI_mem=>ui_mem,hold=>hold);
+	uicontrol: uIHandler port map (sys_clk => sys_clk, Instruction=>instr2, uI_mem=>ui_mem,hold=>hold);
+	InstrLatch: InstrReg port map (sys_clk => sys_clk, hold=>hold, from_mem=>instruction_in, instrOut =>instr2);
       -- Clock process definitions
 	clock_process :process
 	begin
@@ -76,7 +85,7 @@ begin
 	stim_proc: process(sys_clk)
 	begin      
 		if(falling_edge(sys_clk)) then
-			if(hold = '0') then
+			if(hold = '0' and instr_i<(N_instr-1)) then
 				instr_i <=instr_i + 1;
 			end if;
 		end if;
