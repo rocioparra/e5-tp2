@@ -21,21 +21,10 @@ END uc1;
 ARCHITECTURE behaviour OF uc1 IS    
 begin
 	
-	T <= T_in;
-	C <= C_in;
-	MW <= M(0);
+	T <= T_in when hold ='0' else "0000000";
+	C <= C_in when hold ='0' else "100010";
+	MW <= M(0); --Esto hay que verificarlo
 	MR <= M(1);
 	
-    process(sys_clk)
-    begin
-        if(rising_edge(sys_clk) ) then
-				if(hold = '0') then
-					
-				else
-					T <= T_in;
-					C <= "100010"; --35= HW_not_operate
-				end if;
-        end if;
-    end process;
 
 END behaviour;
