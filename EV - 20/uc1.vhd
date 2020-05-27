@@ -23,8 +23,8 @@ begin
 	
 	T <= T_in when hold ='0' else "0000000";
 	C <= C_in when hold ='0' else "100010";
-	MW <= M(0); --Esto hay que verificarlo
-	MR <= M(1);
+	MW <= M(0) when hold = '0' else '0'; --Esto hay que verificarlo
+	MR <= M(1) when hold = '0' else '0';
 	
 
 END behaviour;
