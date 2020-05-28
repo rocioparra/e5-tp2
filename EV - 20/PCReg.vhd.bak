@@ -19,11 +19,13 @@ begin
 	PC <=auxPC;
     process(sys_clk)
     begin
-        if(rising_edge(sys_clk) and hold = '0') then
-				auxPC <= std_logic_vector(unsigned(auxPC)+1);
-		  elsif (falling_edge(sys_clk) and pre_load='1' and hold = '0') then
+        if(rising_edge(sys_clk)) then
+			if (pre_load='1') then
 				auxPC <= input;
-		  end if;
+			elsif (hold = '0') then
+				auxPC <= std_logic_vector(unsigned(auxPC)+1);
+			end if;
+        end if;
     end process;
 
 END behaviour;
