@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Thu May 28 12:35:04 2020"
+-- CREATED		"Thu May 28 19:44:08 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -40,7 +40,6 @@ ARCHITECTURE bdf_type OF LatchAluShift IS
 
 COMPONENT alu
 	PORT(cy_in : IN STD_LOGIC;
-		 sys_clk : IN STD_LOGIC;
 		 a : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		 b : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		 ctrl : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -50,8 +49,7 @@ COMPONENT alu
 END COMPONENT;
 
 COMPONENT shifter
-	PORT(sys_clk : IN STD_LOGIC;
-		 ctrl : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	PORT(ctrl : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
 		 input : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		 output : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
@@ -76,7 +74,6 @@ BEGIN
 
 b2v_inst1 : alu
 PORT MAP(cy_in => carry_in,
-		 sys_clk => sys_clk,
 		 a => SYNTHESIZED_WIRE_0,
 		 b => SYNTHESIZED_WIRE_1,
 		 ctrl => ALU_C,
@@ -85,8 +82,7 @@ PORT MAP(cy_in => carry_in,
 
 
 b2v_inst2 : shifter
-PORT MAP(sys_clk => sys_clk,
-		 ctrl => sh,
+PORT MAP(ctrl => sh,
 		 input => SYNTHESIZED_WIRE_2,
 		 output => SYNTHESIZED_WIRE_3);
 
