@@ -13,8 +13,8 @@ ENTITY RegisterBank IS
 		sys_clk	:  IN  STD_LOGIC;
 		M_read	:  IN  STD_LOGIC; -- 1 cuando se trae de memoria al registro
 		To_W	:  IN  STD_LOGIC_VECTOR(15 downto 0); -- El dato de memoria que trae
-		To_A  	:  OUT  STD_LOGIC_VECTOR(15 downto 0);
-		To_B  	:  OUT  STD_LOGIC_VECTOR(15 downto 0);
+		To_A  	:  OUT  STD_LOGIC_VECTOR(15 downto 0):= "0000000000000000";
+		To_B  	:  OUT  STD_LOGIC_VECTOR(15 downto 0):= "0000000000000000";
 		W    	:  OUT STD_LOGIC_VECTOR(15 downto 0)
     );
 END RegisterBank;
@@ -22,7 +22,7 @@ END RegisterBank;
 
 ARCHITECTURE behaviour OF RegisterBank IS   
 	type t_Memory is array (0 to 34) of std_logic_vector(15 downto 0);
-	signal reg_map : t_Memory;
+	signal reg_map : t_Memory := (others=>(others=>'0'));
 begin
 	W  <= reg_map(34);
 	process(sys_clk)

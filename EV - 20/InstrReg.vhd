@@ -8,7 +8,7 @@ ENTITY InstrReg IS
 		from_mem    :  IN  STD_LOGIC_VECTOR(13 downto 0);
 		hold  		:  IN  STD_LOGIC;
 		sys_clk  	:  IN  STD_LOGIC;
-		instrOut	:  OUT STD_LOGIC_VECTOR(13 downto 0)
+		instrOut	:  OUT STD_LOGIC_VECTOR(13 downto 0):="00000000000000"
     );
 END InstrReg;
 

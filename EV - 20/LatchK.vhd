@@ -8,7 +8,7 @@ ENTITY LatchK IS
 		input       :  IN  STD_LOGIC_VECTOR(7 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
 		hold  		:  IN  STD_LOGIC;
-		output    	:  OUT STD_LOGIC_VECTOR(7 downto 0)
+		output    	:  OUT STD_LOGIC_VECTOR(7 downto 0):= "00000000"
     );
 END LatchK;
 

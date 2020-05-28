@@ -9,15 +9,15 @@ ENTITY uI1 IS
 		instruction :  IN  STD_LOGIC_VECTOR(13 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
 		hold 		:  IN  STD_LOGIC;
-		ALUC		:  OUT STD_LOGIC_VECTOR(3 downto 0);
-		sh			:  OUT STD_LOGIC_VECTOR(1 downto 0);
-		KMx			:  OUT STD_LOGIC;
-		M			:  OUT STD_LOGIC_VECTOR(1 downto 0);
-		B			:  OUT STD_LOGIC_VECTOR(5 downto 0);
-		T			:  OUT STD_LOGIC_VECTOR(6 downto 0);
-		C			:  OUT STD_LOGIC_VECTOR(5 downto 0);
-		A			:  OUT STD_LOGIC_VECTOR(4 downto 0);
-		Dadd		:  OUT STD_LOGIC_VECTOR(9 downto 0)
+		ALUC		:  OUT STD_LOGIC_VECTOR(3 downto 0):="1111";
+		sh			:  OUT STD_LOGIC_VECTOR(1 downto 0):="00";
+		KMx			:  OUT STD_LOGIC:='0';
+		M			:  OUT STD_LOGIC_VECTOR(1 downto 0):="00";
+		B			:  OUT STD_LOGIC_VECTOR(5 downto 0):="000000";
+		T			:  OUT STD_LOGIC_VECTOR(6 downto 0):="0000000";
+		C			:  OUT STD_LOGIC_VECTOR(5 downto 0):="100011";
+		A			:  OUT STD_LOGIC_VECTOR(4 downto 0):="00000";
+		Dadd		:  OUT STD_LOGIC_VECTOR(9 downto 0):="0000000000"
     );
 END uI1;
 

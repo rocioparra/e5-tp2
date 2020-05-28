@@ -8,8 +8,8 @@ ENTITY uI3 IS
 		T_in		:  IN STD_LOGIC_VECTOR(6 downto 0);
 		C_in		:  IN STD_LOGIC_VECTOR(5 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
-		T			:  OUT STD_LOGIC_VECTOR(6 downto 0);
-		C			:  OUT STD_LOGIC_VECTOR(5 downto 0)
+		T			:  OUT STD_LOGIC_VECTOR(6 downto 0):="0000000";
+		C			:  OUT STD_LOGIC_VECTOR(5 downto 0):="100011"
     );
 END uI3;
 

@@ -11,8 +11,8 @@ ENTITY ALU IS
 			ctrl        :  IN  STD_LOGIC_VECTOR(3 downto 0);
 			cy_in  		:  IN  STD_LOGIC;
 			sys_clk  	:  IN  STD_LOGIC;
-			cy_out  		:  OUT  STD_LOGIC;
-			output    	:  OUT STD_LOGIC_VECTOR(15 downto 0)
+			cy_out  		:  OUT  STD_LOGIC := '0';
+			output    	:  OUT STD_LOGIC_VECTOR(15 downto 0):= "0000000000000000"
     );
 END ALU;
 

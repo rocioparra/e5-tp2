@@ -13,37 +13,30 @@
 -- refer to the applicable agreement for further details, at
 -- https://fpgasoftware.intel.com/eula.
 
--- PROGRAM		"Quartus Prime"
--- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Thu May 28 12:40:38 2020"
+-- Quartus Prime generated Memory Initialization File (.mif)
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.all; 
+WIDTH=14;
+DEPTH=2048;
 
-LIBRARY altera;
-USE altera.maxplus2.all; 
+ADDRESS_RADIX=HEX;
+DATA_RADIX=BIN;
 
-LIBRARY work;
-
-ENTITY mux_0 IS 
-PORT 
-( 
-	data	:	IN	 STD_LOGIC_VECTOR(1 DOWNTO 0);
-	sel	:	IN	 STD_LOGIC_VECTOR(0 TO 0);
-	result	:	OUT	 STD_LOGIC
-); 
-END mux_0;
-
-ARCHITECTURE bdf_type OF mux_0 IS 
-BEGIN 
-
--- instantiate macrofunction 
-
-b2v_inst : mux
-GENERIC MAP(WIDTH => 2,
-			WIDTHS => 1)
-PORT MAP(data => data,
-		 sel => sel,
-		 result => result);
-
-END bdf_type; 
+CONTENT BEGIN
+	000  :   00000000000000;
+	001  :   00000000000001;
+	002  :   00000000000010;
+	003  :   00000000000011;
+	004  :   00000000000100;
+	005  :   00000000000101;
+	006  :   00000000000110;
+	007  :   00000000000111;
+	008  :   00000000001000;
+	009  :   00000000001001;
+	00A  :   00000000001010;
+	00B  :   00000000001011;
+	00C  :   00000000001100;
+	00D  :   00000000001101;
+	00E  :   00000000001110;
+	00F  :   00000000001111;
+	[010..7FF]  :   00000000000000;
+END;

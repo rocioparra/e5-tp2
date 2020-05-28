@@ -9,7 +9,7 @@ ENTITY KMux IS
 			X       		:  IN  STD_LOGIC_VECTOR(15 downto 0);
 			Y       		:  IN  STD_LOGIC_VECTOR(7 downto 0);
 			sel  			:  IN  STD_LOGIC;
-			output    	:  OUT STD_LOGIC_VECTOR(15 downto 0)
+			output    	:  OUT STD_LOGIC_VECTOR(15 downto 0):= "0000000000000000"
     );
 END KMux;
 
