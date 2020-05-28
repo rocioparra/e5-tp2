@@ -65,7 +65,7 @@ begin
 	instArray <=(("00010011111111"),  -- MOV W,#0xFF
 				 ("00011101000100"),  -- ADK W,0x88
 				 ("01011000000000"),  -- MOM W,0x200 
-				 ("00011101000100"),  -- ADK W,0x88
+				 ("00011100000100"),  -- ADK W,0x88
 				 ("00011101000100"));  -- ADK W,0x88
 	memoria: uIROM port map (clock => sys_clk, q=>ui_mem, address=>instruction_in(13 downto 7));
 	uicontrol: uIHandler port map (sys_clk => sys_clk, Instruction=>instr2, uI_mem=>ui_mem,hold=>hold);

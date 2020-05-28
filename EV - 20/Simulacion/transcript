@@ -1084,3 +1084,68 @@ run
 quit -sim
 # End time: 13:30:44 on May 28,2020, Elapsed time: 0:07:46
 # Errors: 2, Warnings: 0
+vsim -gui work.ev20_tb
+# vsim -gui work.ev20_tb 
+# Start time: 14:52:03 on May 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ev20_tb(testbench)
+# Loading work.ev20(bdf_type)
+# Loading work.cyblock(bdf_type)
+# Loading work.mymux(behaviour)
+# Loading altera_mf.altera_mf_components
+# Loading work.data(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.instrreg(behaviour)
+# Loading work.kmux(behaviour)
+# Loading work.latchalushift(bdf_type)
+# Loading work.alu(behaviour)
+# Loading work.shifter(behaviour)
+# Loading work.latch16(behaviour)
+# Loading work.latchk(behaviour)
+# Loading work.pcreg(behaviour)
+# Loading work.preloadpc(behaviour)
+# Loading work.program(syn)
+# Loading work.registerbank(behaviour)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+# Loading work.uirom(syn)
+add wave -position insertpoint sim:/ev20_tb/ev20Block/*
+run
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_KMux/*
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIControl/*
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIROM/*
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EV20
+# -- Compiling architecture bdf_type of EV20
+# 
+# 
+restart -f
+# Loading work.ev20(bdf_type)
+run
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ps  Iteration: 1  Instance: /ev20_tb/ev20Block/b2v_LAS/b2v_inst1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ps  Iteration: 1  Instance: /ev20_tb/ev20Block/b2v_LAS/b2v_inst1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ps  Iteration: 1  Instance: /ev20_tb/ev20Block/b2v_LAS/b2v_inst1
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_RegBank/*
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_LatchK/*
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_LAS/*
+# End time: 15:09:26 on May 28,2020, Elapsed time: 0:17:23
+# Errors: 0, Warnings: 3
