@@ -25,21 +25,20 @@ ARCHITECTURE behaviour OF RegisterBank IS
 	signal reg_map : t_Memory := (others=>(others=>'0'));
 begin
 	W  <= reg_map(34);
+	To_A <= reg_map(to_integer(unsigned(A))) when to_integer(unsigned(A))<35 else "0000000000000000";
+	To_B <= reg_map(to_integer(unsigned(B))) when to_integer(unsigned(B))<35 else "0000000000000000";
 	process(sys_clk)
     begin
         if(rising_edge(sys_clk)) then
-			if( to_integer(unsigned(C)) < 35 ) then
-				if (M_read = '1') then
-					reg_map(34) <= To_W;
-				else
-					reg_map(to_integer(unsigned(C))) <= From_C;
-				end if;
-				if((M_read = '1') and (to_integer(unsigned(C)) /= 34)) then --Esto hay que verificarlo: Para escribir desde memoria y c al mismo tiempo a registros
-					reg_map(to_integer(unsigned(C))) <= From_C;
-				end if;
-			end if;	
-			To_A <= reg_map(to_integer(unsigned(A)));
-			To_B <= reg_map(to_integer(unsigned(B)));
+			if (M_read = '1') then
+				reg_map(34) <= To_W;
+			elsif( to_integer(unsigned(C)) < 35 ) then
+				reg_map(to_integer(unsigned(C))) <= From_C;
+			end if;
+				--if((M_read = '1') and (to_integer(unsigned(C)) /= 34)) then --Esto hay que verificarlo: Para escribir desde memoria y c al mismo tiempo a registros
+				--	reg_map(to_integer(unsigned(C))) <= From_C;
+				--end if;
+			--end if;	
 		end if;
 	end process;
 

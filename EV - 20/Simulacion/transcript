@@ -1,32 +1,53 @@
-# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
-# OpenFile {C:/e5-tp2/EV - 20/Simulacion/Simulations.mpf}
-# Loading project Simulations
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture behaviour of shifter
-# ** Error: C:/e5-tp2/EV - 20/Shifter.vhd(16): (vcom-1136) Unknown identifier "sel".
-# ** Error: C:/e5-tp2/EV - 20/Shifter.vhd(16): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/Shifter.vhd(17): (vcom-1136) Unknown identifier "sel".
-# ** Error: C:/e5-tp2/EV - 20/Shifter.vhd(17): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
-# ** Error: C:/e5-tp2/EV - 20/Shifter.vhd(19): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture behaviour of shifter
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
+vsim -gui work.ev20_tb
+# vsim -gui work.ev20_tb 
+# Start time: 11:18:55 on Jun 02,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ev20_tb(testbench)
+# Loading work.ev20(bdf_type)
+# Loading work.cyblock(bdf_type)
+# Loading work.mymux(behaviour)
+# Loading altera_mf.altera_mf_components
+# Loading work.data(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.instrreg(behaviour)
+# Loading work.kmux(behaviour)
+# Loading work.latchalushift(bdf_type)
+# Loading work.alu(behaviour)
+# Loading work.shifter(behaviour)
+# Loading work.latch16(behaviour)
+# Loading work.latchk(behaviour)
+# Loading work.pcreg(behaviour)
+# Loading work.preloadpc(behaviour)
+# Loading work.program(syn)
+# Loading work.registerbank(behaviour)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+# Loading work.uirom(syn)
+add wave -position insertpoint sim:/ev20_tb/ev20Block/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_DataRAM/*
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/RegisterBank.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,20 +55,8 @@
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading package NUMERIC_STD
-# -- Compiling entity ALU
-# -- Compiling architecture behaviour of ALU
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ALU
-# -- Compiling architecture behaviour of ALU
+# -- Compiling entity RegisterBank
+# -- Compiling architecture behaviour of RegisterBank
 # 
 # 
 # vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
@@ -315,24 +324,12 @@
 # 
 # 
 # 26 compiles, 0 failed with no errors.
-vsim -gui work.ev20_tb
-# vsim -gui work.ev20_tb 
-# Start time: 19:51:23 on May 28,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
+restart -f
 # Loading work.ev20_tb(testbench)
 # Loading work.ev20(bdf_type)
 # Loading work.cyblock(bdf_type)
 # Loading work.mymux(behaviour)
-# Loading altera_mf.altera_mf_components
 # Loading work.data(syn)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading altera_mf.altera_common_conversion(body)
-# Loading altera_mf.altera_device_families(body)
-# Loading altera_mf.altsyncram(translated)
 # Loading work.instrreg(behaviour)
 # Loading work.kmux(behaviour)
 # Loading work.latchalushift(bdf_type)
@@ -351,11 +348,18 @@ vsim -gui work.ev20_tb
 # Loading work.ui1(behaviour)
 # Loading work.ui2(behaviour)
 # Loading work.uirom(syn)
-add wave -position insertpoint sim:/ev20_tb/ev20Block/*
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIControl/*
 run
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_RegBank/*
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_LAS/*
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
 run
-# End time: 20:40:11 on May 28,2020, Elapsed time: 0:48:48
-# Errors: 0, Warnings: 0
+run
+run
+run
+# End time: 11:26:06 on Jun 02,2020, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 8

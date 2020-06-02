@@ -21,9 +21,9 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 0 0 216 128)
+	(rect 0 0 216 144)
 	(text "uIROM" (rect 81 0 128 16)(font "Arial" (font_size 10)))
-	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(text "inst" (rect 8 128 25 140)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -39,6 +39,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 112)(pt 80 112))
 	)
 	(port
+		(pt 0 128)
+		(input)
+		(text "clken" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clken" (rect 4 112 33 127)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
 		(pt 216 32)
 		(output)
 		(text "q[27..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
@@ -48,7 +55,7 @@ https://fpgasoftware.intel.com/eula.
 	(drawing
 		(text "28 bits" (rect 106 29 198 170)(font "Arial" )(vertical))
 		(text "128 words" (rect 120 16 223 192)(font "Arial" )(vertical))
-		(text "Block type: AUTO" (rect 48 111 186 236)(font "Arial" ))
+		(text "Block type: AUTO" (rect 48 127 186 268)(font "Arial" ))
 		(line (pt 104 24)(pt 136 24))
 		(line (pt 136 24)(pt 136 96))
 		(line (pt 136 96)(pt 104 96))
@@ -65,9 +72,9 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 96 32)(pt 104 32)(line_width 3))
 		(line (pt 80 112)(pt 80 36))
 		(line (pt 0 0)(pt 217 0))
-		(line (pt 217 0)(pt 217 130))
-		(line (pt 0 130)(pt 217 130))
-		(line (pt 0 0)(pt 0 130))
+		(line (pt 217 0)(pt 217 146))
+		(line (pt 0 146)(pt 217 146))
+		(line (pt 0 0)(pt 0 146))
 		(line (pt 0 0)(pt 0 0))
 		(line (pt 0 0)(pt 0 0))
 		(line (pt 0 0)(pt 0 0))

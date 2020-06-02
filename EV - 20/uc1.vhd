@@ -22,8 +22,8 @@ ARCHITECTURE behaviour OF uc1 IS
 begin
 	
 	T <= T_in when hold ='0' else "0000000";
-	C <= C_in when hold ='0' else "100010";
-	MW <= M(0) when hold = '0' else '0'; --Esto hay que verificarlo
+	C <= C_in when hold ='0' else "100011";
+	MW <= M(0) when hold = '0' else '0'; 
 	MR <= M(1) when hold = '0' else '0';
 	
 

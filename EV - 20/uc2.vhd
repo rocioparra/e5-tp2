@@ -33,6 +33,8 @@ begin
 	
 					 (T2(WR) and (T4(WW) or T5(WW)))='1' 	or
 					 
+					 (T2(WW) and (T4(WW) or T5(WW)))='1' 	or --Para el caso de que se traiga de memoria a W, pero otra línea que iba a poner algo en W no terminó de pasar
+					 
 					 (T2(RR)='1' and T4(RW)='1' and ((A2=C4(4 downto 0)) or (B2=C4)) ) 	or
 					 
 					 (T2(RR)='1' and T5(RW)='1' and ((A2=C5(4 downto 0)) or (B2=C5)) ) ) 		else 	

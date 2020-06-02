@@ -1,32 +1,29 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /checkdeps_tb/instruction_in
-add wave -noupdate /checkdeps_tb/instr2
-add wave -noupdate /checkdeps_tb/ui_mem
-add wave -noupdate /checkdeps_tb/sys_clk
-add wave -noupdate /checkdeps_tb/hold
-add wave -noupdate /checkdeps_tb/instArray
-add wave -noupdate /checkdeps_tb/simulationEnded
-add wave -noupdate /checkdeps_tb/instr_i
-add wave -noupdate /checkdeps_tb/uicontrol/sys_clk
-add wave -noupdate /checkdeps_tb/uicontrol/Instruction
-add wave -noupdate /checkdeps_tb/uicontrol/uI_mem
-add wave -noupdate /checkdeps_tb/uicontrol/KMx
-add wave -noupdate /checkdeps_tb/uicontrol/MR
-add wave -noupdate /checkdeps_tb/uicontrol/MW
-add wave -noupdate /checkdeps_tb/uicontrol/hold
-add wave -noupdate /checkdeps_tb/uicontrol/A
-add wave -noupdate /checkdeps_tb/uicontrol/ALUC
-add wave -noupdate /checkdeps_tb/uicontrol/B
-add wave -noupdate /checkdeps_tb/uicontrol/C
-add wave -noupdate /checkdeps_tb/uicontrol/DAdd
-add wave -noupdate /checkdeps_tb/uicontrol/sh
-add wave -noupdate /checkdeps_tb/uicontrol/T
-add wave -noupdate /checkdeps_tb/uicontrol/hold_ALTERA_SYNTHESIZED
+add wave -noupdate /ev20_tb/ev20Block/sys_clk
+add wave -noupdate -radix unsigned /ev20_tb/ev20Block/PC
+add wave -noupdate /ev20_tb/ev20Block/preInstr
+add wave -noupdate /ev20_tb/ev20Block/Instruction
+add wave -noupdate /ev20_tb/ev20Block/uIFromROM
+add wave -noupdate /ev20_tb/ev20Block/A
+add wave -noupdate /ev20_tb/ev20Block/ALUC
+add wave -noupdate /ev20_tb/ev20Block/B
+add wave -noupdate /ev20_tb/ev20Block/C
+add wave -noupdate /ev20_tb/ev20Block/carry
+add wave -noupdate /ev20_tb/ev20Block/DAdd
+add wave -noupdate /ev20_tb/ev20Block/From_C
+add wave -noupdate /ev20_tb/ev20Block/hold
+add wave -noupdate /ev20_tb/ev20Block/kMuxc
+add wave -noupdate /ev20_tb/ev20Block/MR
+add wave -noupdate /ev20_tb/ev20Block/MW
+add wave -noupdate /ev20_tb/ev20Block/preLoad
+add wave -noupdate /ev20_tb/ev20Block/To_A
+add wave -noupdate /ev20_tb/ev20Block/To_B
+add wave -noupdate /ev20_tb/ev20Block/W
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {90 ps} 0}
+WaveRestoreCursors {{Cursor 1} {62 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 201
+configure wave -namecolwidth 318
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
@@ -40,4 +37,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {129 ps}
+WaveRestoreZoom {0 ps} {86 ps}

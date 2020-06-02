@@ -44,6 +44,7 @@ ENTITY uIROM IS
 	PORT
 	(
 		address		: IN STD_LOGIC_VECTOR (6 DOWNTO 0);
+		clken		: IN STD_LOGIC  := '1';
 		clock		: IN STD_LOGIC  := '1';
 		q		: OUT STD_LOGIC_VECTOR (27 DOWNTO 0)
 	);
@@ -60,7 +61,7 @@ BEGIN
 	altsyncram_component : altsyncram
 	GENERIC MAP (
 		address_aclr_a => "NONE",
-		clock_enable_input_a => "BYPASS",
+		clock_enable_input_a => "NORMAL",
 		clock_enable_output_a => "BYPASS",
 		init_file => "uIROM.mif",
 		intended_device_family => "Cyclone IV E",
@@ -77,6 +78,7 @@ BEGIN
 	PORT MAP (
 		address_a => address,
 		clock0 => clock,
+		clocken0 => clken,
 		q_a => sub_wire0
 	);
 
@@ -94,9 +96,9 @@ END SYN;
 -- Retrieval info: PRIVATE: BYTE_ENABLE NUMERIC "0"
 -- Retrieval info: PRIVATE: BYTE_SIZE NUMERIC "8"
 -- Retrieval info: PRIVATE: BlankMemory NUMERIC "0"
--- Retrieval info: PRIVATE: CLOCK_ENABLE_INPUT_A NUMERIC "0"
+-- Retrieval info: PRIVATE: CLOCK_ENABLE_INPUT_A NUMERIC "1"
 -- Retrieval info: PRIVATE: CLOCK_ENABLE_OUTPUT_A NUMERIC "0"
--- Retrieval info: PRIVATE: Clken NUMERIC "0"
+-- Retrieval info: PRIVATE: Clken NUMERIC "1"
 -- Retrieval info: PRIVATE: IMPLEMENT_IN_LES NUMERIC "0"
 -- Retrieval info: PRIVATE: INIT_FILE_LAYOUT STRING "PORT_A"
 -- Retrieval info: PRIVATE: INIT_TO_SIM_X NUMERIC "0"
@@ -117,7 +119,7 @@ END SYN;
 -- Retrieval info: PRIVATE: rden NUMERIC "0"
 -- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 -- Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
--- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
+-- Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "NORMAL"
 -- Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
 -- Retrieval info: CONSTANT: INIT_FILE STRING "uIROM.mif"
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone IV E"
@@ -131,10 +133,12 @@ END SYN;
 -- Retrieval info: CONSTANT: WIDTH_A NUMERIC "28"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
 -- Retrieval info: USED_PORT: address 0 0 7 0 INPUT NODEFVAL "address[6..0]"
+-- Retrieval info: USED_PORT: clken 0 0 0 0 INPUT VCC "clken"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
 -- Retrieval info: USED_PORT: q 0 0 28 0 OUTPUT NODEFVAL "q[27..0]"
 -- Retrieval info: CONNECT: @address_a 0 0 7 0 address 0 0 7 0
 -- Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
+-- Retrieval info: CONNECT: @clocken0 0 0 0 0 clken 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 28 0 @q_a 0 0 28 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL uIROM.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL uIROM.inc FALSE
