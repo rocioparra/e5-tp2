@@ -33,8 +33,10 @@ begin
 			M		<= uI_mem(20 downto 19);
 			B		<= uI_mem(18 downto 13);
 			T		<= uI_mem(6 downto 0); --últimos bits en la rom
-			if(instruction(13 downto 11) = "001") then
+			if(instruction(13 downto 10) = "0010") then
 				C 	<= instruction(10 downto 5);
+			elsif(instruction(13 downto 10) = "0011") then --para estos casos el primer uno no era válido
+				C 	<= '0' & instruction(9 downto 5);
 			else
 				C	<= uI_mem(12 downto 7);
 			end if;
