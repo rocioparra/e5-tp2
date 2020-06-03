@@ -29,9 +29,9 @@ ARCHITECTURE behaviour OF uc2 IS
 	constant CW : integer := 5;
 	constant J  : integer := 6;
 begin
-    hold <= '1' when((T2(CR) and (T4(CW) or T5(CW)))='1'	or	
-	
-					 (T2(WR) and (T4(WW) or T5(WW)))='1' 	or
+    hold <= '1' when((T2(WR) and (T4(WW) or T5(WW)))='1' 	or
+				
+				   --(T2(CR) and (T4(CW) or T5(CW)))='1'	or	 --Este me parece que en realidad no va, no importa que cambie el carry				 
 					 
 					 (T2(WW) and (T4(WW) or T5(WW)))='1' 	or --Para el caso de que se traiga de memoria a W, pero otra línea que iba a poner algo en W no terminó de pasar
 					 

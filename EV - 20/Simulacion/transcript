@@ -1,9 +1,11 @@
 # Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile {C:/e5-tp2/EV - 20/Simulacion/Simulations.mpf}
 # Loading project Simulations
+wave.do
+# couldn't execute ".\wave.do": no such file or directory
 vsim -gui work.ev20_tb
 # vsim -gui work.ev20_tb 
-# Start time: 00:14:38 on Jun 03,2020
+# Start time: 08:27:49 on Jun 03,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -37,72 +39,9 @@ vsim -gui work.ev20_tb
 # Loading work.ui1(behaviour)
 # Loading work.ui2(behaviour)
 # Loading work.uirom(syn)
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
-#  Trace back: invalid command name ""
-#     while executing
-# "{} idsToReferencePaths 1 {}"
-#     ("uplevel" body line 1)
-#     invoked from within
-# "uplevel 1 [lrange $args 0 end-1] [lindex $args end]"
-#     (procedure "applyToList" line 2)
-#     invoked from within
-# "applyToList $treeView idsToReferencePaths $useIds $top $expanded"
-#     (procedure "_resetTree" line 29)
-#     invoked from within
-# "_resetTree $w"
-#     (procedure "sort" line 6)
-#     invoked from within
-# "sort $w $col $dir"
-#     (procedure "structsort" line 9)
-#     invoked from within
-# "structsort .main_pane.structure 0 ascending"
-#     (in namespace inscope "::QStructure" script line 1)
-#     invoked from within
-# "namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending"
-#     ("eval" body line 1)
-#     invoked from within
-# "eval $itk_option(-sortcommand) $column $dir"
-#     (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 26)
-#     invoked from within
-# "sort $sortIdx $dir"
-#     (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
-#     invoked from within
-# "::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
-#     (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
-#     invoked from within
-# "namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
-#     ("after" script)
-#    <2:C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ""}
-#    <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ""}
-add wave -position insertpoint sim:/ev20_tb/ev20Block/*
-restart -f
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# Can't move the Now cursor.
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_CarryBlock/*
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_RegBank/*
-restart -f
+wave.do
+# couldn't execute ".\wave.do": no such file or directory
+do {C:/e5-tp2/EV - 20/Simulacion/wave.do}
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
@@ -118,127 +57,77 @@ run
 run
 run
 run
-run
-run
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIControl/*
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ALU
-# -- Compiling architecture behaviour of ALU
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_mf_components
-# -- Compiling entity Data
-# -- Compiling architecture SYN of data
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/InstrReg.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity InstrReg
-# -- Compiling architecture behaviour of InstrReg
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/KMux.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity KMux
-# -- Compiling architecture behaviour of KMux
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/latch16.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity Latch16
-# -- Compiling architecture behaviour of Latch16
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCReg.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity PCReg
-# -- Compiling architecture behaviour of PCReg
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity preLoadPC
-# -- Compiling architecture behaviour of preLoadPC
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Program.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_mf_components
-# -- Compiling entity Program
-# -- Compiling architecture SYN of program
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/RegisterBank.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity RegisterBank
-# -- Compiling architecture behaviour of RegisterBank
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity shifter
-# -- Compiling architecture behaviour of shifter
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uc1
-# -- Compiling architecture behaviour of uc1
-# 
-# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
@@ -247,194 +136,6 @@ add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIControl/*
 # -- Loading package NUMERIC_STD
 # -- Compiling entity uc2
 # -- Compiling architecture behaviour of uc2
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uI1
-# -- Compiling architecture behaviour of uI1
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI2.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uI2
-# -- Compiling architecture behaviour of uI2
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI3.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uI3
-# -- Compiling architecture behaviour of uI3
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity uIHandler
-# -- Compiling architecture bdf_type of uIHandler
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIROM.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package altera_mf_components
-# -- Compiling entity uIROM
-# -- Compiling architecture SYN of uirom
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uIHandlerROM_tb
-# -- Compiling architecture testbench of uIHandlerROM_tb
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity checkDeps_tb
-# -- Compiling architecture testbench of checkDeps_tb
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity cyblock_tb
-# -- Compiling architecture testbench of cyblock_tb
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/CYBlock.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity CYBlock
-# -- Compiling architecture bdf_type of CYBlock
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity EV20
-# -- Compiling architecture bdf_type of EV20
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity EV20_tb
-# -- Compiling architecture testbench of EV20_tb
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchAluShift.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity LatchAluShift
-# -- Compiling architecture bdf_type of LatchAluShift
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchK.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity LatchK
-# -- Compiling architecture behaviour of LatchK
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/mymux.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity myMux
-# -- Compiling architecture behaviour of myMux
-# 
-# 
-# 26 compiles, 0 failed with no errors.
-restart -f
-# Loading work.ev20_tb(testbench)
-# Loading work.ev20(bdf_type)
-# Loading work.cyblock(bdf_type)
-# Loading work.mymux(behaviour)
-# Loading work.data(syn)
-# Loading work.instrreg(behaviour)
-# Loading work.kmux(behaviour)
-# Loading work.latchalushift(bdf_type)
-# Loading work.alu(behaviour)
-# Loading work.shifter(behaviour)
-# Loading work.latch16(behaviour)
-# Loading work.latchk(behaviour)
-# Loading work.pcreg(behaviour)
-# Loading work.preloadpc(behaviour)
-# Loading work.program(syn)
-# Loading work.registerbank(behaviour)
-# Loading work.uihandler(bdf_type)
-# Loading work.uc2(behaviour)
-# Loading work.ui3(behaviour)
-# Loading work.uc1(behaviour)
-# Loading work.ui1(behaviour)
-# Loading work.ui2(behaviour)
-# Loading work.uirom(syn)
-add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_uIControl/*
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
-run
-run
-run
-run
-run
-run
-run
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity uI1
-# -- Compiling architecture behaviour of uI1
 # 
 # 
 # vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
@@ -741,7 +442,357 @@ run
 run
 run
 run
+
 run
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/e5-tp2/EV - 20/Simulacion/wave.do}
-# End time: 01:27:12 on Jun 03,2020, Elapsed time: 1:12:34
-# Errors: 15, Warnings: 16
+run
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI1
+# -- Compiling architecture behaviour of uI1
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture behaviour of ALU
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity Data
+# -- Compiling architecture SYN of data
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/InstrReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity InstrReg
+# -- Compiling architecture behaviour of InstrReg
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/KMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity KMux
+# -- Compiling architecture behaviour of KMux
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/latch16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Latch16
+# -- Compiling architecture behaviour of Latch16
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCReg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PCReg
+# -- Compiling architecture behaviour of PCReg
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity preLoadPC
+# -- Compiling architecture behaviour of preLoadPC
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Program.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity Program
+# -- Compiling architecture SYN of program
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/RegisterBank.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegisterBank
+# -- Compiling architecture behaviour of RegisterBank
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shifter
+# -- Compiling architecture behaviour of shifter
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uc1
+# -- Compiling architecture behaviour of uc1
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uc2
+# -- Compiling architecture behaviour of uc2
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI1
+# -- Compiling architecture behaviour of uI1
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI2
+# -- Compiling architecture behaviour of uI2
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uI3
+# -- Compiling architecture behaviour of uI3
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uIHandler
+# -- Compiling architecture bdf_type of uIHandler
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIROM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity uIROM
+# -- Compiling architecture SYN of uirom
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uIHandlerROM_tb
+# -- Compiling architecture testbench of uIHandlerROM_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity checkDeps_tb
+# -- Compiling architecture testbench of checkDeps_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cyblock_tb
+# -- Compiling architecture testbench of cyblock_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/CYBlock.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CYBlock
+# -- Compiling architecture bdf_type of CYBlock
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EV20
+# -- Compiling architecture bdf_type of EV20
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity EV20_tb
+# -- Compiling architecture testbench of EV20_tb
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchAluShift.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LatchAluShift
+# -- Compiling architecture bdf_type of LatchAluShift
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchK.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity LatchK
+# -- Compiling architecture behaviour of LatchK
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/mymux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity myMux
+# -- Compiling architecture behaviour of myMux
+# 
+# 
+# 26 compiles, 0 failed with no errors.
+restart -f
+# Loading work.ev20_tb(testbench)
+# Loading work.ev20(bdf_type)
+# Loading work.cyblock(bdf_type)
+# Loading work.mymux(behaviour)
+# Loading work.data(syn)
+# Loading work.instrreg(behaviour)
+# Loading work.kmux(behaviour)
+# Loading work.latchalushift(bdf_type)
+# Loading work.alu(behaviour)
+# Loading work.shifter(behaviour)
+# Loading work.latch16(behaviour)
+# Loading work.latchk(behaviour)
+# Loading work.pcreg(behaviour)
+# Loading work.preloadpc(behaviour)
+# Loading work.program(syn)
+# Loading work.registerbank(behaviour)
+# Loading work.uihandler(bdf_type)
+# Loading work.uc2(behaviour)
+# Loading work.ui3(behaviour)
+# Loading work.uc1(behaviour)
+# Loading work.ui1(behaviour)
+# Loading work.ui2(behaviour)
+# Loading work.uirom(syn)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+restart -f
+
+restart -f
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_LAS/*
+restart -f
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+
+run
+run
+run
+run
+run
+# End time: 10:00:01 on Jun 03,2020, Elapsed time: 1:32:12
+# Errors: 1, Warnings: 20
