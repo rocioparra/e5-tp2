@@ -21,12 +21,20 @@ DEPTH=2048;
 ADDRESS_RADIX=HEX;
 DATA_RADIX=BIN;
 
+--En este código intentamos usar todas las funciones que no usamos hasta ahora sin jumps
 CONTENT BEGIN
-	000  :   00010011111111;       -- MOV W,#0xFF
-	001  :   00011100000001;       -- ADK W,0x01
-	002  :   00011100000001;       -- ADK W,0x01
---	002  :   01011000000000;       -- MOM W,0x200
-	003  :   00011100000100;       -- ADK W,0x01
-	004  :   00011100000100;       -- ADK W,0x01
-	[005..7FF]  :   00011100000100; -- ADK W,0x01
+	000  :   00010000110010;       -- MOK W,50
+	001	 :   00110000000000;       -- MOV R0,W
+	002  :   00100000100000;       -- MOV R1,R0
+	003  :   00101111000001;       -- MOV PO0,R1
+	004  :   00000100000000;       -- SET CY
+	005  :   00000010000000;       -- CLR CY
+	006  :   00000100000000;       -- SET CY
+	007  :	 01100001000001;	   -- ADW R2,R1
+	008	 :   00001110000000;	   -- ADR W,R0
+	009	 :   00001100000010;	   -- ORR W,R2
+	00A  :   00010000000000;       -- MOK W,50
+	00B  :   00000000000000;       -- CPL W
+	00C  :   00011111111111; 	   -- ADK W,0xFF Esto debería poner el carry en 1
+	[00D..7FF]  :   00011100000100; -- ADK W,0x01
 END;
