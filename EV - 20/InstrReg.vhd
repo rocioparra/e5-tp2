@@ -5,10 +5,10 @@ use ieee.numeric_std.all;   -- Needed for shifts
 ENTITY InstrReg IS 
     PORT
     (
-		from_mem    :  IN  STD_LOGIC_VECTOR(13 downto 0);
+		from_mem    :  IN  STD_LOGIC_VECTOR(21 downto 0);
 		hold  		:  IN  STD_LOGIC;
 		sys_clk  	:  IN  STD_LOGIC;
-		instrOut	:  OUT STD_LOGIC_VECTOR(13 downto 0):="00000000000000"
+		instrOut	:  OUT STD_LOGIC_VECTOR(21 downto 0):="0000000000000000000000"
     );
 END InstrReg;
 

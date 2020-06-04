@@ -27,8 +27,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 32)
 		(input)
-		(text "from_mem[13..0]" (rect 0 0 70 12)(font "Arial" ))
-		(text "from_mem[13..0]" (rect 21 27 91 39)(font "Arial" ))
+		(text "from_mem[21..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "from_mem[21..0]" (rect 21 27 91 39)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -48,8 +48,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 224 32)
 		(output)
-		(text "instrOut[13..0]" (rect 0 0 54 12)(font "Arial" ))
-		(text "instrOut[13..0]" (rect 149 27 203 39)(font "Arial" ))
+		(text "instrOut[21..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "instrOut[21..0]" (rect 149 27 203 39)(font "Arial" ))
 		(line (pt 224 32)(pt 208 32)(line_width 3))
 	)
 	(drawing

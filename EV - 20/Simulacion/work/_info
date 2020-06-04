@@ -24,9 +24,9 @@ V@_BW@Y4_PnH96D1>TDze[1
 !s100 ]H2m2e0^22bGIUO0SYc3n0
 Z9 OV;C;10.5b;63
 32
-Z10 !s110 1591304010
+Z10 !s110 1591305452
 !i10b 1
-Z11 !s108 1591304010.000000
+Z11 !s108 1591305452.000000
 Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/ALU.vhd|
 Z13 !s107 C:/e5-tp2/EV - 20/ALU.vhd|
 !i113 1
@@ -38,7 +38,7 @@ R2
 R3
 R4
 R5
-Z16 DEx4 work 3 alu 0 22 @_BW@Y4_PnH96D1>TDze[1
+DEx4 work 3 alu 0 22 @_BW@Y4_PnH96D1>TDze[1
 l20
 L18
 V=bc<1Dck4ee9WGOznZn9=1
@@ -54,24 +54,24 @@ R13
 R14
 R15
 Ealu_tb
-Z17 w1589938691
+Z16 w1589938691
 R1
 R4
 R5
-Z18 dC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion
-Z19 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd
-Z20 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd
+Z17 dC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion
+Z18 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd
+Z19 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd
 l0
 L5
 V<T2<I@Czd@bX2f[kGho:Q1
 !s100 XGjn7i0n=AQ1HVeB7h1<61
 R9
 32
-Z21 !s110 1590072770
+Z20 !s110 1590072770
 !i10b 1
-Z22 !s108 1590072770.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd|
-Z24 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd|
+Z21 !s108 1590072770.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd|
+Z23 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/ALU_tb.vhd|
 !i113 1
 R14
 R15
@@ -86,33 +86,33 @@ V13Bl1bk?VRgF@LY400HiQ2
 !s100 <DSI^?N>Z@e<<[8ADf`lT1
 R9
 32
-R21
+R20
 !i10b 1
+R21
 R22
 R23
-R24
 !i113 1
 R14
 R15
 Echeckdeps_tb
-Z25 w1590688296
+Z24 w1590688296
 R1
 R4
 R5
 R6
-Z26 8C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd
-Z27 FC:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd
+Z25 8C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd
+Z26 FC:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd
 l0
 L5
 V@Y9DEbl7JX_el634j2dMN0
 !s100 Nn><:F8HZMHjVmcJchI_40
 R9
 32
-Z28 !s110 1591303537
+Z27 !s110 1591305454
 !i10b 1
-Z29 !s108 1591303537.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd|
-Z31 !s107 C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd|
+Z28 !s108 1591305454.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd|
+Z30 !s107 C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd|
 !i113 1
 R14
 R15
@@ -127,32 +127,32 @@ V?Eh4:ARkJ`Pe0W;>e>=Pg2
 !s100 A1TdU56`>>M@@Q>bKKnVL2
 R9
 32
-R28
+R27
 !i10b 1
+R28
 R29
 R30
-R31
 !i113 1
 R14
 R15
 Ecyblock
-Z32 w1591232468
+Z31 w1591232468
 R4
 R5
 R6
-Z33 8C:/e5-tp2/EV - 20/CYBlock.vhd
-Z34 FC:/e5-tp2/EV - 20/CYBlock.vhd
+Z32 8C:/e5-tp2/EV - 20/CYBlock.vhd
+Z33 FC:/e5-tp2/EV - 20/CYBlock.vhd
 l0
 L25
 VfV`bab?]U0<MPkWRNNhHn3
 !s100 0CfbkYQcTlo8AO31;OZeb3
 R9
 32
-R28
+Z34 !s110 1591305455
 !i10b 1
-R29
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/CYBlock.vhd|
-Z36 !s107 C:/e5-tp2/EV - 20/CYBlock.vhd|
+Z35 !s108 1591305455.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/CYBlock.vhd|
+Z37 !s107 C:/e5-tp2/EV - 20/CYBlock.vhd|
 !i113 1
 R14
 R15
@@ -166,33 +166,33 @@ V^_ENPKh?2E0GoK:OHlV8:0
 !s100 @H^Hk7zZzi;6`R?[LUH?93
 R9
 32
-R28
+R34
 !i10b 1
-R29
 R35
 R36
+R37
 !i113 1
 R14
 R15
 Ecyblock_tb
-Z37 w1590636247
+Z38 w1590636247
 R1
 R4
 R5
 R6
-Z38 8C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd
-Z39 FC:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd
+Z39 8C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd
+Z40 FC:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd
 l0
 L5
 VUNSahoc6OK@5el=ViO4ba1
 !s100 iUL[3dV5g1PiW?7be56]^0
 R9
 32
-R28
+R34
 !i10b 1
-R29
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd|
-Z41 !s107 C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd|
+R35
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd|
+Z42 !s107 C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd|
 !i113 1
 R14
 R15
@@ -207,38 +207,38 @@ V8lTWzHQimN:<0I:Rl98DQ0
 !s100 oM1b=3JoXEzLM7Kf=BL6g1
 R9
 32
-R28
+R34
 !i10b 1
-R29
-R40
+R35
 R41
+R42
 !i113 1
 R14
 R15
 Edata
-R32
-Z42 DPx9 altera_mf 20 altera_mf_components 0 22 :YRc5<ojH^WgP]^Vezi9c1
+R31
+Z43 DPx9 altera_mf 20 altera_mf_components 0 22 :YRc5<ojH^WgP]^Vezi9c1
 R4
 R5
 R6
-Z43 8C:/e5-tp2/EV - 20/Data.vhd
-Z44 FC:/e5-tp2/EV - 20/Data.vhd
+Z44 8C:/e5-tp2/EV - 20/Data.vhd
+Z45 FC:/e5-tp2/EV - 20/Data.vhd
 l0
 L43
 VL8`VO[9<;`SR]nOD9b9jF3
 !s100 JYCKIV1NQlGnGIok[Ob2i0
 R9
 32
-Z45 !s110 1591303534
+R10
 !i10b 1
-Z46 !s108 1591303534.000000
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Data.vhd|
-Z48 !s107 C:/e5-tp2/EV - 20/Data.vhd|
+R11
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Data.vhd|
+Z47 !s107 C:/e5-tp2/EV - 20/Data.vhd|
 !i113 1
 R14
 R15
 Asyn
-R42
+R43
 R4
 R5
 DEx4 work 4 data 0 22 L8`VO[9<;`SR]nOD9b9jF3
@@ -248,16 +248,16 @@ VM@=ji`UQX=l0R=AT6?Q8R2
 !s100 01LZ=oBmJUO2NC<I^QKDR0
 R9
 32
-R45
+R10
 !i10b 1
+R11
 R46
 R47
-R48
 !i113 1
 R14
 R15
 Eev20
-R32
+Z48 w1591305468
 R4
 R5
 R6
@@ -269,51 +269,51 @@ V;O^^ok1bH^o[BU5Ozf^CG1
 !s100 C1kdL5eWjI8[I6D9TY78D1
 R9
 32
-R28
+Z51 !s110 1591305474
 !i10b 1
-R29
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/EV20.vhd|
-Z52 !s107 C:/e5-tp2/EV - 20/EV20.vhd|
+Z52 !s108 1591305474.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/EV20.vhd|
+Z54 !s107 C:/e5-tp2/EV - 20/EV20.vhd|
 !i113 1
 R14
 R15
 Abdf_type
 R4
 R5
-DEx4 work 4 ev20 0 22 ;O^^ok1bH^o[BU5Ozf^CG1
-l179
+Z55 DEx4 work 4 ev20 0 22 ;O^^ok1bH^o[BU5Ozf^CG1
+l180
 L32
-V_GNo5JhkPJU:VWWAY<VI=3
-!s100 Y7lQ<PVmQ@nig]O5Z^h3I0
+VYkSaV26AcmZFMQMgYn:G_2
+!s100 20aa?PY`b:cRl>UGC21RM0
 R9
 32
-R28
-!i10b 1
-R29
 R51
+!i10b 1
 R52
+R53
+R54
 !i113 1
 R14
 R15
 Eev20_tb
-Z53 w1590679265
+Z56 w1590679265
 R1
 R4
 R5
 R6
-Z54 8C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd
-Z55 FC:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd
+Z57 8C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd
+Z58 FC:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd
 l0
 L5
 V1fj7=:CR>mKcI_J2koDZS1
 !s100 7Y^AlFXSPU8J0KU7LlZjU0
 R9
 32
-R28
+R34
 !i10b 1
-R29
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd|
-Z57 !s107 C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd|
+R35
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd|
+Z60 !s107 C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd|
 !i113 1
 R14
 R15
@@ -328,33 +328,33 @@ VBOPdbP[Z0_nLFzknIZbg93
 !s100 JNKPOADaz>mE<E?Q2he[f1
 R9
 32
-R28
+R34
 !i10b 1
-R29
-R56
-R57
+R35
+R59
+R60
 !i113 1
 R14
 R15
 Einstrreg
-R32
+Z61 w1591304971
 R1
 R4
 R5
 R6
-Z58 8C:/e5-tp2/EV - 20/InstrReg.vhd
-Z59 FC:/e5-tp2/EV - 20/InstrReg.vhd
+Z62 8C:/e5-tp2/EV - 20/InstrReg.vhd
+Z63 FC:/e5-tp2/EV - 20/InstrReg.vhd
 l0
 L5
-Vjk;WDYZKhLNadSfP:I2^L3
-!s100 P8A@=d;CDSce:R>VBR[:i1
+V2[1IeoK[U6cjCQf@U=89Y3
+!s100 V7fiJVOJoQi]Z=gUm]?<_1
 R9
 32
-R45
+R10
 !i10b 1
-R46
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/InstrReg.vhd|
-Z61 !s107 C:/e5-tp2/EV - 20/InstrReg.vhd|
+R11
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/InstrReg.vhd|
+Z65 !s107 C:/e5-tp2/EV - 20/InstrReg.vhd|
 !i113 1
 R14
 R15
@@ -362,42 +362,42 @@ Abehaviour
 R1
 R4
 R5
-DEx4 work 8 instrreg 0 22 jk;WDYZKhLNadSfP:I2^L3
+DEx4 work 8 instrreg 0 22 2[1IeoK[U6cjCQf@U=89Y3
 l17
 L15
 VH2;;9k=3R?iGV[W=o2]8R0
 !s100 3`9Kn;2UbWNYFf[gEh[<F0
 R9
 32
-R45
+R10
 !i10b 1
-R46
-R60
-R61
+R11
+R64
+R65
 !i113 1
 R14
 R15
 Ekmux
-R32
+Z66 w1591305182
 R1
 R2
 R3
 R4
 R5
 R6
-Z62 8C:/e5-tp2/EV - 20/KMux.vhd
-Z63 FC:/e5-tp2/EV - 20/KMux.vhd
+Z67 8C:/e5-tp2/EV - 20/KMux.vhd
+Z68 FC:/e5-tp2/EV - 20/KMux.vhd
 l0
 L6
-V2gMeV6N4BGbGR:Xz[nbMj1
-!s100 [L;<<dlINgM`k6Z^@;Th83
+VVS`I0@11[L?jhnE8EWbI;2
+!s100 FPmYh;Vi1lbgjXlN8@OBg1
 R9
 32
-R45
+R10
 !i10b 1
-R46
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/KMux.vhd|
-Z65 !s107 C:/e5-tp2/EV - 20/KMux.vhd|
+R11
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/KMux.vhd|
+Z70 !s107 C:/e5-tp2/EV - 20/KMux.vhd|
 !i113 1
 R14
 R15
@@ -407,40 +407,40 @@ R2
 R3
 R4
 R5
-DEx4 work 4 kmux 0 22 2gMeV6N4BGbGR:Xz[nbMj1
+DEx4 work 4 kmux 0 22 VS`I0@11[L?jhnE8EWbI;2
 l19
 L17
-V6DeJ?2EkNn0I>=z1O_[FB0
-!s100 5cnHKX7hmaO0O51oHnB3F1
+Vz0QIB]gk[TS8[6_1l;RM@0
+!s100 8PP3;_@TW?da]0cj1BLQB3
 R9
 32
-R45
+R10
 !i10b 1
-R46
-R64
-R65
+R11
+R69
+R70
 !i113 1
 R14
 R15
 Elatch16
-R32
+R31
 R1
 R4
 R5
 R6
-Z66 8C:/e5-tp2/EV - 20/latch16.vhd
-Z67 FC:/e5-tp2/EV - 20/latch16.vhd
+Z71 8C:/e5-tp2/EV - 20/latch16.vhd
+Z72 FC:/e5-tp2/EV - 20/latch16.vhd
 l0
 L5
 Vi``JkIo3bER?N;DLA_^jT1
 !s100 VRLY;Kdjj[ShdehP90ZHT2
 R9
 32
-R45
+R10
 !i10b 1
-R46
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/latch16.vhd|
-Z69 !s107 C:/e5-tp2/EV - 20/latch16.vhd|
+R11
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/latch16.vhd|
+Z74 !s107 C:/e5-tp2/EV - 20/latch16.vhd|
 !i113 1
 R14
 R15
@@ -455,32 +455,32 @@ Vm;`Y@n]AlF>eOf3<CH@;Q3
 !s100 g1:5J@e<VW0oANVbFgB;j2
 R9
 32
-R45
+R10
 !i10b 1
-R46
-R68
-R69
+R11
+R73
+R74
 !i113 1
 R14
 R15
 Elatchalushift
-R32
+R31
 R4
 R5
 R6
-Z70 8C:/e5-tp2/EV - 20/LatchAluShift.vhd
-Z71 FC:/e5-tp2/EV - 20/LatchAluShift.vhd
+Z75 8C:/e5-tp2/EV - 20/LatchAluShift.vhd
+Z76 FC:/e5-tp2/EV - 20/LatchAluShift.vhd
 l0
 L25
 Va;YWl71YboXgfn>JVQ69O1
 !s100 jYlUZ3zZ3@ZkgdK]1QSZ?2
 R9
 32
-R28
+R34
 !i10b 1
-R29
-Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/LatchAluShift.vhd|
-Z73 !s107 C:/e5-tp2/EV - 20/LatchAluShift.vhd|
+R35
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/LatchAluShift.vhd|
+Z78 !s107 C:/e5-tp2/EV - 20/LatchAluShift.vhd|
 !i113 1
 R14
 R15
@@ -494,33 +494,33 @@ VXkbmIJXUNkTICR`ACh_6Y1
 !s100 7b;]0HcM<l0;5@8<ahiM<2
 R9
 32
-R28
+R34
 !i10b 1
-R29
-R72
-R73
+R35
+R77
+R78
 !i113 1
 R14
 R15
 Elatchk
-R32
+Z79 w1591305113
 R1
 R4
 R5
 R6
-Z74 8C:/e5-tp2/EV - 20/LatchK.vhd
-Z75 FC:/e5-tp2/EV - 20/LatchK.vhd
+Z80 8C:/e5-tp2/EV - 20/LatchK.vhd
+Z81 FC:/e5-tp2/EV - 20/LatchK.vhd
 l0
 L5
-V<_@8jYl[LIUo88iF0M=7`0
-!s100 ]dJgM0Al41`_HEX7^llA63
+Vm;R4VBaEjlGXFQINWbaO<2
+!s100 La?Y7@G=zY:>AZz0H5RdZ1
 R9
 32
-Z76 !s110 1591303538
+R34
 !i10b 1
-Z77 !s108 1591303538.000000
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/LatchK.vhd|
-Z79 !s107 C:/e5-tp2/EV - 20/LatchK.vhd|
+R35
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/LatchK.vhd|
+Z83 !s107 C:/e5-tp2/EV - 20/LatchK.vhd|
 !i113 1
 R14
 R15
@@ -528,40 +528,40 @@ Abehaviour
 R1
 R4
 R5
-DEx4 work 6 latchk 0 22 <_@8jYl[LIUo88iF0M=7`0
+DEx4 work 6 latchk 0 22 m;R4VBaEjlGXFQINWbaO<2
 l16
 L15
 VK8eaiDb>>jOZ^>X<4=TH72
 !s100 KBbE4:Fm0d<nF_aoBn5BJ1
 R9
 32
-R76
+R34
 !i10b 1
-R77
-R78
-R79
+R35
+R82
+R83
 !i113 1
 R14
 R15
 Emymux
-R32
+R31
 R1
 R4
 R5
 R6
-Z80 8C:/e5-tp2/EV - 20/mymux.vhd
-Z81 FC:/e5-tp2/EV - 20/mymux.vhd
+Z84 8C:/e5-tp2/EV - 20/mymux.vhd
+Z85 FC:/e5-tp2/EV - 20/mymux.vhd
 l0
 L5
 VSj?z7VRT;VazUD2?8bU3J0
 !s100 jT94NDAVEPF70i5m<NYXa3
 R9
 32
-R76
+R34
 !i10b 1
-R77
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/mymux.vhd|
-Z83 !s107 C:/e5-tp2/EV - 20/mymux.vhd|
+R35
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/mymux.vhd|
+Z87 !s107 C:/e5-tp2/EV - 20/mymux.vhd|
 !i113 1
 R14
 R15
@@ -576,33 +576,33 @@ V6MSYJ6?`]?d8f@i@gggM^2
 !s100 C18c>Ja7TC^UjTLoRk?VT3
 R9
 32
-R76
+R34
 !i10b 1
-R77
-R82
-R83
+R35
+R86
+R87
 !i113 1
 R14
 R15
 Epcreg
-R32
+R31
 R1
 R4
 R5
 R6
-Z84 8C:/e5-tp2/EV - 20/PCReg.vhd
-Z85 FC:/e5-tp2/EV - 20/PCReg.vhd
+Z88 8C:/e5-tp2/EV - 20/PCReg.vhd
+Z89 FC:/e5-tp2/EV - 20/PCReg.vhd
 l0
 L5
 V]FoL[:?CVGzWb9YKZNKG<2
 !s100 Y5_Ak:o7GA49T<>VQ`:Q<3
 R9
 32
-Z86 !s110 1591303535
+R10
 !i10b 1
-R46
-Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/PCReg.vhd|
-Z88 !s107 C:/e5-tp2/EV - 20/PCReg.vhd|
+R11
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/PCReg.vhd|
+Z91 !s107 C:/e5-tp2/EV - 20/PCReg.vhd|
 !i113 1
 R14
 R15
@@ -617,35 +617,35 @@ VV2=^e`VJhCfE^?@KI_zHc3
 !s100 zHndlzIH1J<V0zRzUSo;B2
 R9
 32
-R86
+R10
 !i10b 1
-R46
-R87
-R88
+R11
+R90
+R91
 !i113 1
 R14
 R15
 Epreloadpc
-R32
+R31
 R1
 R2
 R3
 R4
 R5
 R6
-Z89 8C:/e5-tp2/EV - 20/preLoadPC.vhd
-Z90 FC:/e5-tp2/EV - 20/preLoadPC.vhd
+Z92 8C:/e5-tp2/EV - 20/preLoadPC.vhd
+Z93 FC:/e5-tp2/EV - 20/preLoadPC.vhd
 l0
 L6
 V282R2d`6iZecB1H[WJdZR3
 !s100 KB]=1iRKRTfVB0P`WT6;J3
 R9
 32
-R86
+Z94 !s110 1591305453
 !i10b 1
-Z91 !s108 1591303535.000000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/preLoadPC.vhd|
-Z93 !s107 C:/e5-tp2/EV - 20/preLoadPC.vhd|
+Z95 !s108 1591305453.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/preLoadPC.vhd|
+Z97 !s107 C:/e5-tp2/EV - 20/preLoadPC.vhd|
 !i113 1
 R14
 R15
@@ -662,76 +662,76 @@ V5cfFc4<mO@8<SVnJeh0Xd1
 !s100 [dbJ`=T?MWATVNBobI^4b3
 R9
 32
-R86
+R94
 !i10b 1
-R91
-R92
-R93
-!i113 1
-R14
-R15
-Eprogram
-R32
-R42
-R4
-R5
-R6
-Z94 8C:/e5-tp2/EV - 20/Program.vhd
-Z95 FC:/e5-tp2/EV - 20/Program.vhd
-l0
-L43
-VP>PU5mQboiOjoE1S0TAkQ3
-!s100 mSEi4Ra41O;=I3;mAJS5D1
-R9
-32
-R86
-!i10b 1
-R91
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Program.vhd|
-Z97 !s107 C:/e5-tp2/EV - 20/Program.vhd|
-!i113 1
-R14
-R15
-Asyn
-R42
-R4
-R5
-DEx4 work 7 program 0 22 P>PU5mQboiOjoE1S0TAkQ3
-l57
-L53
-V[dW9:^1zW]GRmYzm8YATz3
-!s100 8EeOZMa57iCigLC^A412o3
-R9
-32
-R86
-!i10b 1
-R91
+R95
 R96
 R97
 !i113 1
 R14
 R15
+Eprogram
+Z98 w1591304868
+R43
+R4
+R5
+R6
+Z99 8C:/e5-tp2/EV - 20/Program.vhd
+Z100 FC:/e5-tp2/EV - 20/Program.vhd
+l0
+L43
+VJ2?zRJf;kk`HDX0n:jMf?2
+!s100 n:kMhS?0>Whed3kbTl4eg0
+R9
+32
+R94
+!i10b 1
+R95
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Program.vhd|
+Z102 !s107 C:/e5-tp2/EV - 20/Program.vhd|
+!i113 1
+R14
+R15
+Asyn
+R43
+R4
+R5
+DEx4 work 7 program 0 22 J2?zRJf;kk`HDX0n:jMf?2
+l57
+L53
+VP@olm[Q863FHQ6H77Uz`;1
+!s100 ^?jhi?U;=f_PaEGS^HG2g2
+R9
+32
+R94
+!i10b 1
+R95
+R101
+R102
+!i113 1
+R14
+R15
 Eregisterbank
-R32
+R31
 R1
 R2
 R3
 R4
 R5
 R6
-Z98 8C:/e5-tp2/EV - 20/RegisterBank.vhd
-Z99 FC:/e5-tp2/EV - 20/RegisterBank.vhd
+Z103 8C:/e5-tp2/EV - 20/RegisterBank.vhd
+Z104 FC:/e5-tp2/EV - 20/RegisterBank.vhd
 l0
 L6
 VbP9;V?<P>3?Om;H[a[YN]1
 !s100 l818R<cGeJX:YO4Xg12770
 R9
 32
-R86
+R94
 !i10b 1
-R91
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/RegisterBank.vhd|
-Z101 !s107 C:/e5-tp2/EV - 20/RegisterBank.vhd|
+R95
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/RegisterBank.vhd|
+Z106 !s107 C:/e5-tp2/EV - 20/RegisterBank.vhd|
 !i113 1
 R14
 R15
@@ -748,33 +748,33 @@ Vz2Td<4LFib7_e9=k:91Om2
 !s100 8H7MIlJCXIeJ@LEFl]:YM1
 R9
 32
-R86
+R94
 !i10b 1
-R91
-R100
-R101
+R95
+R105
+R106
 !i113 1
 R14
 R15
 Eregisterbank_tb
-Z102 w1589985839
+Z107 w1589985839
 R1
 R4
 R5
-R18
-Z103 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd
-Z104 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd
+R17
+Z108 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd
+Z109 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd
 l0
 L5
 V6`FM?nmSZ]mi9hZG1]b9_1
 !s100 QJ_Fb684Ub=YTZhL46]9V3
 R9
 32
-R21
+R20
 !i10b 1
-R22
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd|
-Z106 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd|
+R21
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd|
+Z111 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/RegisterBank_tb.vhd|
 !i113 1
 R14
 R15
@@ -789,33 +789,33 @@ VX]JJWbX@lR2TJaD:^Fb;?3
 !s100 mPjI2PlVS[FN[LJTNk;jB3
 R9
 32
-R21
+R20
 !i10b 1
-R22
-R105
-R106
+R21
+R110
+R111
 !i113 1
 R14
 R15
 Eshifter
-R32
+R31
 R1
 R4
 R5
 R6
-Z107 8C:/e5-tp2/EV - 20/Shifter.vhd
-Z108 FC:/e5-tp2/EV - 20/Shifter.vhd
+Z112 8C:/e5-tp2/EV - 20/Shifter.vhd
+Z113 FC:/e5-tp2/EV - 20/Shifter.vhd
 l0
 L5
 V5^NheofZfm[NJgLD@g_HZ3
 !s100 F=19I6<0B9Q:lbPj5D]Se2
 R9
 32
-R86
+R94
 !i10b 1
-R91
-Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Shifter.vhd|
-Z110 !s107 C:/e5-tp2/EV - 20/Shifter.vhd|
+R95
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Shifter.vhd|
+Z115 !s107 C:/e5-tp2/EV - 20/Shifter.vhd|
 !i113 1
 R14
 R15
@@ -830,33 +830,33 @@ V5C>NFHPIjiRb`Cokd^3Zz1
 !s100 n5B=E`9L_E?ISGkZYhVlH2
 R9
 32
-R86
+R94
 !i10b 1
-R91
-R109
-R110
+R95
+R114
+R115
 !i113 1
 R14
 R15
 Eshifter_tb
-R17
+R16
 R1
 R4
 R5
-R18
-Z111 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd
-Z112 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd
+R17
+Z116 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd
+Z117 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd
 l0
 L5
 Vn]>mk1A9ZR8T1hMV1WcIl1
 !s100 J8E[HNXZjka>W`_00T3Kf1
 R9
 32
-R21
+R20
 !i10b 1
-R22
-Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd|
-Z114 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd|
+R21
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd|
+Z119 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/Shifter_tb.vhd|
 !i113 1
 R14
 R15
@@ -871,33 +871,33 @@ VKmjY9kWlQ4V@j[azWFP<J0
 !s100 h^dMjEWMIBE;32ER?W6h@0
 R9
 32
-R21
+R20
 !i10b 1
-R22
-R113
-R114
+R21
+R118
+R119
 !i113 1
 R14
 R15
 Euc1
-R32
+R31
 R1
 R4
 R5
 R6
-Z115 8C:/e5-tp2/EV - 20/uc1.vhd
-Z116 FC:/e5-tp2/EV - 20/uc1.vhd
+Z120 8C:/e5-tp2/EV - 20/uc1.vhd
+Z121 FC:/e5-tp2/EV - 20/uc1.vhd
 l0
 L5
 VnKiEkaWS7MD:4Mdh]8z0z3
 !s100 zm5;SE0ggJ1CZO>oZRd7Q2
 R9
 32
-R86
+R94
 !i10b 1
-R91
-Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uc1.vhd|
-Z118 !s107 C:/e5-tp2/EV - 20/uc1.vhd|
+R95
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uc1.vhd|
+Z123 !s107 C:/e5-tp2/EV - 20/uc1.vhd|
 !i113 1
 R14
 R15
@@ -912,33 +912,33 @@ ViK@3=iV4ZhXgiR062YAzQ2
 !s100 2IGDW9hH3:kO1GKOQ8k<S3
 R9
 32
-R86
+R94
 !i10b 1
-R91
-R117
-R118
+R95
+R122
+R123
 !i113 1
 R14
 R15
 Euc2
-R32
+R31
 R1
 R4
 R5
 R6
-Z119 8C:/e5-tp2/EV - 20/uc2.vhd
-Z120 FC:/e5-tp2/EV - 20/uc2.vhd
+Z124 8C:/e5-tp2/EV - 20/uc2.vhd
+Z125 FC:/e5-tp2/EV - 20/uc2.vhd
 l0
 L5
 VcPC^f5?V`8b@a49h9L[<f0
 !s100 d@zn2nggXK>>z6HlEIUW[2
 R9
 32
-Z121 !s110 1591303536
+R94
 !i10b 1
-R91
-Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uc2.vhd|
-Z123 !s107 C:/e5-tp2/EV - 20/uc2.vhd|
+R95
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uc2.vhd|
+Z127 !s107 C:/e5-tp2/EV - 20/uc2.vhd|
 !i113 1
 R14
 R15
@@ -953,33 +953,33 @@ VMe3gJkc6QOcoj3Tc;dkg?3
 !s100 K4zPm]ezC]o_ho@:I@4NZ3
 R9
 32
-R121
+R94
 !i10b 1
-R91
-R122
-R123
+R95
+R126
+R127
 !i113 1
 R14
 R15
 Eui1
-R32
+R31
 R1
 R4
 R5
 R6
-Z124 8C:/e5-tp2/EV - 20/uI1.vhd
-Z125 FC:/e5-tp2/EV - 20/uI1.vhd
+Z128 8C:/e5-tp2/EV - 20/uI1.vhd
+Z129 FC:/e5-tp2/EV - 20/uI1.vhd
 l0
 L5
 VJnKooR]PCjCaS^4HB042J2
 !s100 1ZM[NA9SgPL[JlPQES>aU1
 R9
 32
-R121
+R27
 !i10b 1
-Z126 !s108 1591303536.000000
-Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI1.vhd|
-Z128 !s107 C:/e5-tp2/EV - 20/uI1.vhd|
+R28
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI1.vhd|
+Z131 !s107 C:/e5-tp2/EV - 20/uI1.vhd|
 !i113 1
 R14
 R15
@@ -994,33 +994,33 @@ V0fL0UE5]T]]?XKL215K?71
 !s100 FIlD?m=Uo4_ZPPC6]]gQz1
 R9
 32
-R121
+R27
 !i10b 1
-R126
-R127
-R128
+R28
+R130
+R131
 !i113 1
 R14
 R15
 Eui2
-R32
+R31
 R1
 R4
 R5
 R6
-Z129 8C:/e5-tp2/EV - 20/uI2.vhd
-Z130 FC:/e5-tp2/EV - 20/uI2.vhd
+Z132 8C:/e5-tp2/EV - 20/uI2.vhd
+Z133 FC:/e5-tp2/EV - 20/uI2.vhd
 l0
 L5
 V>fUD9K]WRULYa4b;n>_oO2
 !s100 3R=J^]`lGI3a@Jdb8XB>h3
 R9
 32
-R121
+R27
 !i10b 1
-R126
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI2.vhd|
-Z132 !s107 C:/e5-tp2/EV - 20/uI2.vhd|
+R28
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI2.vhd|
+Z135 !s107 C:/e5-tp2/EV - 20/uI2.vhd|
 !i113 1
 R14
 R15
@@ -1035,33 +1035,33 @@ VaX65fBaU1]7K8H2_NA8B41
 !s100 IYlS>EQmDW93;lOW;jkAA2
 R9
 32
-R121
+R27
 !i10b 1
-R126
-R131
-R132
+R28
+R134
+R135
 !i113 1
 R14
 R15
 Eui3
-R32
+R31
 R1
 R4
 R5
 R6
-Z133 8C:/e5-tp2/EV - 20/uI3.vhd
-Z134 FC:/e5-tp2/EV - 20/uI3.vhd
+Z136 8C:/e5-tp2/EV - 20/uI3.vhd
+Z137 FC:/e5-tp2/EV - 20/uI3.vhd
 l0
 L5
 Vc8cNbJ2JZZ2WHT9EDb6c>2
 !s100 <2Lc1j9bTe2hd[m]196?a1
 R9
 32
-R121
+R27
 !i10b 1
-R126
-Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI3.vhd|
-Z136 !s107 C:/e5-tp2/EV - 20/uI3.vhd|
+R28
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uI3.vhd|
+Z139 !s107 C:/e5-tp2/EV - 20/uI3.vhd|
 !i113 1
 R14
 R15
@@ -1076,32 +1076,32 @@ VF[Lma_XzDZ9j:K[ZLR00K0
 !s100 6Kl4V0`J:@HkF7cDNZ7;b0
 R9
 32
-R121
+R27
 !i10b 1
-R126
-R135
-R136
+R28
+R138
+R139
 !i113 1
 R14
 R15
 Euihandler
-R32
+R31
 R4
 R5
 R6
-Z137 8C:/e5-tp2/EV - 20/uIHandler.vhd
-Z138 FC:/e5-tp2/EV - 20/uIHandler.vhd
+Z140 8C:/e5-tp2/EV - 20/uIHandler.vhd
+Z141 FC:/e5-tp2/EV - 20/uIHandler.vhd
 l0
 L25
 V>m4HUV3jTn4IjC=hE4j=X1
 !s100 RNm]`48=^6_<7=B;dnM1^1
 R9
 32
-R121
+R27
 !i10b 1
-R126
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uIHandler.vhd|
-Z140 !s107 C:/e5-tp2/EV - 20/uIHandler.vhd|
+R28
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uIHandler.vhd|
+Z143 !s107 C:/e5-tp2/EV - 20/uIHandler.vhd|
 !i113 1
 R14
 R15
@@ -1115,33 +1115,33 @@ VH[l3ldUGF<CLEz6MC[CXz3
 !s100 kkM6]2O4gV8L<5kBl9nNM1
 R9
 32
-R121
+R27
 !i10b 1
-R126
-R139
-R140
+R28
+R142
+R143
 !i113 1
 R14
 R15
 Euihandlerrom_tb
-Z141 w1590378456
+Z144 w1590378456
 R1
 R4
 R5
 R6
-Z142 8C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd
-Z143 FC:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd
+Z145 8C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd
+Z146 FC:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd
 l0
 L5
 V4d@V`GBa`nzBBeY=ZB[b40
 !s100 3CH<m^eDa4;Ao4N?iI;U]1
 R9
 32
-R28
+R27
 !i10b 1
-R126
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd|
-Z145 !s107 C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd|
+R28
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd|
+Z148 !s107 C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd|
 !i113 1
 R14
 R15
@@ -1156,38 +1156,38 @@ V`>X2NN6j07[UULc0i_7Xl0
 !s100 oFSAIRSn937GYiOQnN=ES3
 R9
 32
-R28
+R27
 !i10b 1
-R126
-R144
-R145
+R28
+R147
+R148
 !i113 1
 R14
 R15
 Euirom
-R32
-R42
+R31
+R43
 R4
 R5
 R6
-Z146 8C:/e5-tp2/EV - 20/uIROM.vhd
-Z147 FC:/e5-tp2/EV - 20/uIROM.vhd
+Z149 8C:/e5-tp2/EV - 20/uIROM.vhd
+Z150 FC:/e5-tp2/EV - 20/uIROM.vhd
 l0
 L43
 VOf1CTHSdo0k<4DD6aK@OQ0
 !s100 `R;b=KZQ2eaecMQfHlSD:2
 R9
 32
-R121
+R27
 !i10b 1
-R126
-Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uIROM.vhd|
-Z149 !s107 C:/e5-tp2/EV - 20/uIROM.vhd|
+R28
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/e5-tp2/EV - 20/uIROM.vhd|
+Z152 !s107 C:/e5-tp2/EV - 20/uIROM.vhd|
 !i113 1
 R14
 R15
 Asyn
-R42
+R43
 R4
 R5
 DEx4 work 5 uirom 0 22 Of1CTHSdo0k<4DD6aK@OQ0
@@ -1197,33 +1197,33 @@ VD:VcKlEfhh5DNeHXG8T>Y3
 !s100 [iKAhSeKoE@D<^W7BdRf11
 R9
 32
-R121
+R27
 !i10b 1
-R126
-R148
-R149
+R28
+R151
+R152
 !i113 1
 R14
 R15
 Euirom_tb
-Z150 w1590072861
+Z153 w1590072861
 R1
 R4
 R5
-R18
-Z151 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
-Z152 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
+R17
+Z154 8C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
+Z155 FC:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd
 l0
 L5
 VYj]^5dk9J1;9nzC9b0LbB3
 !s100 E08HYj<?69BHDcRN@kDK:0
 R9
 32
-Z153 !s110 1590072865
+Z156 !s110 1590072865
 !i10b 1
-Z154 !s108 1590072865.000000
-Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
-Z156 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
+Z157 !s108 1590072865.000000
+Z158 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
+Z159 !s107 C:/Users/Javier/Documents/GitHub/e5-tp2/EV - 20/Simulacion/uIROM_tb.vhd|
 !i113 1
 R14
 R15
@@ -1238,11 +1238,11 @@ Vme:6=>00I[k0C2eO_bI4L3
 !s100 c@i7coT_f>P[eVlmgWMi10
 R9
 32
-R153
-!i10b 1
-R154
-R155
 R156
+!i10b 1
+R157
+R158
+R159
 !i113 1
 R14
 R15

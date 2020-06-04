@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Tue Jun 02 02:11:49 2020"
+-- CREATED		"Thu Jun 04 18:17:48 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -51,15 +51,15 @@ END COMPONENT;
 COMPONENT instrreg
 	PORT(hold : IN STD_LOGIC;
 		 sys_clk : IN STD_LOGIC;
-		 from_mem : IN STD_LOGIC_VECTOR(13 DOWNTO 0);
-		 instrOut : OUT STD_LOGIC_VECTOR(13 DOWNTO 0)
+		 from_mem : IN STD_LOGIC_VECTOR(21 DOWNTO 0);
+		 instrOut : OUT STD_LOGIC_VECTOR(21 DOWNTO 0)
 	);
 END COMPONENT;
 
 COMPONENT kmux
 	PORT(sel : IN STD_LOGIC;
 		 X : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-		 Y : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 Y : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		 output : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END COMPONENT;
@@ -79,8 +79,8 @@ END COMPONENT;
 COMPONENT latchk
 	PORT(sys_clk : IN STD_LOGIC;
 		 hold : IN STD_LOGIC;
-		 input : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
-		 output : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+		 input : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		 output : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
 END COMPONENT;
 
@@ -104,7 +104,7 @@ END COMPONENT;
 COMPONENT program
 	PORT(clock : IN STD_LOGIC;
 		 address : IN STD_LOGIC_VECTOR(10 DOWNTO 0);
-		 q : OUT STD_LOGIC_VECTOR(13 DOWNTO 0)
+		 q : OUT STD_LOGIC_VECTOR(21 DOWNTO 0)
 	);
 END COMPONENT;
 
@@ -130,6 +130,7 @@ COMPONENT uihandler
 		 MR : OUT STD_LOGIC;
 		 KMx : OUT STD_LOGIC;
 		 hold : OUT STD_LOGIC;
+		 hold_jump : OUT STD_LOGIC;
 		 A : OUT STD_LOGIC_VECTOR(4 DOWNTO 0);
 		 ALUC : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
 		 B : OUT STD_LOGIC_VECTOR(5 DOWNTO 0);
@@ -156,12 +157,12 @@ SIGNAL	carry :  STD_LOGIC;
 SIGNAL	DAdd :  STD_LOGIC_VECTOR(9 DOWNTO 0);
 SIGNAL	From_C :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	hold :  STD_LOGIC;
-SIGNAL	Instruction :  STD_LOGIC_VECTOR(13 DOWNTO 0);
+SIGNAL	Instruction :  STD_LOGIC_VECTOR(21 DOWNTO 0);
 SIGNAL	kMuxc :  STD_LOGIC;
 SIGNAL	MR :  STD_LOGIC;
 SIGNAL	MW :  STD_LOGIC;
 SIGNAL	PC :  STD_LOGIC_VECTOR(10 DOWNTO 0);
-SIGNAL	preInstr :  STD_LOGIC_VECTOR(13 DOWNTO 0);
+SIGNAL	preInstr :  STD_LOGIC_VECTOR(21 DOWNTO 0);
 SIGNAL	preLoad :  STD_LOGIC;
 SIGNAL	To_A :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	To_B :  STD_LOGIC_VECTOR(15 DOWNTO 0);
@@ -169,7 +170,7 @@ SIGNAL	uIFromROM :  STD_LOGIC_VECTOR(27 DOWNTO 0);
 SIGNAL	W :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_0 :  STD_LOGIC;
 SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC_VECTOR(1 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC;
 SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
@@ -231,7 +232,7 @@ PORT MAP(carry_in => carry,
 b2v_LatchK : latchk
 PORT MAP(sys_clk => sys_clk,
 		 hold => hold,
-		 input => Instruction(7 DOWNTO 0),
+		 input => Instruction(15 DOWNTO 0),
 		 output => SYNTHESIZED_WIRE_2);
 
 
@@ -239,13 +240,13 @@ b2v_PCReg : pcreg
 PORT MAP(pre_load => preLoad,
 		 hold => hold,
 		 sys_clk => sys_clk,
-		 input => Instruction(10 DOWNTO 0),
+		 input => Instruction(18 DOWNTO 8),
 		 PC => PC);
 
 
 b2v_pLoadPC : preloadpc
 PORT MAP(carry_out => carry,
-		 Instr => Instruction(13 DOWNTO 11),
+		 Instr => Instruction(21 DOWNTO 19),
 		 W => W,
 		 preLoad => preLoad);
 
@@ -271,7 +272,7 @@ PORT MAP(sys_clk => sys_clk,
 
 b2v_uIControl : uihandler
 PORT MAP(sys_clk => sys_clk,
-		 Instruction => Instruction,
+		 Instruction => Instruction(21 DOWNTO 8),
 		 uI_mem => uIFromROM,
 		 MW => MW,
 		 MR => MR,
@@ -288,7 +289,7 @@ PORT MAP(sys_clk => sys_clk,
 b2v_uIROM : uirom
 PORT MAP(clock => sys_clk,
 		 clken => SYNTHESIZED_WIRE_6,
-		 address => preInstr(13 DOWNTO 7),
+		 address => preInstr(21 DOWNTO 15),
 		 q => uIFromROM);
 
 

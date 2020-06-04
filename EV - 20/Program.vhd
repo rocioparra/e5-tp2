@@ -45,17 +45,17 @@ ENTITY Program IS
 	(
 		address		: IN STD_LOGIC_VECTOR (10 DOWNTO 0);
 		clock		: IN STD_LOGIC  := '1';
-		q		: OUT STD_LOGIC_VECTOR (13 DOWNTO 0)
+		q		: OUT STD_LOGIC_VECTOR (21 DOWNTO 0)
 	);
 END Program;
 
 
 ARCHITECTURE SYN OF program IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (13 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (21 DOWNTO 0);
 
 BEGIN
-	q    <= sub_wire0(13 DOWNTO 0);
+	q    <= sub_wire0(21 DOWNTO 0);
 
 	altsyncram_component : altsyncram
 	GENERIC MAP (
@@ -71,7 +71,7 @@ BEGIN
 		outdata_aclr_a => "NONE",
 		outdata_reg_a => "UNREGISTERED",
 		widthad_a => 11,
-		width_a => 14,
+		width_a => 22,
 		width_byteena_a => 1
 	)
 	PORT MAP (
@@ -113,7 +113,7 @@ END SYN;
 -- Retrieval info: PRIVATE: SingleClock NUMERIC "1"
 -- Retrieval info: PRIVATE: UseDQRAM NUMERIC "0"
 -- Retrieval info: PRIVATE: WidthAddr NUMERIC "11"
--- Retrieval info: PRIVATE: WidthData NUMERIC "14"
+-- Retrieval info: PRIVATE: WidthData NUMERIC "22"
 -- Retrieval info: PRIVATE: rden NUMERIC "0"
 -- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 -- Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
@@ -128,14 +128,14 @@ END SYN;
 -- Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
 -- Retrieval info: CONSTANT: OUTDATA_REG_A STRING "UNREGISTERED"
 -- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "11"
--- Retrieval info: CONSTANT: WIDTH_A NUMERIC "14"
+-- Retrieval info: CONSTANT: WIDTH_A NUMERIC "22"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
 -- Retrieval info: USED_PORT: address 0 0 11 0 INPUT NODEFVAL "address[10..0]"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
--- Retrieval info: USED_PORT: q 0 0 14 0 OUTPUT NODEFVAL "q[13..0]"
+-- Retrieval info: USED_PORT: q 0 0 22 0 OUTPUT NODEFVAL "q[21..0]"
 -- Retrieval info: CONNECT: @address_a 0 0 11 0 address 0 0 11 0
 -- Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
--- Retrieval info: CONNECT: q 0 0 14 0 @q_a 0 0 14 0
+-- Retrieval info: CONNECT: q 0 0 22 0 @q_a 0 0 22 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL Program.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL Program.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL Program.cmp TRUE

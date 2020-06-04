@@ -5,10 +5,10 @@ use ieee.numeric_std.all;   -- Needed for shifts
 ENTITY LatchK IS 
     PORT
     (
-		input       :  IN  STD_LOGIC_VECTOR(7 downto 0);
+		input       :  IN  STD_LOGIC_VECTOR(15 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
 		hold  		:  IN  STD_LOGIC;
-		output    	:  OUT STD_LOGIC_VECTOR(7 downto 0):= "00000000"
+		output    	:  OUT STD_LOGIC_VECTOR(15 downto 0):= "0000000000000000"
     );
 END LatchK;
 
