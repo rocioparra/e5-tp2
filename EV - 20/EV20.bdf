@@ -656,9 +656,9 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 1024 144 1248 360)
+	(rect 1024 144 1280 360)
 	(text "uIHandler" (rect 0 5 19 62)(font "Intel Clear" (font_size 8))(vertical))
-	(text "uIControl" (rect 203 8 220 51)(font "Intel Clear" )(vertical))
+	(text "uIControl" (rect 235 8 252 51)(font "Intel Clear" )(vertical))
 	(port
 		(pt 32 0)
 		(input)
@@ -757,8 +757,15 @@ https://fpgasoftware.intel.com/eula.
 		(text "C[5..0]" (rect 187 157 206 195)(font "Intel Clear" (font_size 8))(vertical))
 		(line (pt 192 216)(pt 192 200)(line_width 3))
 	)
+	(port
+		(pt 208 216)
+		(output)
+		(text "hold_jump" (rect 0 0 63 19)(font "Intel Clear" (font_size 8)))
+		(text "hold_jump" (rect 203 132 222 195)(font "Intel Clear" (font_size 8))(vertical))
+		(line (pt 208 216)(pt 208 200))
+	)
 	(drawing
-		(rectangle (rect 16 16 208 200))
+		(rectangle (rect 16 16 240 200))
 	)
 	(flipy_rotate90)
 )

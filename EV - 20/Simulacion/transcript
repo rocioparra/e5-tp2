@@ -1,20 +1,7 @@
 # Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile {C:/e5-tp2/EV - 20/Simulacion/Simulations.mpf}
 # Loading project Simulations
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCcoded.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package NUMERIC_STD
-# -- Compiling entity ALU
-# ** Error (suppressible): C:/e5-tp2/EV - 20/PCcoded.vhd(13): (vcom-1272) Length of expected is 11; length of actual is 10.
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(15): VHDL Compiler exiting
-# 
-# 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCcoded.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -24,13 +11,9 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ALU
 # -- Compiling architecture behaviour of ALU
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(21): Illegal target for signal assignment.
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(21): (vcom-1136) Unknown identifier "out_aux".
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(22): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type (error).
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(22): near "when": (vcom-1576) expecting END.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCcoded.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -40,18 +23,34 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ALU
 # -- Compiling architecture behaviour of ALU
-# ** Error: C:/e5-tp2/EV - 20/PCcoded.vhd(22): near "when": (vcom-1576) expecting END.
 # 
 # 
-# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCcoded.vhd}
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading package NUMERIC_STD
-# -- Compiling entity ALU
-# -- Compiling architecture behaviour of ALU
+# -- Compiling entity uc2
+# -- Compiling architecture behaviour of uc2
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uIHandler
+# -- Compiling architecture bdf_type of uIHandler
+# 
+# 
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uc1
+# -- Compiling architecture behaviour of uc1
 # 
 # 
