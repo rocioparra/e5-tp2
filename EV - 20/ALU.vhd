@@ -33,6 +33,7 @@ begin
 				"01111111111111111" 	 		when ctrl = "1010" else 
 				"00000000000000000"  			when ctrl = "1011" else 
 				"10000000000000000"  			when ctrl = "1100" else 
-				out_aux;
+				"10000000000000000"  			when (unsigned(ctrl) > 12) and cy_in='1' else 
+				"00000000000000000";
 
 END behaviour;

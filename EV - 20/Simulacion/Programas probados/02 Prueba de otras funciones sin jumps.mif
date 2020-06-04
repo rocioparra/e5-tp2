@@ -38,4 +38,3 @@ CONTENT BEGIN
 	00C  :   00011111111111; 	   -- ADK W,0xFF Esto debería poner el carry en 1
 	[00D..7FF]  :   00011100000100;-- ADK W,0x01
 END;
-
