@@ -24,7 +24,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect -296 136 -128 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "INA[10..0]" (rect 5 0 56 12)(font "Arial" ))
+	(text "INA[10..0]" (rect 5 0 55 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect -296 280 -128 296)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "SEL" (rect 5 0 26 12)(font "Arial" ))
+	(text "SEL" (rect 5 0 25 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +56,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect -296 424 -128 440)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "INB[10..0]" (rect 5 0 52 17)(font "Intel Clear" ))
+	(text "INB[10..0]" (rect 5 0 51 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -70,9 +70,9 @@ https://fpgasoftware.intel.com/eula.
 )
 (pin
 	(output)
-	(rect 1472 280 1648 296)
+	(rect 1472 280 1660 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "OUT[10..0]" (rect 90 0 144 12)(font "Arial" ))
+	(text "ADDR_OUT[10..0]" (rect 90 0 182 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -2261,61 +2261,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "OUT[0]" (rect 1378 232 1412 249)(font "Intel Clear" ))
-	(pt 1248 248)
-	(pt 1424 248)
-)
-(connector
-	(text "OUT[1]" (rect 1378 240 1412 257)(font "Intel Clear" ))
-	(pt 1040 256)
-	(pt 1424 256)
-)
-(connector
-	(text "OUT[2]" (rect 1378 248 1412 265)(font "Intel Clear" ))
-	(pt 832 264)
-	(pt 1424 264)
-)
-(connector
-	(text "OUT[3]" (rect 1378 256 1412 273)(font "Intel Clear" ))
-	(pt 624 272)
-	(pt 1424 272)
-)
-(connector
-	(text "OUT[4]" (rect 1378 264 1412 281)(font "Intel Clear" ))
-	(pt 416 280)
-	(pt 1424 280)
-)
-(connector
-	(text "OUT[5]" (rect 1378 272 1412 289)(font "Intel Clear" ))
-	(pt 408 288)
-	(pt 1424 288)
-)
-(connector
-	(text "OUT[6]" (rect 1378 280 1412 297)(font "Intel Clear" ))
-	(pt 416 296)
-	(pt 1424 296)
-)
-(connector
-	(text "OUT[7]" (rect 1378 288 1412 305)(font "Intel Clear" ))
-	(pt 624 304)
-	(pt 1424 304)
-)
-(connector
-	(text "OUT[8]" (rect 1378 296 1412 313)(font "Intel Clear" ))
-	(pt 832 312)
-	(pt 1424 312)
-)
-(connector
-	(text "OUT[9]" (rect 1378 304 1412 321)(font "Intel Clear" ))
-	(pt 1040 320)
-	(pt 1424 320)
-)
-(connector
-	(text "OUT[10]" (rect 1378 312 1418 329)(font "Intel Clear" ))
-	(pt 1248 328)
-	(pt 1424 328)
-)
-(connector
 	(pt 1424 320)
 	(pt 1424 328)
 	(bus)
@@ -2369,6 +2314,61 @@ https://fpgasoftware.intel.com/eula.
 	(pt 1472 288)
 	(pt 1424 288)
 	(bus)
+)
+(connector
+	(text "ADDR_OUT[0]" (rect 1378 232 1446 249)(font "Intel Clear" ))
+	(pt 1248 248)
+	(pt 1424 248)
+)
+(connector
+	(text "ADDR_OUT[1]" (rect 1378 240 1446 257)(font "Intel Clear" ))
+	(pt 1040 256)
+	(pt 1424 256)
+)
+(connector
+	(text "ADDR_OUT[2]" (rect 1378 248 1446 265)(font "Intel Clear" ))
+	(pt 832 264)
+	(pt 1424 264)
+)
+(connector
+	(text "ADDR_OUT[3]" (rect 1378 256 1446 273)(font "Intel Clear" ))
+	(pt 624 272)
+	(pt 1424 272)
+)
+(connector
+	(text "ADDR_OUT[4]" (rect 1378 264 1446 281)(font "Intel Clear" ))
+	(pt 416 280)
+	(pt 1424 280)
+)
+(connector
+	(text "ADDR_OUT[5]" (rect 1378 272 1446 289)(font "Intel Clear" ))
+	(pt 408 288)
+	(pt 1424 288)
+)
+(connector
+	(text "ADDR_OUT[6]" (rect 1378 280 1446 297)(font "Intel Clear" ))
+	(pt 416 296)
+	(pt 1424 296)
+)
+(connector
+	(text "ADDR_OUT[7]" (rect 1378 288 1446 305)(font "Intel Clear" ))
+	(pt 624 304)
+	(pt 1424 304)
+)
+(connector
+	(text "ADDR_OUT[8]" (rect 1378 296 1446 313)(font "Intel Clear" ))
+	(pt 832 312)
+	(pt 1424 312)
+)
+(connector
+	(text "ADDR_OUT[9]" (rect 1378 304 1446 321)(font "Intel Clear" ))
+	(pt 1040 320)
+	(pt 1424 320)
+)
+(connector
+	(text "ADDR_OUT[10]" (rect 1378 312 1452 329)(font "Intel Clear" ))
+	(pt 1248 328)
+	(pt 1424 328)
 )
 (junction (pt 224 496))
 (junction (pt 432 496))

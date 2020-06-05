@@ -21,7 +21,7 @@ https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 64 48 176 208)
+	(rect 64 64 176 224)
 	(text "MUX_11b" (rect 1 1 61 20)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 128 24 145)(font "Intel Clear" ))
 	(port
@@ -48,8 +48,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 112 72)
 		(output)
-		(text "OUT[10..0]" (rect -72 16 -6 35)(font "Intel Clear" (font_size 8)))
-		(text "OUT[10..0]" (rect 40 56 106 75)(font "Intel Clear" (font_size 8)))
+		(text "ADDR_OUT[10..0]" (rect -72 16 36 35)(font "Intel Clear" (font_size 8)))
+		(text "ADDR_OUT[10..0]" (rect 1 56 109 75)(font "Intel Clear" (font_size 8)))
 		(line (pt 112 72)(pt 96 72)(line_width 3))
 	)
 	(drawing
