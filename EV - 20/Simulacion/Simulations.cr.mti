@@ -94,6 +94,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity uIROM
 -- Compiling architecture SYN of uirom
 
+} {} {}} {C:/e5-tp2/EV - 20/EV20.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EV20
+-- Compiling architecture bdf_type of EV20
+
 } {} {}} {C:/e5-tp2/EV - 20/INC_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/INC_11b.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -243,6 +251,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity uIHandler
 -- Compiling architecture bdf_type of uIHandler
+
+} {} {}} {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity EV20_tb
+-- Compiling architecture testbench of EV20_tb
 
 } {} {}} {C:/e5-tp2/EV - 20/MUX_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/MUX_11b.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
