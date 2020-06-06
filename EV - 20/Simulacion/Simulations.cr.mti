@@ -1,4 +1,13 @@
-{C:/e5-tp2/EV - 20/CYBlock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/CYBlock.vhd}
+{C:/e5-tp2/EV - 20/LatchpPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchpPC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity LatchpPC
+-- Compiling architecture behaviour of LatchpPC
+
+} {} {}} {C:/e5-tp2/EV - 20/CYBlock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/CYBlock.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -165,15 +174,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity myMux
 -- Compiling architecture behaviour of myMux
-
-} {} {}} {C:/e5-tp2/EV - 20/uc1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity uc1
--- Compiling architecture behaviour of uc1
 
 } {} {}} {C:/e5-tp2/EV - 20/RegisterBank.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/RegisterBank.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

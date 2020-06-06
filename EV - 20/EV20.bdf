@@ -285,7 +285,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 600 696 808 856)
+	(rect 600 688 808 848)
 	(text "LatchAluShift" (rect 124 0 203 19)(font "Intel Clear" (font_size 8)))
 	(text "LAS" (rect 182 139 200 156)(font "Intel Clear" ))
 	(port
@@ -411,7 +411,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 1032 144 1288 360)
+	(rect 1040 144 1296 360)
 	(text "uIHandler" (rect 0 5 19 62)(font "Intel Clear" (font_size 8))(vertical))
 	(text "uIControl" (rect 235 8 252 51)(font "Intel Clear" )(vertical))
 	(port
@@ -898,11 +898,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 320 840)
 )
 (connector
-	(pt 1048 760)
-	(pt 1048 992)
-	(bus)
-)
-(connector
 	(pt 1048 992)
 	(pt 608 992)
 	(bus)
@@ -910,10 +905,6 @@ https://fpgasoftware.intel.com/eula.
 (connector
 	(pt 816 496)
 	(pt 856 496)
-)
-(connector
-	(pt 856 496)
-	(pt 856 776)
 )
 (connector
 	(pt 200 192)
@@ -948,27 +939,8 @@ https://fpgasoftware.intel.com/eula.
 	(pt 640 920)
 )
 (connector
-	(pt 536 744)
-	(pt 600 744)
-	(bus)
-)
-(connector
 	(pt 856 776)
 	(pt 960 776)
-)
-(connector
-	(pt 808 744)
-	(pt 848 744)
-	(bus)
-)
-(connector
-	(pt 808 776)
-	(pt 856 776)
-)
-(connector
-	(text "sys_clk" (rect 818 792 853 809)(font "Intel Clear" ))
-	(pt 808 808)
-	(pt 872 808)
 )
 (connector
 	(text "hold" (rect 618 112 639 129)(font "Intel Clear" ))
@@ -979,12 +951,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "sys_clk" (rect 610 128 645 145)(font "Intel Clear" ))
 	(pt 608 144)
 	(pt 664 144)
-)
-(connector
-	(text "From_C[15..0]" (rect 520 702 537 769)(font "Intel Clear" )(vertical))
-	(pt 536 592)
-	(pt 536 744)
-	(bus)
 )
 (connector
 	(pt 816 576)
@@ -1008,43 +974,13 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(text "To_B[15..0]" (rect 831 687 848 741)(font "Intel Clear" )(vertical))
-	(pt 848 560)
-	(pt 848 744)
-	(bus)
-)
-(connector
 	(pt 912 688)
-	(pt 912 720)
-	(bus)
-)
-(connector
-	(pt 816 728)
-	(pt 816 720)
-	(bus)
-)
-(connector
-	(pt 808 728)
-	(pt 816 728)
-	(bus)
-)
-(connector
-	(text "To_A[15..0]" (rect 826 704 880 721)(font "Intel Clear" ))
-	(pt 816 720)
 	(pt 912 720)
 	(bus)
 )
 (connector
 	(pt 640 904)
 	(pt 584 904)
-)
-(connector
-	(pt 600 728)
-	(pt 584 728)
-)
-(connector
-	(pt 584 904)
-	(pt 584 728)
 )
 (connector
 	(pt 1168 88)
@@ -1153,112 +1089,6 @@ https://fpgasoftware.intel.com/eula.
 	(pt 304 392)
 )
 (connector
-	(pt 1096 88)
-	(pt 1096 144)
-	(bus)
-)
-(connector
-	(pt 1096 456)
-	(pt 1096 360)
-)
-(connector
-	(pt 1176 760)
-	(pt 1176 360)
-	(bus)
-)
-(connector
-	(text "C[5..0]" (rect 1208 372 1225 402)(font "Intel Clear" )(vertical))
-	(pt 1224 360)
-	(pt 1224 408)
-	(bus)
-)
-(connector
-	(text "hold" (rect 1144 380 1161 401)(font "Intel Clear" )(vertical))
-	(pt 1160 360)
-	(pt 1160 408)
-)
-(connector
-	(text "B[5..0]" (rect 1096 372 1113 402)(font "Intel Clear" )(vertical))
-	(pt 1112 360)
-	(pt 1112 408)
-	(bus)
-)
-(connector
-	(text "A[4..0]" (rect 1112 372 1129 402)(font "Intel Clear" )(vertical))
-	(pt 1128 360)
-	(pt 1128 408)
-	(bus)
-)
-(connector
-	(text "DAdd[9..0]" (rect 1128 372 1145 421)(font "Intel Clear" )(vertical))
-	(pt 1144 360)
-	(pt 1144 408)
-	(bus)
-)
-(connector
-	(pt 1192 792)
-	(pt 1192 360)
-	(bus)
-)
-(connector
-	(pt 808 792)
-	(pt 1192 792)
-	(bus)
-)
-(connector
-	(text "uIFromROM[27..0]" (rect 1098 72 1185 89)(font "Intel Clear" ))
-	(pt 1168 88)
-	(pt 1096 88)
-	(bus)
-)
-(connector
-	(text "kMuxc" (rect 954 440 984 457)(font "Intel Clear" ))
-	(pt 944 456)
-	(pt 1096 456)
-)
-(connector
-	(text "MW" (rect 1047 383 1064 403)(font "Intel Clear" )(vertical))
-	(pt 1064 360)
-	(pt 1064 408)
-)
-(connector
-	(text "MR" (rect 1063 388 1080 404)(font "Intel Clear" )(vertical))
-	(pt 1080 360)
-	(pt 1080 416)
-)
-(connector
-	(pt 1080 112)
-	(pt 1080 144)
-	(bus)
-)
-(connector
-	(text "Instruction[21..8]" (rect 1048 96 1125 113)(font "Intel Clear" ))
-	(pt 1048 112)
-	(pt 1080 112)
-	(bus)
-)
-(connector
-	(text "hold_jump" (rect 1224 371 1241 421)(font "Intel Clear" )(vertical))
-	(pt 1240 360)
-	(pt 1240 424)
-)
-(connector
-	(text "ALUC[3..0]" (rect 818 744 868 761)(font "Intel Clear" ))
-	(pt 808 760)
-	(pt 1048 760)
-	(bus)
-)
-(connector
-	(pt 1048 760)
-	(pt 1176 760)
-	(bus)
-)
-(connector
-	(text "sys_clk" (rect 986 128 1021 145)(font "Intel Clear" ))
-	(pt 976 144)
-	(pt 1064 144)
-)
-(connector
 	(pt 816 496)
 	(pt 816 400)
 )
@@ -1332,7 +1162,176 @@ https://fpgasoftware.intel.com/eula.
 	(pt 232 264)
 	(bus)
 )
+(connector
+	(pt 1104 88)
+	(pt 1104 144)
+	(bus)
+)
+(connector
+	(pt 1104 456)
+	(pt 1104 360)
+)
+(connector
+	(pt 1184 760)
+	(pt 1184 360)
+	(bus)
+)
+(connector
+	(text "C[5..0]" (rect 1216 372 1233 402)(font "Intel Clear" )(vertical))
+	(pt 1232 360)
+	(pt 1232 408)
+	(bus)
+)
+(connector
+	(text "hold" (rect 1152 380 1169 401)(font "Intel Clear" )(vertical))
+	(pt 1168 360)
+	(pt 1168 408)
+)
+(connector
+	(text "B[5..0]" (rect 1104 372 1121 402)(font "Intel Clear" )(vertical))
+	(pt 1120 360)
+	(pt 1120 408)
+	(bus)
+)
+(connector
+	(text "A[4..0]" (rect 1120 372 1137 402)(font "Intel Clear" )(vertical))
+	(pt 1136 360)
+	(pt 1136 408)
+	(bus)
+)
+(connector
+	(text "DAdd[9..0]" (rect 1136 372 1153 421)(font "Intel Clear" )(vertical))
+	(pt 1152 360)
+	(pt 1152 408)
+	(bus)
+)
+(connector
+	(text "uIFromROM[27..0]" (rect 1098 72 1185 89)(font "Intel Clear" ))
+	(pt 1168 88)
+	(pt 1104 88)
+	(bus)
+)
+(connector
+	(text "kMuxc" (rect 954 440 984 457)(font "Intel Clear" ))
+	(pt 944 456)
+	(pt 1104 456)
+)
+(connector
+	(text "MW" (rect 1055 383 1072 403)(font "Intel Clear" )(vertical))
+	(pt 1072 360)
+	(pt 1072 408)
+)
+(connector
+	(text "MR" (rect 1071 388 1088 404)(font "Intel Clear" )(vertical))
+	(pt 1088 360)
+	(pt 1088 416)
+)
+(connector
+	(pt 1088 112)
+	(pt 1088 144)
+	(bus)
+)
+(connector
+	(text "Instruction[21..8]" (rect 1048 96 1125 113)(font "Intel Clear" ))
+	(pt 1048 112)
+	(pt 1088 112)
+	(bus)
+)
+(connector
+	(text "hold_jump" (rect 1232 371 1249 421)(font "Intel Clear" )(vertical))
+	(pt 1248 360)
+	(pt 1248 424)
+)
+(connector
+	(pt 1048 760)
+	(pt 1184 760)
+	(bus)
+)
+(connector
+	(text "sys_clk" (rect 994 128 1029 145)(font "Intel Clear" ))
+	(pt 984 144)
+	(pt 1072 144)
+)
+(connector
+	(pt 536 736)
+	(pt 600 736)
+	(bus)
+)
+(connector
+	(pt 848 736)
+	(pt 808 736)
+	(bus)
+)
+(connector
+	(pt 856 768)
+	(pt 808 768)
+)
+(connector
+	(text "sys_clk" (rect 818 784 853 801)(font "Intel Clear" ))
+	(pt 808 800)
+	(pt 872 800)
+)
+(connector
+	(text "From_C[15..0]" (rect 520 702 537 769)(font "Intel Clear" )(vertical))
+	(pt 536 592)
+	(pt 536 736)
+	(bus)
+)
+(connector
+	(text "To_B[15..0]" (rect 831 687 848 741)(font "Intel Clear" )(vertical))
+	(pt 848 560)
+	(pt 848 736)
+	(bus)
+)
+(connector
+	(pt 584 720)
+	(pt 600 720)
+)
+(connector
+	(pt 584 904)
+	(pt 584 720)
+)
+(connector
+	(pt 1200 360)
+	(pt 1200 784)
+	(bus)
+)
+(connector
+	(pt 1200 784)
+	(pt 808 784)
+	(bus)
+)
+(connector
+	(text "ALUC[3..0]" (rect 818 736 868 753)(font "Intel Clear" ))
+	(pt 1048 752)
+	(pt 808 752)
+	(bus)
+)
+(connector
+	(pt 856 496)
+	(pt 856 768)
+)
+(connector
+	(pt 856 768)
+	(pt 856 776)
+)
+(connector
+	(text "To_A[15..0]" (rect 826 704 880 721)(font "Intel Clear" ))
+	(pt 808 720)
+	(pt 912 720)
+	(bus)
+)
+(connector
+	(pt 1048 752)
+	(pt 1048 760)
+	(bus)
+)
+(connector
+	(pt 1048 760)
+	(pt 1048 992)
+	(bus)
+)
 (junction (pt 832 504))
 (junction (pt 1048 760))
-(junction (pt 856 776))
 (junction (pt 912 448))
+(junction (pt 856 768))
