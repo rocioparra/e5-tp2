@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Thu Jun 04 18:17:48 2020"
+-- CREATED		"Sat Jun 06 13:57:48 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -56,6 +56,24 @@ COMPONENT instrreg
 	);
 END COMPONENT;
 
+COMPONENT loadpc
+	PORT(carry_out : IN STD_LOGIC;
+		 Instr : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
+		 W : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+		 load : OUT STD_LOGIC
+	);
+END COMPONENT;
+
+COMPONENT pc
+	PORT(CLK : IN STD_LOGIC;
+		 LOAD : IN STD_LOGIC;
+		 HOLD : IN STD_LOGIC;
+		 ADDR_IN : IN STD_LOGIC_VECTOR(10 DOWNTO 0);
+		 ADDR_NEXT : OUT STD_LOGIC_VECTOR(10 DOWNTO 0);
+		 ADDR_OUT : OUT STD_LOGIC_VECTOR(10 DOWNTO 0)
+	);
+END COMPONENT;
+
 COMPONENT kmux
 	PORT(sel : IN STD_LOGIC;
 		 X : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
@@ -81,23 +99,6 @@ COMPONENT latchk
 		 hold : IN STD_LOGIC;
 		 input : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 		 output : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
-	);
-END COMPONENT;
-
-COMPONENT pcreg
-	PORT(pre_load : IN STD_LOGIC;
-		 hold : IN STD_LOGIC;
-		 sys_clk : IN STD_LOGIC;
-		 input : IN STD_LOGIC_VECTOR(10 DOWNTO 0);
-		 PC : OUT STD_LOGIC_VECTOR(10 DOWNTO 0)
-	);
-END COMPONENT;
-
-COMPONENT preloadpc
-	PORT(carry_out : IN STD_LOGIC;
-		 Instr : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-		 W : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-		 preLoad : OUT STD_LOGIC
 	);
 END COMPONENT;
 
@@ -157,24 +158,26 @@ SIGNAL	carry :  STD_LOGIC;
 SIGNAL	DAdd :  STD_LOGIC_VECTOR(9 DOWNTO 0);
 SIGNAL	From_C :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	hold :  STD_LOGIC;
+SIGNAL	hold_jump :  STD_LOGIC;
 SIGNAL	Instruction :  STD_LOGIC_VECTOR(21 DOWNTO 0);
 SIGNAL	kMuxc :  STD_LOGIC;
 SIGNAL	MR :  STD_LOGIC;
 SIGNAL	MW :  STD_LOGIC;
-SIGNAL	PC :  STD_LOGIC_VECTOR(10 DOWNTO 0);
+SIGNAL	PCAdd :  STD_LOGIC_VECTOR(10 DOWNTO 0);
 SIGNAL	preInstr :  STD_LOGIC_VECTOR(21 DOWNTO 0);
-SIGNAL	preLoad :  STD_LOGIC;
 SIGNAL	To_A :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	To_B :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	uIFromROM :  STD_LOGIC_VECTOR(27 DOWNTO 0);
 SIGNAL	W :  STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_0 :  STD_LOGIC;
-SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC_VECTOR(1 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC;
-SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC_VECTOR(1 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_6 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_7 :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_8 :  STD_LOGIC;
 
 
 BEGIN 
@@ -193,7 +196,7 @@ PORT MAP(wren => MW,
 		 clock => sys_clk,
 		 address => DAdd,
 		 data => W,
-		 q => SYNTHESIZED_WIRE_5);
+		 q => SYNTHESIZED_WIRE_7);
 
 
 b2v_InsReg : instrreg
@@ -203,18 +206,36 @@ PORT MAP(hold => hold,
 		 instrOut => Instruction);
 
 
-SYNTHESIZED_WIRE_6 <= NOT(hold);
+SYNTHESIZED_WIRE_8 <= NOT(hold);
 
 
 
-SYNTHESIZED_WIRE_4 <= NOT(sys_clk);
+b2v_inst1 : loadpc
+PORT MAP(carry_out => carry,
+		 Instr => Instruction(21 DOWNTO 15),
+		 W => W,
+		 load => SYNTHESIZED_WIRE_1);
 
+
+SYNTHESIZED_WIRE_6 <= NOT(sys_clk);
+
+
+
+b2v_inst2 : pc
+PORT MAP(CLK => sys_clk,
+		 LOAD => SYNTHESIZED_WIRE_1,
+		 HOLD => SYNTHESIZED_WIRE_2,
+		 ADDR_IN => Instruction(18 DOWNTO 8),
+		 ADDR_OUT => PCAdd);
+
+
+SYNTHESIZED_WIRE_2 <= hold_jump OR hold;
 
 
 b2v_KMux : kmux
 PORT MAP(sel => kMuxc,
-		 X => SYNTHESIZED_WIRE_1,
-		 Y => SYNTHESIZED_WIRE_2,
+		 X => SYNTHESIZED_WIRE_3,
+		 Y => SYNTHESIZED_WIRE_4,
 		 output => To_A);
 
 
@@ -224,7 +245,7 @@ PORT MAP(carry_in => carry,
 		 A => To_A,
 		 ALU_C => ALUC,
 		 B => To_B,
-		 sh => SYNTHESIZED_WIRE_3,
+		 sh => SYNTHESIZED_WIRE_5,
 		 Carry_out => SYNTHESIZED_WIRE_0,
 		 From_C => From_C);
 
@@ -233,27 +254,12 @@ b2v_LatchK : latchk
 PORT MAP(sys_clk => sys_clk,
 		 hold => hold,
 		 input => Instruction(15 DOWNTO 0),
-		 output => SYNTHESIZED_WIRE_2);
-
-
-b2v_PCReg : pcreg
-PORT MAP(pre_load => preLoad,
-		 hold => hold,
-		 sys_clk => sys_clk,
-		 input => Instruction(18 DOWNTO 8),
-		 PC => PC);
-
-
-b2v_pLoadPC : preloadpc
-PORT MAP(carry_out => carry,
-		 Instr => Instruction(21 DOWNTO 19),
-		 W => W,
-		 preLoad => preLoad);
+		 output => SYNTHESIZED_WIRE_4);
 
 
 b2v_ProgRAM : program
-PORT MAP(clock => SYNTHESIZED_WIRE_4,
-		 address => PC,
+PORT MAP(clock => SYNTHESIZED_WIRE_6,
+		 address => PCAdd,
 		 q => preInstr);
 
 
@@ -264,8 +270,8 @@ PORT MAP(sys_clk => sys_clk,
 		 B => B,
 		 C => C,
 		 From_C => From_C,
-		 To_W => SYNTHESIZED_WIRE_5,
-		 To_A => SYNTHESIZED_WIRE_1,
+		 To_W => SYNTHESIZED_WIRE_7,
+		 To_A => SYNTHESIZED_WIRE_3,
 		 To_B => To_B,
 		 W => W);
 
@@ -278,17 +284,18 @@ PORT MAP(sys_clk => sys_clk,
 		 MR => MR,
 		 KMx => kMuxc,
 		 hold => hold,
+		 hold_jump => hold_jump,
 		 A => A,
 		 ALUC => ALUC,
 		 B => B,
 		 C => C,
 		 DAdd => DAdd,
-		 sh => SYNTHESIZED_WIRE_3);
+		 sh => SYNTHESIZED_WIRE_5);
 
 
 b2v_uIROM : uirom
 PORT MAP(clock => sys_clk,
-		 clken => SYNTHESIZED_WIRE_6,
+		 clken => SYNTHESIZED_WIRE_8,
 		 address => preInstr(21 DOWNTO 15),
 		 q => uIFromROM);
 
