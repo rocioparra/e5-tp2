@@ -109,3 +109,57 @@ run
 run
 run
 restart -f
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+run
+run
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_inst1/*
+# vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EV20
+# -- Compiling architecture bdf_type of EV20
+# 
+# 
+restart -f
+# Loading work.ev20(bdf_type)
+# Warning in wave window restart: (vish-4014) No objects found matching '/ev20_tb/ev20Block/b2v_inst1/W'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ev20_tb/ev20Block/b2v_inst1/Instr'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ev20_tb/ev20Block/b2v_inst1/carry_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ev20_tb/ev20Block/b2v_inst1/load'. 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+restart -f
+add wave -position insertpoint sim:/ev20_tb/ev20Block/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /ev20_tb/ev20Block/b2v_RegBank
+run
+run
+add wave -position insertpoint sim:/ev20_tb/ev20Block/b2v_PC/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/e5-tp2/EV - 20/Simulacion/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/e5-tp2/EV - 20/Simulacion/wave.do}
