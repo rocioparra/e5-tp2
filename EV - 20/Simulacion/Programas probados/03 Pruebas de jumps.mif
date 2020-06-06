@@ -1,0 +1,52 @@
+-- Copyright (C) 2019  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=14;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=BIN;
+
+--En este código intentamos usar todas las funciones que no usamos hasta ahora sin jumps
+CONTENT BEGIN
+	000  :   0001000000000000000001;       -- MOK W,1
+	001  :   0011000000000000000000;	   -- MOV R0,W  --Para ver que llegó ahí
+	002	 :   1000000011000000000000;       -- JMP 0x030
+    [003..00F]  :   0001000000000000010000;-- MOK W,16
+	010  :   0001000000000000000011;       -- MOK W,3
+	011  :   0011000000000000000000;	   -- MOV R0,W --Para ver que llegó ahí
+	012  :   0001000000000000000000;       -- MOK W,0
+	013	 :   1010000010000000000000;       -- JMP 0x020
+	[014..01F]  :   0001000000000000010000;-- MOK W,16
+	020  :   0001000000000000000100;       -- MOK W,4
+	021  :   0011000000000000000000;	   -- MOV R0,W --Para ver que llegó ahí
+	022  :   0001000000000000000000;       -- MOK W,0
+	023  :   0000000000000000000000;       -- CPL W
+	024  :   1100000000000000000000;       -- JNE 0x000
+	[025..02F]  :   0001000000000000010000;-- MOK W,11
+	030  :   0001000000000000000010;       -- MOK W,2
+	031  :   0011000000000000000000;	   -- MOV R0,W --Para ver que llegó ahí
+	032	 : 	 0000010000000000000000;	   -- SET CY
+	033  :   1110000001000000000000;       -- JCY 0x010
+	[034..7FF]  :   0001000001000000000000;-- MOK W,16
+END;
+
+
+	--032  :   0001000000000000000000;       -- MOK W,0
+	--033  :   0000000000000000000000;       -- CPL W
+	--034  :   0001110000000011111111; 	   -- ADK W,0xFF Esto debería poner el carry en 1
+	

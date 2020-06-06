@@ -1127,3 +1127,12 @@ run
 run
 run
 run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/e5-tp2/EV - 20/Simulacion/wave.do}
+# End time: 19:30:42 on Jun 06,2020, Elapsed time: 2:35:50
+# Errors: 0, Warnings: 32
