@@ -7,7 +7,7 @@ ENTITY LatchpPC IS
     (
 		input       :  IN  STD_LOGIC_VECTOR(10 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
-		output    	:  OUT STD_LOGIC_VECTOR(10 downto 0):= "00000000000"
+		output    	:  OUT STD_LOGIC_VECTOR(10 downto 0):= "11111111111"
     );
 END LatchpPC;
 

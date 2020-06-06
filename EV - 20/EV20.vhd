@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Sat Jun 06 16:13:44 2020"
+-- CREATED		"Sat Jun 06 16:37:56 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -254,7 +254,7 @@ PORT MAP(CLK => sys_clk,
 		 LOAD => load,
 		 HOLD => SYNTHESIZED_WIRE_4,
 		 ADDR_IN => Instruction(18 DOWNTO 8),
-		 ADDR_OUT => PCAdd);
+		 ADDR_NEXT => PCAdd);
 
 
 b2v_ProgRAM : program
