@@ -28,9 +28,9 @@ begin
 
 	reset_process :process
 	begin
-		resetN  <= '0';
-		wait for 5 ps;
 		resetN  <= '1';
+		wait for 5 ps;
+		resetN  <= '0';
 		wait;
 	end process;
 	

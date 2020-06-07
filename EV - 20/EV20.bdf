@@ -40,7 +40,7 @@ https://fpgasoftware.intel.com/eula.
 	(input)
 	(rect 80 864 248 880)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "resetN" (rect 5 0 36 17)(font "Intel Clear" ))
+	(text "resetN" (rect 5 0 35 17)(font "Intel Clear" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -828,7 +828,7 @@ https://fpgasoftware.intel.com/eula.
 (symbol
 	(rect 512 160 768 320)
 	(text "BranchManager" (rect 161 0 251 19)(font "Intel Clear" (font_size 8)))
-	(text "inst1" (rect 226 139 248 156)(font "Intel Clear" ))
+	(text "BranchBlock" (rect 188 139 248 156)(font "Intel Clear" ))
 	(port
 		(pt 256 32)
 		(input)
