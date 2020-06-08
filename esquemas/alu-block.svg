@@ -422,6 +422,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1763-2-6-4-3-4-1-8" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1765-8-4-5-6-3-2-58-6-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1763-2-6-4-3-5-7-8-1-9" />
+    </marker>
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
@@ -434,9 +448,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="208.04679"
-     inkscape:cx="379.594"
-     inkscape:zoom="0.70710678"
+     inkscape:cy="186.15521"
+     inkscape:cx="421.83732"
+     inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1177,17 +1191,6 @@
        d="m 75.127979,106.44417 v 2.11666"
        style="fill:none;stroke:#000000;stroke-width:0.447214;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
-       id="text8123"
-       y="37.327332"
-       x="128.74037"
-       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.264583"
-         y="37.327332"
-         x="128.74037"
-         id="tspan8121"
-         sodipodi:role="line">ALU_C[3..0]</tspan></text>
-    <text
        id="text8187"
        y="67.485825"
        x="59.681282"
@@ -1235,5 +1238,35 @@
        style="fill:none;stroke:#000000;stroke-width:0.30457;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1765-8-4-5-6-0-8-3)"
        inkscape:transform-center-x="-9.2074999"
        inkscape:transform-center-y="0.4538759" />
+    <path
+       id="path1743-2-76-75-6-4-6-91-4"
+       d="m 97.67541,43.887944 -4.7625,7.7e-5"
+       style="fill:none;stroke:#000000;stroke-width:0.206387;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.206387, 0.206387;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1765-8-4-5-6-3-2-58-6-9)"
+       inkscape:transform-center-x="-1.7225327"
+       inkscape:transform-center-y="-0.0796985" />
+    <path
+       id="path7079-4-9"
+       d="M 100.1017,43.88802 H 93.97124"
+       style="fill:none;stroke:#000000;stroke-width:0.643236;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path7081-1-2"
+       d="m 100.71812,43.160415 v 1.587502"
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text7085-6-6"
+       y="44.744625"
+       x="102.18494"
+       style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="44.744625"
+         x="102.18494"
+         id="tspan7083-7-60"
+         sodipodi:role="line">K_Mux</tspan><tspan
+         id="tspan9801"
+         style="stroke-width:0.264583"
+         y="49.154339"
+         x="102.18494"
+         sodipodi:role="line" /></text>
   </g>
 </svg>
