@@ -423,7 +423,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect 768 456 1016 568)
+	(rect 808 456 1056 568)
 	(text "adaptSizes" (rect 5 0 58 12)(font "Arial" ))
 	(text "Adaptador" (rect 8 96 57 108)(font "Arial" ))
 	(port
@@ -787,26 +787,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1016 504)
-	(pt 1064 504)
-	(bus)
-)
-(connector
-	(pt 1072 520)
-	(pt 1016 520)
-	(bus)
-)
-(connector
-	(pt 768 488)
-	(pt 752 488)
-	(bus)
-)
-(connector
-	(pt 752 488)
-	(pt 752 448)
-	(bus)
-)
-(connector
 	(text "Curr_Addr[10..0]" (rect 674 432 751 449)(font "Intel Clear" ))
 	(pt 752 448)
 	(pt 664 448)
@@ -868,38 +848,8 @@ https://fpgasoftware.intel.com/eula.
 	(pt 568 536)
 )
 (connector
-	(pt 744 520)
-	(pt 744 512)
-	(bus)
-)
-(connector
-	(pt 744 512)
-	(pt 760 512)
-	(bus)
-)
-(connector
-	(pt 760 512)
-	(pt 760 504)
-	(bus)
-)
-(connector
-	(pt 760 504)
-	(pt 768 504)
-	(bus)
-)
-(connector
 	(pt 744 504)
 	(pt 752 504)
-	(bus)
-)
-(connector
-	(pt 752 504)
-	(pt 752 520)
-	(bus)
-)
-(connector
-	(pt 752 520)
-	(pt 768 520)
 	(bus)
 )
 (connector
@@ -951,16 +901,6 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt 1064 504)
-	(pt 1064 544)
-	(bus)
-)
-(connector
-	(pt 1072 520)
-	(pt 1072 504)
-	(bus)
-)
-(connector
 	(pt 1096 624)
 	(pt 1096 568)
 )
@@ -972,11 +912,6 @@ https://fpgasoftware.intel.com/eula.
 	(text "q[15..0]" (rect 1408 528 1443 545)(font "Intel Clear" ))
 	(pt 1408 544)
 	(pt 1432 544)
-	(bus)
-)
-(connector
-	(pt 1016 488)
-	(pt 1152 488)
 	(bus)
 )
 (connector
@@ -1014,4 +949,74 @@ https://fpgasoftware.intel.com/eula.
 	(text "sys_clk" (rect 1050 632 1085 649)(font "Intel Clear" ))
 	(pt 1112 648)
 	(pt 1040 648)
+)
+(connector
+	(pt 1064 504)
+	(pt 1056 504)
+	(bus)
+)
+(connector
+	(pt 1072 520)
+	(pt 1056 520)
+	(bus)
+)
+(connector
+	(pt 752 448)
+	(pt 752 488)
+	(bus)
+)
+(connector
+	(pt 1064 544)
+	(pt 1064 504)
+	(bus)
+)
+(connector
+	(pt 1072 504)
+	(pt 1072 520)
+	(bus)
+)
+(connector
+	(pt 1152 488)
+	(pt 1056 488)
+	(bus)
+)
+(connector
+	(pt 752 488)
+	(pt 808 488)
+	(bus)
+)
+(connector
+	(pt 808 504)
+	(pt 792 504)
+	(bus)
+)
+(connector
+	(pt 808 520)
+	(pt 800 520)
+	(bus)
+)
+(connector
+	(pt 744 520)
+	(pt 792 520)
+	(bus)
+)
+(connector
+	(pt 792 504)
+	(pt 792 520)
+	(bus)
+)
+(connector
+	(pt 752 504)
+	(pt 752 528)
+	(bus)
+)
+(connector
+	(pt 800 520)
+	(pt 800 528)
+	(bus)
+)
+(connector
+	(pt 800 528)
+	(pt 752 528)
+	(bus)
 )
