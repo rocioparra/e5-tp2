@@ -15,6 +15,7 @@ ENTITY uc2 IS
 		T4				:	IN STD_LOGIC_VECTOR(6 downto 0);
 		C5				:  IN STD_LOGIC_VECTOR(5 downto 0);
 		T5				:  IN STD_LOGIC_VECTOR(6 downto 0);
+		MR  			:  IN  STD_LOGIC;
 		hold_jump  	:  OUT  STD_LOGIC;
 		hold  		:  OUT  STD_LOGIC
     );
@@ -36,7 +37,9 @@ begin
 				
 				   --(T2(CR) and (T4(CW) or T5(CW)))='1'	or	 --Este me parece que en realidad no va, no importa que cambie el carry				 
 					 
-					 (T2(WW) and (T4(WW) or T5(WW)))='1' 	or --Para el caso de que se traiga de memoria a W, pero otra línea que iba a poner algo en W no terminó de pasar
+					 --(T2(WW) and (T4(WW) or T5(WW)))='1' 	or --Para el caso de que se traiga de memoria a W, pero otra línea que iba a poner algo en W no terminó de pasar
+					 
+					 (MR and (T4(WW) or T5(WW)))='1' 	or
 					 
 					 (T2(RR)='1' and T4(RW)='1' and ((A2=C4(4 downto 0)) or (B2=C4)) ) 	or
 					 
