@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Mon Jun 08 23:24:20 2020"
+-- CREATED		"Tue Jun 09 01:21:17 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -59,14 +59,14 @@ BEGIN
 
 
 b2v_inst : muxr
-PORT MAP(sel => I(1),
+PORT MAP(sel => I(0),
 		 data0x => R0(9 DOWNTO 0),
 		 data1x => R1(9 DOWNTO 0),
 		 result => SYNTHESIZED_WIRE_1);
 
 
 b2v_inst1 : muxr
-PORT MAP(sel => I(0),
+PORT MAP(sel => I(1),
 		 data0x => DAddr,
 		 data1x => SYNTHESIZED_WIRE_0,
 		 result => DAddrOut);

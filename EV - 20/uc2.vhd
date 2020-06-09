@@ -42,7 +42,7 @@ begin
 					 
 					 (T2(RR)='1' and T5(RW)='1' and ((A2=C5(4 downto 0)) or (B2=C5)) ) ) or
 				
-					 (I(0)='1' and ( (I(1)='1' and (C4="000001" OR C5="000001")) or (I(1)='0' and (C4="000000" OR C5="000000")) ))  else 	
+					 (I(1)='1' and ( (I(0)='1' and (C4="000001" OR C5="000001")) or (I(0)='0' and (C4="000000" OR C5="000000")) ))  else 	
 					 
 		    '0';
 	conflict <= (T1(CR) and (T2(CW) or T4(CW) or T5(CW))) or (T1(WR) and (T2(WW) or T4(WW) or T5(WW)));

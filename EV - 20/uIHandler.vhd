@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
--- CREATED		"Mon Jun 08 23:47:58 2020"
+-- CREATED		"Tue Jun 09 00:47:31 2020"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -26,6 +26,7 @@ ENTITY uIHandler IS
 	PORT
 	(
 		sys_clk :  IN  STD_LOGIC;
+		d_addr_in :  IN  STD_LOGIC_VECTOR(9 DOWNTO 0);
 		Instruction :  IN  STD_LOGIC_VECTOR(13 DOWNTO 0);
 		uI_mem :  IN  STD_LOGIC_VECTOR(29 DOWNTO 0);
 		KMx :  OUT  STD_LOGIC;
@@ -92,6 +93,7 @@ END COMPONENT;
 COMPONENT ui1
 	PORT(sys_clk : IN STD_LOGIC;
 		 hold : IN STD_LOGIC;
+		 d_addr_in : IN STD_LOGIC_VECTOR(9 DOWNTO 0);
 		 instruction : IN STD_LOGIC_VECTOR(13 DOWNTO 0);
 		 uI_mem : IN STD_LOGIC_VECTOR(29 DOWNTO 0);
 		 KMx : OUT STD_LOGIC;
@@ -187,9 +189,10 @@ PORT MAP(hold => hold_ALTERA_SYNTHESIZED,
 		 T => SYNTHESIZED_WIRE_15);
 
 
-b2v_inst8 : ui1
+b2v_inst2 : ui1
 PORT MAP(sys_clk => sys_clk,
 		 hold => hold_ALTERA_SYNTHESIZED,
+		 d_addr_in => d_addr_in,
 		 instruction => Instruction,
 		 uI_mem => uI_mem,
 		 KMx => KMx,
