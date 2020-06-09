@@ -46,6 +46,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "d_addr_in[9..0]" (rect 0 0 92 19)(font "Intel Clear" (font_size 8)))
+		(text "d_addr_in[9..0]" (rect 21 75 113 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
 		(pt 216 32)
 		(output)
 		(text "MW" (rect 0 0 22 19)(font "Intel Clear" (font_size 8)))

@@ -8,6 +8,7 @@ ENTITY uI1 IS
 		uI_mem 		:  IN  STD_LOGIC_VECTOR(29 downto 0);
 		instruction :  IN  STD_LOGIC_VECTOR(13 downto 0);
 		sys_clk  	:  IN  STD_LOGIC;
+		d_addr_in	:  IN  STD_LOGIC_VECTOR(9 downto 0);
 		hold 		:  IN  STD_LOGIC;
 		ALUC		:  OUT STD_LOGIC_VECTOR(3 downto 0):="1111";
 		sh			:  OUT STD_LOGIC_VECTOR(1 downto 0):="00";
@@ -45,7 +46,7 @@ begin
 				C	<= uI_mem(12 downto 7);
 			end if;
 			A 		<= instruction(4 downto 0);
-			Dadd 	<= instruction(9 downto 0);
+			Dadd 	<= d_addr_in;
         end if;
     end process;
 

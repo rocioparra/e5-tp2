@@ -1,5 +1,5 @@
 Flow report for EV20
-Sat Jun 06 13:25:21 2020
+Tue Jun 09 00:41:10 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Jun 06 13:25:21 2020       ;
+; Flow Status                        ; Successful - Tue Jun 09 00:41:10 2020       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; EV20                                        ;
 ; Top-level Entity Name              ; EV20                                        ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/06/2020 13:25:08 ;
+; Start date & time ; 06/09/2020 00:40:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; EV20                ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 105852877073009.159146070808124        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 2546685120512.159167405115188          ; --            ; --          ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
@@ -94,6 +94,13 @@ https://fpgasoftware.intel.com/eula.
 ; MISC_FILE                           ; Program.cmp                            ; --            ; --          ; --                                ;
 ; MISC_FILE                           ; Data.bsf                               ; --            ; --          ; --                                ;
 ; MISC_FILE                           ; Data.cmp                               ; --            ; --          ; --                                ;
+; MISC_FILE                           ; sum11b.bsf                             ; --            ; --          ; --                                ;
+; MISC_FILE                           ; stack.bsf                              ; --            ; --          ; --                                ;
+; MISC_FILE                           ; stack.cmp                              ; --            ; --          ; --                                ;
+; MISC_FILE                           ; MuxR.bsf                               ; --            ; --          ; --                                ;
+; MISC_FILE                           ; MuxR.cmp                               ; --            ; --          ; --                                ;
+; MISC_FILE                           ; Add10b.bsf                             ; --            ; --          ; --                                ;
+; MISC_FILE                           ; Add10b.cmp                             ; --            ; --          ; --                                ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --                                ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top                               ;
@@ -109,8 +116,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4818 MB             ; 00:00:28                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:28                           ;
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4823 MB             ; 00:00:40                           ;
+; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:40                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -119,7 +126,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-3LJKF01  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; LAPTOP-8CFAMDA7  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
