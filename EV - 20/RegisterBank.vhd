@@ -36,7 +36,8 @@ begin
         if(rising_edge(sys_clk)) then
 			if (M_read = '1') then
 				reg_map(34) <= To_W;
-			elsif( to_integer(unsigned(C)) < 35 ) then
+			end if;
+			if( to_integer(unsigned(C)) < 35 ) then
 				reg_map(to_integer(unsigned(C))) <= From_C;
 			end if;
 				--if((M_read = '1') and (to_integer(unsigned(C)) /= 34)) then --Esto hay que verificarlo: Para escribir desde memoria y c al mismo tiempo a registros

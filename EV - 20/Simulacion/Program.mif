@@ -30,7 +30,7 @@ CONTENT BEGIN
 	002  :   		0100100000000000000000;       -- MOV [R0+0],W	-- Condiciones iniciales fibonacci F0 = 0
 	003  :   		0001000000000000000001;       -- MOV W,#1		-- Cargo 1 a W	
 	004  :			0100100000000001000000;		  -- MOV [R0+1],W	-- Condiciones iniciales fibonacci F1 = 1
-	005  :          0001000000000000000011;		  -- MOV W,#3		-- Iteraciones de fibonacci a realizar
+	005  :          0001000000000000001010;		  -- MOV W,#10		-- Iteraciones de fibonacci a realizar
 	006  :          0011000100000000000000;       -- MOV R2,W		-- R2 contiene contador
 	
 	
@@ -56,7 +56,7 @@ CONTENT BEGIN
 -- REPETIR PERO AHORA USANDO R1 COMO PUNTERO
 	016  :			0000100000000000000000;		  -- MOV W,R0
 	017  :          0011000010000000000000;       -- MOV R1,W
-	018  :          0001000000000000000011;		  -- MOV W,#3		-- Iteraciones de fibonacci a realizar
+	018  :          0001000000000000001010;		  -- MOV W,#10		-- Iteraciones de fibonacci a realizar
 	019  :          0011000100000000000000;       -- MOV R2,W		-- R2 contiene contador
 	
 	
@@ -67,10 +67,10 @@ CONTENT BEGIN
 	01D  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
 	01E  :          0000111000001100000000;       -- ADR W,R3		-- W = W + R3 + Cy --> W = Fn-2 + Fn-1
 	01F  :          0100110000000010000000;       -- MOV [R1+2],W	-- Guardo Fn
-	020  :          0000100000000000000000;       -- MOV W,R0		-- Preparo para incrementar puntero	
+	020  :          0000100000000100000000;       -- MOV W,R1		-- Preparo para incrementar puntero	
 	021  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
 	022  :			0001110000000000000001;       -- ADK W,#1		-- W = W+1+Cy
-	023  :          0011000000000000000000;       -- MOV R0,W		-- Termino de incrementar puntero
+	023  :          0011000010000000000000;       -- MOV R1,W		-- Termino de incrementar puntero
 	024  :			0000100000001000000000;       -- MOV W,R2		-- Rescato Contador
 	025  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
 	026  :			0001111111111111111111;       -- ADK W,#-1		-- Decremento Contador
