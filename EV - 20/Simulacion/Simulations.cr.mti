@@ -1,4 +1,13 @@
-{C:/e5-tp2/EV - 20/LatchpPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchpPC.vhd}
+{C:/e5-tp2/EV - 20/uI1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uI1
+-- Compiling architecture behaviour of uI1
+
+} {} {}} {C:/e5-tp2/EV - 20/LatchpPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchpPC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -14,15 +23,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity CYBlock
 -- Compiling architecture bdf_type of CYBlock
-
-} {} {}} {C:/e5-tp2/EV - 20/uI1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uI1.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity uI1
--- Compiling architecture behaviour of uI1
 
 } {} {}} {C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/CYBlock_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -68,6 +68,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity uI3
 -- Compiling architecture behaviour of uI3
 
+} {} {}} {C:/e5-tp2/EV - 20/IndexManager.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/IndexManager.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IndexManager
+-- Compiling architecture bdf_type of IndexManager
+
 } {} {}} {C:/e5-tp2/EV - 20/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -85,13 +93,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Latch16
 -- Compiling architecture behaviour of Latch16
 
-} {} {}} {C:/e5-tp2/EV - 20/LatchAluShift.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchAluShift.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/Add10b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Add10b.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity LatchAluShift
--- Compiling architecture bdf_type of LatchAluShift
+-- Compiling entity Add10b
+-- Compiling architecture SYN of add10b
+
+} {} {}} {C:/e5-tp2/EV - 20/MuxR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/MuxR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity MuxR
+-- Compiling architecture SYN of muxr
 
 } {} {}} {C:/e5-tp2/EV - 20/uIROM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIROM.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -102,14 +119,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity uIROM
 -- Compiling architecture SYN of uirom
 
-} {} {}} {C:/e5-tp2/EV - 20/Shifter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/LatchAluShift.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchAluShift.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity shifter
--- Compiling architecture behaviour of shifter
+-- Compiling entity LatchAluShift
+-- Compiling architecture bdf_type of LatchAluShift
+
+} {} {}} {C:/e5-tp2/EV - 20/EV20.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EV20
+-- Compiling architecture bdf_type of EV20
+
+} {} {}} {C:/e5-tp2/EV - 20/INC_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/INC_11b.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity INC_11b
+-- Compiling architecture bdf_type of INC_11b
 
 } {} {}} {C:/e5-tp2/EV - 20/KMux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/KMux.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -122,48 +154,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity KMux
 -- Compiling architecture behaviour of KMux
 
-} {} {}} {C:/e5-tp2/EV - 20/INC_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/INC_11b.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity INC_11b
--- Compiling architecture bdf_type of INC_11b
-
-} {} {}} {C:/e5-tp2/EV - 20/EV20.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/EV20.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity EV20
--- Compiling architecture bdf_type of EV20
-
-} {} {}} {C:/e5-tp2/EV - 20/InstrReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/InstrReg.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/Shifter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Shifter.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity InstrReg
--- Compiling architecture behaviour of InstrReg
-
-} {} {}} {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity uIHandlerROM_tb
--- Compiling architecture testbench of uIHandlerROM_tb
-
-} {} {}} {C:/e5-tp2/EV - 20/signExtension.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/signExtension.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity signExtension
--- Compiling architecture behaviour of signExtension
+-- Compiling entity shifter
+-- Compiling architecture behaviour of shifter
 
 } {} {}} {C:/e5-tp2/EV - 20/stack.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/stack.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -174,14 +172,40 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity stack
 -- Compiling architecture SYN of stack
 
-} {} {}} {C:/e5-tp2/EV - 20/LatchK.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchK.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/signExtension.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/signExtension.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity LatchK
--- Compiling architecture behaviour of LatchK
+-- Compiling entity signExtension
+-- Compiling architecture behaviour of signExtension
+
+} {} {}} {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/uIHanderROM_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity uIHandlerROM_tb
+-- Compiling architecture testbench of uIHandlerROM_tb
+
+} {} {}} {C:/e5-tp2/EV - 20/InstrReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/InstrReg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstrReg
+-- Compiling architecture behaviour of InstrReg
+
+} {} {}} {C:/e5-tp2/EV - 20/SP_CNT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/SP_CNT.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SP_CNT
+-- Compiling architecture bdf_type of SP_CNT
 
 } {} {}} {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/checkDependecies_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -192,22 +216,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity checkDeps_tb
 -- Compiling architecture testbench of checkDeps_tb
 
-} {} {}} {C:/e5-tp2/EV - 20/SP_CNT.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/SP_CNT.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity SP_CNT
--- Compiling architecture bdf_type of SP_CNT
-
-} {} {}} {C:/e5-tp2/EV - 20/mymux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/mymux.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/LatchK.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/LatchK.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity myMux
--- Compiling architecture behaviour of myMux
+-- Compiling entity LatchK
+-- Compiling architecture behaviour of LatchK
 
 } {} {}} {C:/e5-tp2/EV - 20/adaptSizes.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/adaptSizes.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -218,14 +234,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adaptSizes
 -- Compiling architecture behaviour of adaptSizes
 
-} {} {}} {C:/e5-tp2/EV - 20/uc1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/mymux.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/mymux.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity uc1
--- Compiling architecture behaviour of uc1
+-- Compiling entity myMux
+-- Compiling architecture behaviour of myMux
 
 } {} {}} {C:/e5-tp2/EV - 20/RegisterBank.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/RegisterBank.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -238,6 +254,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity RegisterBank
 -- Compiling architecture behaviour of RegisterBank
 
+} {} {}} {C:/e5-tp2/EV - 20/BranchManager.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/BranchManager.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BranchManager
+-- Compiling architecture bdf_type of BranchManager
+
 } {} {}} {C:/e5-tp2/EV - 20/PCReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/PCReg.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -247,13 +271,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity PCReg
 -- Compiling architecture behaviour of PCReg
 
-} {} {}} {C:/e5-tp2/EV - 20/BranchManager.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/BranchManager.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/uc1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity BranchManager
--- Compiling architecture bdf_type of BranchManager
+-- Loading package NUMERIC_STD
+-- Compiling entity uc1
+-- Compiling architecture behaviour of uc1
 
 } {} {}} {C:/e5-tp2/EV - 20/uc2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uc2.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -263,26 +288,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity uc2
 -- Compiling architecture behaviour of uc2
-
-} {} {}} {C:/e5-tp2/EV - 20/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package NUMERIC_STD
--- Compiling entity ALU
--- Compiling architecture behaviour of ALU
-
-} {} {}} {C:/e5-tp2/EV - 20/Data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package altera_mf_components
--- Compiling entity Data
--- Compiling architecture SYN of data
 
 } {} {}} {C:/e5-tp2/EV - 20/preLoadPC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/preLoadPC.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -294,6 +299,26 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity loadPC
 -- Compiling architecture behaviour of loadPC
+
+} {} {}} {C:/e5-tp2/EV - 20/Data.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Data.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity Data
+-- Compiling architecture SYN of data
+
+} {} {}} {C:/e5-tp2/EV - 20/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture behaviour of ALU
 
 } {} {}} {C:/e5-tp2/EV - 20/uIHandler.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/uIHandler.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -311,21 +336,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Counter_3b
 -- Compiling architecture SYN of counter_3b
 
-} {} {}} {C:/e5-tp2/EV - 20/MUX_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/MUX_11b.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity MUX_11b
--- Compiling architecture bdf_type of MUX_11b
-
-} {} {}} {C:/e5-tp2/EV - 20/Stack_Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Stack_Counter.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Stack_Counter
--- Compiling architecture SYN of stack_counter
+-- Loading package NUMERIC_STD
+-- Compiling entity EV20_tb
+-- Compiling architecture testbench of EV20_tb
 
 } {} {}} {C:/e5-tp2/EV - 20/ADD_3b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/ADD_3b.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -335,14 +353,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ADD_3b
 -- Compiling architecture SYN of add_3b
 
-} {} {}} {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Simulacion/EV20_tb.vhd}
+} {} {}} {C:/e5-tp2/EV - 20/Stack_Counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/Stack_Counter.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity EV20_tb
--- Compiling architecture testbench of EV20_tb
+-- Compiling entity Stack_Counter
+-- Compiling architecture SYN of stack_counter
+
+} {} {}} {C:/e5-tp2/EV - 20/MUX_11b.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/MUX_11b.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX_11b
+-- Compiling architecture bdf_type of MUX_11b
 
 } {} {}} {C:/e5-tp2/EV - 20/CheckBraRet.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/e5-tp2/EV - 20/CheckBraRet.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

@@ -102,6 +102,13 @@ https://fpgasoftware.intel.com/eula.
 		(line (pt 0 192)(pt 16 192)(line_width 1))
 	)
 	(port
+		(pt 0 208)
+		(input)
+		(text "I[1..0]" (rect 0 0 21 12)(font "Arial" ))
+		(text "I[1..0]" (rect 21 203 42 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
 		(pt 176 32)
 		(output)
 		(text "hold_jump" (rect 0 0 40 12)(font "Arial" ))

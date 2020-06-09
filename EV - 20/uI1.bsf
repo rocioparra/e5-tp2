@@ -27,8 +27,8 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 0 32)
 		(input)
-		(text "uI_mem[27..0]" (rect 0 0 59 12)(font "Arial" ))
-		(text "uI_mem[27..0]" (rect 21 27 80 39)(font "Arial" ))
+		(text "uI_mem[29..0]" (rect 0 0 59 12)(font "Arial" ))
+		(text "uI_mem[29..0]" (rect 21 27 80 39)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -114,6 +114,13 @@ https://fpgasoftware.intel.com/eula.
 		(text "Dadd[9..0]" (rect 0 0 41 12)(font "Arial" ))
 		(text "Dadd[9..0]" (rect 154 155 195 167)(font "Arial" ))
 		(line (pt 216 160)(pt 200 160)(line_width 3))
+	)
+	(port
+		(pt 216 176)
+		(output)
+		(text "I[1..0]" (rect 0 0 21 12)(font "Arial" ))
+		(text "I[1..0]" (rect 174 171 195 183)(font "Arial" ))
+		(line (pt 216 176)(pt 200 176)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 200 192)(line_width 1))

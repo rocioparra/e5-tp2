@@ -48,12 +48,12 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 216 32)
 		(output)
-		(text "q[27..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
-		(text "q[27..0]" (rect 169 16 211 31)(font "Arial" (font_size 8)))
+		(text "q[29..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "q[29..0]" (rect 169 16 211 31)(font "Arial" (font_size 8)))
 		(line (pt 216 32)(pt 136 32)(line_width 3))
 	)
 	(drawing
-		(text "28 bits" (rect 106 29 198 170)(font "Arial" )(vertical))
+		(text "30 bits" (rect 106 29 198 170)(font "Arial" )(vertical))
 		(text "128 words" (rect 120 16 223 192)(font "Arial" )(vertical))
 		(text "Block type: AUTO" (rect 48 127 186 268)(font "Arial" ))
 		(line (pt 104 24)(pt 136 24))

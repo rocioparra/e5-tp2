@@ -46,17 +46,17 @@ ENTITY uIROM IS
 		address		: IN STD_LOGIC_VECTOR (6 DOWNTO 0);
 		clken		: IN STD_LOGIC  := '1';
 		clock		: IN STD_LOGIC  := '1';
-		q		: OUT STD_LOGIC_VECTOR (27 DOWNTO 0)
+		q		: OUT STD_LOGIC_VECTOR (29 DOWNTO 0)
 	);
 END uIROM;
 
 
 ARCHITECTURE SYN OF uirom IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (27 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (29 DOWNTO 0);
 
 BEGIN
-	q    <= sub_wire0(27 DOWNTO 0);
+	q    <= sub_wire0(29 DOWNTO 0);
 
 	altsyncram_component : altsyncram
 	GENERIC MAP (
@@ -72,7 +72,7 @@ BEGIN
 		outdata_aclr_a => "NONE",
 		outdata_reg_a => "UNREGISTERED",
 		widthad_a => 7,
-		width_a => 28,
+		width_a => 30,
 		width_byteena_a => 1
 	)
 	PORT MAP (
@@ -115,7 +115,7 @@ END SYN;
 -- Retrieval info: PRIVATE: SingleClock NUMERIC "1"
 -- Retrieval info: PRIVATE: UseDQRAM NUMERIC "0"
 -- Retrieval info: PRIVATE: WidthAddr NUMERIC "7"
--- Retrieval info: PRIVATE: WidthData NUMERIC "28"
+-- Retrieval info: PRIVATE: WidthData NUMERIC "30"
 -- Retrieval info: PRIVATE: rden NUMERIC "0"
 -- Retrieval info: LIBRARY: altera_mf altera_mf.altera_mf_components.all
 -- Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
@@ -130,16 +130,16 @@ END SYN;
 -- Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
 -- Retrieval info: CONSTANT: OUTDATA_REG_A STRING "UNREGISTERED"
 -- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "7"
--- Retrieval info: CONSTANT: WIDTH_A NUMERIC "28"
+-- Retrieval info: CONSTANT: WIDTH_A NUMERIC "30"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
 -- Retrieval info: USED_PORT: address 0 0 7 0 INPUT NODEFVAL "address[6..0]"
 -- Retrieval info: USED_PORT: clken 0 0 0 0 INPUT VCC "clken"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
--- Retrieval info: USED_PORT: q 0 0 28 0 OUTPUT NODEFVAL "q[27..0]"
+-- Retrieval info: USED_PORT: q 0 0 30 0 OUTPUT NODEFVAL "q[29..0]"
 -- Retrieval info: CONNECT: @address_a 0 0 7 0 address 0 0 7 0
 -- Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: @clocken0 0 0 0 0 clken 0 0 0 0
--- Retrieval info: CONNECT: q 0 0 28 0 @q_a 0 0 28 0
+-- Retrieval info: CONNECT: q 0 0 30 0 @q_a 0 0 30 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL uIROM.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL uIROM.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL uIROM.cmp TRUE

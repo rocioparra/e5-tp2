@@ -76,15 +76,15 @@ https://fpgasoftware.intel.com/eula.
 	(port
 		(pt 208 32)
 		(output)
-		(text "To_A[15..0]" (rect 0 0 48 12)(font "Arial" ))
-		(text "To_A[15..0]" (rect 139 27 187 39)(font "Arial" ))
+		(text "R0[15..0]" (rect 0 0 36 12)(font "Arial" ))
+		(text "R0[15..0]" (rect 151 27 187 39)(font "Arial" ))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(port
 		(pt 208 48)
 		(output)
-		(text "To_B[15..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "To_B[15..0]" (rect 141 43 187 55)(font "Arial" ))
+		(text "R1[15..0]" (rect 0 0 35 12)(font "Arial" ))
+		(text "R1[15..0]" (rect 152 43 187 55)(font "Arial" ))
 		(line (pt 208 48)(pt 192 48)(line_width 3))
 	)
 	(port
@@ -93,6 +93,20 @@ https://fpgasoftware.intel.com/eula.
 		(text "W[15..0]" (rect 0 0 34 12)(font "Arial" ))
 		(text "W[15..0]" (rect 153 59 187 71)(font "Arial" ))
 		(line (pt 208 64)(pt 192 64)(line_width 3))
+	)
+	(port
+		(pt 208 80)
+		(output)
+		(text "To_A[15..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "To_A[15..0]" (rect 139 75 187 87)(font "Arial" ))
+		(line (pt 208 80)(pt 192 80)(line_width 3))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "To_B[15..0]" (rect 0 0 46 12)(font "Arial" ))
+		(text "To_B[15..0]" (rect 141 91 187 103)(font "Arial" ))
+		(line (pt 208 96)(pt 192 96)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 192 160)(line_width 1))
