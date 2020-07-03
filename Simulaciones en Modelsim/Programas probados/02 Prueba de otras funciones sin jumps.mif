@@ -1,0 +1,40 @@
+-- Copyright (C) 2019  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=14;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=BIN;
+
+--En este código intentamos usar todas las funciones que no usamos hasta ahora sin jumps
+CONTENT BEGIN
+	000  :   0001000000000000110010;       -- MOK W,50
+	001	 :   0011000000000000000000;       -- MOV R0,W
+	002  :   0010000010000000000000;       -- MOV R1,R0
+	003  :   0010111100000100000000;       -- MOV PO0,R1
+	004  :   0000010000000000000000;       -- SET CY
+	005  :   0000001000000000000000;       -- CLR CY
+	006  :   0000010000000000000000;       -- SET CY
+	007  :	 0110000100000100000000;	   -- ADW R2,R1
+	008	 :   0000111000000000000000;	   -- ADR W,R0
+	009	 :   0000110000001000000000;	   -- ORR W,R2
+	00A  :   0001000000000000000000;       -- MOK W,0
+	00B  :   0000000000000000000000;       -- CPL W
+	00C  :   0001110000000011111111; 	   -- ADK W,0xFF Esto debería poner el carry en 1
+	[00D..7FF]  :   0001110000000000000100;-- ADK W,0x01
+END;

@@ -1,0 +1,87 @@
+-- Copyright (C) 2019  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=22;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=BIN;
+
+
+CONTENT BEGIN
+	[000..7FF] :		0000000000000000000000; -- Limpio la memoria
+
+	000  :   		0001000000000000000000;       -- MOV W,#0		-- Cargo 0 a W
+	001  :   		0011000000000000000000;       -- MOV R0,W		-- Lo guardo en R0 (es mi puntero) -> R0-> 0x0000
+	002  :   		0100100000000000000000;       -- MOV [R0+0],W	-- Condiciones iniciales fibonacci F0 = 0
+	003  :   		0001000000000000000001;       -- MOV W,#1		-- Cargo 1 a W	
+	004  :			0100100000000001000000;		  -- MOV [R0+1],W	-- Condiciones iniciales fibonacci F1 = 1
+	005  :          0001000000000000001010;		  -- MOV W,#10		-- Iteraciones de fibonacci a realizar
+	006  :          0011000100000000000000;       -- MOV R2,W		-- R2 contiene contador
+	
+	
+-- LOOP1	
+	007  :			0101100000000000000000;       -- MOV W,[R0+0]	-- Cargo Fn-2 en R3
+	008  :          0011000110000000000000;       -- MOV R3,W
+	009  :			0101100000000001000000;       -- MOV W,[R0+1]	-- Cargo Fn-1
+	00A  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	00B  :          0000111000001100000000;       -- ADR W,R3		-- W = W + R3 + Cy --> W = Fn-2 + Fn-1
+	00C  :          0100100000000010000000;       -- MOV [R0+2],W	-- Guardo Fn
+	00D  :          0000100000000000000000;       -- MOV W,R0		-- Preparo para incrementar puntero	
+	00E  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	00F  :			0001110000000000000001;       -- ADK W,#1		-- W = W+1+Cy
+	010  :          0011000000000000000000;       -- MOV R0,W		-- Termino de incrementar puntero
+	011  :			0000100000001000000000;       -- MOV W,R2		-- Rescato Contador
+	012  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	013  :			0001111111111111111111;       -- ADK W,#-1		-- Decremento Contador
+	014  :          0011000100000000000000;       -- MOV R2,W       -- guardo contador
+	015  :          1110000000011100000000;       -- JCY LOOP1 (007)
+	
+
+
+-- REPETIR PERO AHORA USANDO R1 COMO PUNTERO
+	016  :			0000100000000000000000;		  -- MOV W,R0
+	017  :          0011000010000000000000;       -- MOV R1,W
+	018  :          0001000000000000001010;		  -- MOV W,#10		-- Iteraciones de fibonacci a realizar
+	019  :          0011000100000000000000;       -- MOV R2,W		-- R2 contiene contador
+	
+	
+-- LOOP2	
+	01A  :			0101110000000000000000;       -- MOV W,[R1+0]	-- Cargo Fn-2 en R3
+	01B  :          0011000110000000000000;       -- MOV R3,W
+	01C  :			0101110000000001000000;       -- MOV W,[R1+1]	-- Cargo Fn-1
+	01D  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	01E  :          0000111000001100000000;       -- ADR W,R3		-- W = W + R3 + Cy --> W = Fn-2 + Fn-1
+	01F  :          0100110000000010000000;       -- MOV [R1+2],W	-- Guardo Fn
+	020  :          0000100000000100000000;       -- MOV W,R1		-- Preparo para incrementar puntero	
+	021  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	022  :			0001110000000000000001;       -- ADK W,#1		-- W = W+1+Cy
+	023  :          0011000010000000000000;       -- MOV R1,W		-- Termino de incrementar puntero
+	024  :			0000100000001000000000;       -- MOV W,R2		-- Rescato Contador
+	025  :			0000001000000000000000;       -- CLR CY			-- Borro Carry
+	026  :			0001111111111111111111;       -- ADK W,#-1		-- Decremento Contador
+	027  :          0011000100000000000000;       -- MOV R2,W       -- guardo contador
+	028  :          1110000001101000000000;       -- JCY LOOP2 (01A)
+	
+-- END
+	029  :          1000000010100100000000;       -- JMP END	
+
+END;
+
+
+
+
